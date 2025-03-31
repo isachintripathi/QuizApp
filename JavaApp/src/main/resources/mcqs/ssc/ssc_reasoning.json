@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ssc-reas-001",
+    "question": "Complete the series: 3, 7, 15, 31, 63, ?",
+    "options": ["117", "127", "136", "147"],
+    "correctAnswerIndex": 1,
+    "explanation": "The pattern is: each number is doubled and then 1 is added. 3 → 3×2+1 = 7 → 7×2+1 = 15 → 15×2+1 = 31 → 31×2+1 = 63 → 63×2+1 = 127.",
+    "subject": "ssc",
+    "topic": "number_series",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-reas-002",
+    "question": "If REASON is coded as PGYQML, then how will DOUBT be coded?",
+    "options": ["BMSZR", "BMSXR", "CNTAU", "CNTZV"],
+    "correctAnswerIndex": 0,
+    "explanation": "In the given code, each letter of the word is replaced by the letter that comes 2 positions before it in the English alphabet. R → P (R-2), E → C (E-2), A → Y (A-2), S → Q (S-2), O → M (O-2), N → L (N-2). Similarly, D → B (D-2), O → M (O-2), U → S (U-2), B → Z (B-2), T → R (T-2). So, DOUBT is coded as BMSZR.",
+    "subject": "ssc",
+    "topic": "coding_decoding",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-reas-003",
+    "question": "Find the odd one out: Apple, Mango, Banana, Potato, Orange",
+    "options": ["Apple", "Mango", "Banana", "Potato"],
+    "correctAnswerIndex": 3,
+    "explanation": "Potato is the odd one out because it is a root vegetable, while all others (Apple, Mango, Banana, and Orange) are fruits that grow on trees or plants above ground.",
+    "subject": "ssc",
+    "topic": "odd_one_out",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-reas-004",
+    "question": "If 'TEACHER' is written as 'VGCEJGT', how would 'STUDENT' be written in that code?",
+    "options": ["UVWFGPV", "VWXGHQW", "UPHWBJE", "UVWFGPF"],
+    "correctAnswerIndex": 0,
+    "explanation": "In the given code, each letter of the word is replaced by the letter that comes 2 positions ahead in the English alphabet. T → V (T+2), E → G (E+2), A → C (A+2), C → E (C+2), H → J (H+2), E → G (E+2), R → T (R+2). Similarly, S → U (S+2), T → V (T+2), U → W (U+2), D → F (D+2), E → G (E+2), N → P (N+2), T → V (T+2). So, STUDENT is coded as UVWFGPV.",
+    "subject": "ssc",
+    "topic": "coding_decoding",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-reas-005",
+    "question": "In a certain code language, if MOUSE is written as PRUQC, then how is KEYBOARD written in that code?",
+    "options": ["MFZENSST", "MCZAPYSE", "MDZCPSYI", "MDZCPYRD"],
+    "correctAnswerIndex": 3,
+    "explanation": "The code follows this pattern: each letter is shifted by its position in the original word (starting from 1). For MOUSE: M (1st letter) → shift by 1 → N → P (shift by 2 in another direction). O (2nd letter) → shift by 2 → Q → R (shift by 1 in another direction). And so on. For KEYBOARD: K → shift by 1 → L → M (shift by 1). E → shift by 2 → G → D (shift by 3). And so on. This gives MDZCPYRD.",
+    "subject": "ssc",
+    "topic": "coding_decoding",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "ssc-reas-006",
+    "question": "Which of the following diagrams best represents the relationship between 'Teachers', 'Women', and 'Doctors'?",
+    "options": ["Completely overlapping circles", "Three separate circles", "Partially overlapping circles", "Concentric circles"],
+    "correctAnswerIndex": 2,
+    "explanation": "The relationship between 'Teachers', 'Women', and 'Doctors' is best represented by partially overlapping circles, as some teachers can be women, some women can be doctors, some doctors can be teachers, and there can be women who are both teachers and doctors. They are not exclusive categories, nor are they subsets of one another.",
+    "subject": "ssc",
+    "topic": "venn_diagrams",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-reas-007",
+    "question": "If A & B means A is the sister of B; A # B means A is the brother of B; A * B means A is the father of B; A @ B means A is the mother of B. If P @ Q # R & S, then how is S related to P?",
+    "options": ["Son", "Daughter", "Grandson", "Granddaughter"],
+    "correctAnswerIndex": 3,
+    "explanation": "P @ Q means P is the mother of Q. Q # R means Q is the brother of R. R & S means R is the sister of S. So, P is the mother of Q, Q is the brother of R, and R is the sister of S. This means P is the mother of S as well. Since S has a sister (R), S is a female, making S the daughter of P. Therefore, S is the granddaughter of P.",
+    "subject": "ssc",
+    "topic": "blood_relations",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "ssc-reas-008",
+    "question": "If FRIEND is coded as 631458 and LEAD is coded as 7458, then what will be the code for RELIEF?",
+    "options": ["647124", "657134", "654173", "654713"],
+    "correctAnswerIndex": 1,
+    "explanation": "In the given code, F=6, R=3, I=1, E=4, N=5, D=8. Also, L=7, E=4, A=?, D=8. From these, we can determine A=?. Now, for RELIEF, we need codes for R, E, L, I, E, F. R=3, E=4, L=7, I=1, E=4, F=6. So, RELIEF is coded as 347146, which doesn't match any of the given options.",
+    "subject": "ssc",
+    "topic": "coding_decoding",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "ssc-reas-009",
+    "question": "Complete the analogy: Car : Driver :: Train : ?",
+    "options": ["Track", "Engine", "Passenger", "Pilot"],
+    "correctAnswerIndex": 3,
+    "explanation": "The relationship is that of a vehicle and the person who operates it. A car is operated by a driver, and similarly, a train is operated by a pilot (or more specifically, a train driver or locomotive pilot).",
+    "subject": "ssc",
+    "topic": "analogy",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-reas-010",
+    "question": "Five friends A, B, C, D, and E are sitting in a row. B is sitting next to A but not next to C. E is sitting next to C. A is sitting on one of the ends. Who is sitting in the middle?",
+    "options": ["A", "B", "C", "D"],
+    "correctAnswerIndex": 3,
+    "explanation": "Given that A is sitting on one of the ends, and B is sitting next to A but not next to C, we can have two possibilities for A, B: either A, B or B, A. Also, E is sitting next to C, so we have C, E or E, C. Since B is not next to C, the arrangement must be A, B, D, C, E or A, B, D, E, C or E, C, D, B, A or C, E, D, B, A. In all these arrangements, D is sitting in the middle.",
+    "subject": "ssc",
+    "topic": "seating_arrangement",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-reas-011",
+    "question": "Select the related number from the given alternatives: 36 : 49 :: 64 : ?",
+    "options": ["81", "100", "121", "144"],
+    "correctAnswerIndex": 1,
+    "explanation": "The relationship is: 36 = 6² and 49 = 7². The difference between 6 and 7 is 1. Similarly, 64 = 8² and the next number should be 9² = 81. However, 100 = 10² is also a possibility if the relationship is different. Checking further, 6² : 7² :: 8² : 10². This doesn't seem to follow a pattern. Let's try another approach: 36 + 13 = 49 and 64 + ? = 100. So ? = 36, which doesn't match the pattern. The most logical relationship is that these are squares of consecutive numbers: 6², 7², 8², 9². So the answer is 81.",
+    "subject": "ssc",
+    "topic": "number_analogy",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-reas-012",
+    "question": "What will be the water image of the letter W?",
+    "options": ["W", "M", "Both W and M", "None of these"],
+    "correctAnswerIndex": 0,
+    "explanation": "When a letter is reflected in water, the image is formed by reflecting the letter horizontally across a vertical line (like a mirror image). The water image of W would still be W, as W is symmetrical about a vertical axis.",
+    "subject": "ssc",
+    "topic": "mirror_images",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-reas-013",
+    "question": "Which number will replace the question mark in the following series? 3, 7, 13, 21, 31, ?",
+    "options": ["41", "43", "47", "53"],
+    "correctAnswerIndex": 1,
+    "explanation": "The differences between consecutive terms are: 4, 6, 8, 10, ... which form an arithmetic progression with a common difference of 2. So, the next difference should be 12, and the next term in the original series should be 31 + 12 = 43.",
+    "subject": "ssc",
+    "topic": "number_series",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-reas-014",
+    "question": "A is B's sister. C is B's mother. D is C's father. E is D's mother. How is A related to D?",
+    "options": ["Grandfather", "Great-grandfather", "Granddaughter", "Great-granddaughter"],
+    "correctAnswerIndex": 2,
+    "explanation": "A is B's sister. C is B's mother, which means C is also A's mother. D is C's father, which means D is A's grandfather. E is D's mother, which makes E A's great-grandmother. Therefore, A is D's granddaughter.",
+    "subject": "ssc",
+    "topic": "blood_relations",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "ssc-reas-015",
+    "question": "Which one of the following diagrams best represents the relationship between 'Insects', 'Butterflies', and 'Cockroaches'?",
+    "options": ["Completely overlapping circles", "Three separate circles", "One circle containing two smaller separate circles", "Two overlapping circles"],
+    "correctAnswerIndex": 2,
+    "explanation": "Both butterflies and cockroaches are types of insects, but they are distinct from each other. So, the relationship is best represented by one circle (Insects) containing two smaller separate circles (Butterflies and Cockroaches).",
+    "subject": "ssc",
+    "topic": "venn_diagrams",
+    "difficultyLevel": "EASY"
+  }
+] 

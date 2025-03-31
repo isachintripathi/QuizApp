@@ -1,0 +1,157 @@
+[
+  {
+    "id": "ssc-gk-001",
+    "question": "Who was the first Deputy Prime Minister of India?",
+    "options": ["Morarji Desai", "Sardar Vallabhbhai Patel", "Dr. B.R. Ambedkar", "C. Rajagopalachari"],
+    "correctAnswerIndex": 1,
+    "explanation": "Sardar Vallabhbhai Patel was the first Deputy Prime Minister of India, serving from 1947 to 1950. He also held the portfolios of Home Affairs and Information & Broadcasting in the first cabinet of independent India.",
+    "subject": "ssc",
+    "topic": "indian_politics",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-gk-002",
+    "question": "Which of the following countries is NOT a permanent member of the UN Security Council?",
+    "options": ["France", "China", "Russia", "Germany"],
+    "correctAnswerIndex": 3,
+    "explanation": "Germany is not a permanent member of the UN Security Council. The five permanent members (P5) are China, France, Russia, the United Kingdom, and the United States. These nations have veto power over UN resolutions.",
+    "subject": "ssc",
+    "topic": "international_organizations",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-gk-003",
+    "question": "Which of the following rivers does NOT flow into the Arabian Sea?",
+    "options": ["Narmada", "Tapti", "Godavari", "Mahi"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Godavari river does not flow into the Arabian Sea; it flows eastward and drains into the Bay of Bengal. Narmada, Tapti, and Mahi are major rivers that flow westward and drain into the Arabian Sea.",
+    "subject": "ssc",
+    "topic": "indian_geography",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-gk-004",
+    "question": "The Sattriya dance form originated in which Indian state?",
+    "options": ["Assam", "Manipur", "Odisha", "Kerala"],
+    "correctAnswerIndex": 0,
+    "explanation": "Sattriya is a classical dance form that originated in the eastern state of Assam. It was introduced in the 15th century by the Vaishnavite saint and reformer Srimanta Sankardeva as a powerful medium for propagating the Vaishnavite faith. It was recognized as a classical dance form by the Sangeet Natak Akademi in 2000.",
+    "subject": "ssc",
+    "topic": "indian_culture",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-gk-005",
+    "question": "Which Article of the Indian Constitution abolishes untouchability?",
+    "options": ["Article 14", "Article 15", "Article 17", "Article 21"],
+    "correctAnswerIndex": 2,
+    "explanation": "Article 17 of the Indian Constitution abolishes untouchability and forbids its practice in any form. It states, 'Untouchability is abolished and its practice in any form is forbidden. The enforcement of any disability arising out of Untouchability shall be an offence punishable in accordance with law.'",
+    "subject": "ssc",
+    "topic": "indian_constitution",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-gk-006",
+    "question": "Who discovered the sea route to India?",
+    "options": ["Vasco da Gama", "Christopher Columbus", "Ferdinand Magellan", "James Cook"],
+    "correctAnswerIndex": 0,
+    "explanation": "Vasco da Gama, a Portuguese explorer, discovered the sea route to India in 1498 by sailing around the Cape of Good Hope (Africa). He landed at Calicut (now Kozhikode) on the Malabar Coast, establishing the first direct sea route from Europe to India.",
+    "subject": "ssc",
+    "topic": "world_history",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-gk-007",
+    "question": "The minimum age to become the President of India is:",
+    "options": ["25 years", "30 years", "35 years", "40 years"],
+    "correctAnswerIndex": 2,
+    "explanation": "The minimum age requirement to become the President of India is 35 years. According to Article 58 of the Indian Constitution, a candidate must be a citizen of India, should have completed 35 years of age, and should be qualified for election as a member of the Lok Sabha.",
+    "subject": "ssc",
+    "topic": "indian_polity",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-gk-008",
+    "question": "Which of the following diseases is caused by a virus?",
+    "options": ["Typhoid", "Tuberculosis", "Malaria", "Influenza"],
+    "correctAnswerIndex": 3,
+    "explanation": "Influenza (commonly known as the flu) is caused by the influenza virus. Typhoid is caused by the bacterium Salmonella Typhi, tuberculosis is caused by the bacterium Mycobacterium tuberculosis, and malaria is caused by Plasmodium parasites transmitted through the bites of infected female Anopheles mosquitoes.",
+    "subject": "ssc",
+    "topic": "biology",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-gk-009",
+    "question": "The 'Green Revolution' in India was primarily associated with which crop?",
+    "options": ["Rice", "Wheat", "Sugarcane", "Pulses"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Green Revolution in India, which began in the late 1960s, was primarily associated with wheat. It was led by scientist M.S. Swaminathan and introduced high-yielding varieties of wheat seeds, along with modern farming methods, significantly increasing wheat production in India, particularly in Punjab and Haryana.",
+    "subject": "ssc",
+    "topic": "indian_economy",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-gk-010",
+    "question": "The headquarters of the International Court of Justice is located in:",
+    "options": ["Geneva", "The Hague", "Vienna", "New York"],
+    "correctAnswerIndex": 1,
+    "explanation": "The International Court of Justice (ICJ), the principal judicial organ of the United Nations, is located in The Hague, Netherlands. It was established in 1945 and began work in 1946, replacing the Permanent Court of International Justice.",
+    "subject": "ssc",
+    "topic": "international_organizations",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-gk-011",
+    "question": "Which of the following gases is responsible for the greenhouse effect on Earth?",
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "correctAnswerIndex": 2,
+    "explanation": "Carbon dioxide (CO2) is primarily responsible for the greenhouse effect on Earth, along with other greenhouse gases like methane (CH4), nitrous oxide (N2O), and water vapor. These gases trap heat in Earth's atmosphere, preventing it from escaping into space, much like a greenhouse.",
+    "subject": "ssc",
+    "topic": "environment",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-gk-012",
+    "question": "The largest producer of coffee in India is:",
+    "options": ["Kerala", "Tamil Nadu", "Karnataka", "Andhra Pradesh"],
+    "correctAnswerIndex": 2,
+    "explanation": "Karnataka is the largest coffee-producing state in India, accounting for about 70% of the country's coffee production. The coffee-growing regions in Karnataka include Chikmagalur, Kodagu (Coorg), and Hassan, which provide ideal climatic conditions for coffee cultivation.",
+    "subject": "ssc",
+    "topic": "indian_agriculture",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-gk-013",
+    "question": "Who was the first Indian to win the Nobel Prize?",
+    "options": ["Mother Teresa", "C.V. Raman", "Rabindranath Tagore", "Amartya Sen"],
+    "correctAnswerIndex": 2,
+    "explanation": "Rabindranath Tagore was the first Indian to win the Nobel Prize. He was awarded the Nobel Prize in Literature in 1913 'because of his profoundly sensitive, fresh and beautiful verse, by which, with consummate skill, he has made his poetic thought, expressed in his own English words, a part of the literature of the West.'",
+    "subject": "ssc",
+    "topic": "awards_and_honors",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-gk-014",
+    "question": "The BRICS group of nations includes:",
+    "options": [
+      "Brazil, Russia, India, China, South Africa",
+      "Brazil, Romania, Indonesia, Canada, Spain",
+      "Belgium, Russia, Italy, Canada, Sweden",
+      "Bangladesh, Russia, India, China, Sri Lanka"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "BRICS is an acronym for an association of five major emerging national economies: Brazil, Russia, India, China, and South Africa. The BRICS members are known for their significant influence on regional and global affairs and their fast-growing economies.",
+    "subject": "ssc",
+    "topic": "international_relations",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-gk-015",
+    "question": "The 'Chipko Movement' was primarily associated with which of the following issues?",
+    "options": ["Water conservation", "Forest conservation", "Air pollution", "Wildlife protection"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Chipko Movement, which began in the 1970s in Uttarakhand (then a part of Uttar Pradesh), was primarily associated with forest conservation. The movement gained momentum when a group of villagers, mainly women, hugged trees to prevent them from being cut down by contractors. 'Chipko' means 'to stick' or 'to hug' in Hindi.",
+    "subject": "ssc",
+    "topic": "environmental_movements",
+    "difficultyLevel": "EASY"
+  }
+] 

@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\java",
+    "\\src\\main\\java\\com",
+    "\\src\\main\\java\\com\\example",
+    "\\src\\main\\java\\com\\example\\quizbackend",
+    "\\src\\main\\java\\com\\example\\quizbackend\\controller",
+    "\\src\\main\\java\\com\\example\\quizbackend\\service",
+    "\\src\\main\\java\\com\\example\\quizbackend\\util",
+    "\\src\\main\\resources"
+  ],
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,23 @@
+{
+    "subject":  "optional_subjects",
+    "set_id":  "1",
+    "difficulty_level":  "mixed",
+    "total_questions":  10,
+    "time_limit_minutes":  15,
+    "questions":  [
+                      {
+                          "id":  "1",
+                          "explanation":  "Explanation for the correct answer",
+                          "difficulty_level":  "easy",
+                          "correct_answer":  0,
+                          "options":  [
+                                          "Option A",
+                                          "Option B",
+                                          "Option C",
+                                          "Option D"
+                                      ],
+                          "question":  "Sample question 1"
+                      }
+                  ],
+    "exam_id":  "ias"
+}

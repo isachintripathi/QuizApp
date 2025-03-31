@@ -1,0 +1,152 @@
+[
+  {
+    "id": "rly-tech-001",
+    "question": "The energy stored in an inductor is given by:",
+    "options": ["E = LI", "E = LI²", "E = (1/2)LI", "E = (1/2)LI²"],
+    "correctAnswerIndex": 3,
+    "explanation": "The energy stored in an inductor is given by the formula E = (1/2)LI², where L is the inductance and I is the current flowing through the inductor.",
+    "subject": "railway",
+    "topic": "electrical_engineering",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-tech-002",
+    "question": "Which of the following is NOT a renewable source of energy?",
+    "options": ["Solar energy", "Wind energy", "Nuclear energy", "Geothermal energy"],
+    "correctAnswerIndex": 2,
+    "explanation": "Nuclear energy is not considered a renewable source of energy because it uses uranium as fuel, which is a finite resource and will eventually be depleted. Solar, wind, and geothermal energies are renewable as they are naturally replenished.",
+    "subject": "railway",
+    "topic": "energy_sources",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-tech-003",
+    "question": "In a DC series motor, if the load is increased, the speed will:",
+    "options": ["Increase", "Decrease", "Remain constant", "First increase then decrease"],
+    "correctAnswerIndex": 1,
+    "explanation": "In a DC series motor, the speed is inversely proportional to the flux, which is directly proportional to the current. When the load increases, the current increases, resulting in an increase in flux, which causes a decrease in speed.",
+    "subject": "railway",
+    "topic": "dc_motors",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-tech-004",
+    "question": "The process of heat transfer through solid objects by molecular motion is called:",
+    "options": ["Conduction", "Convection", "Radiation", "Advection"],
+    "correctAnswerIndex": 0,
+    "explanation": "Conduction is the process of heat transfer through solid objects by molecular motion without any actual movement of the solid itself. Convection involves the movement of fluids, radiation transfers heat through electromagnetic waves, and advection involves the transport of heat by bulk fluid motion.",
+    "subject": "railway",
+    "topic": "heat_transfer",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-tech-005",
+    "question": "What is the purpose of a diesel engine's turbocharger?",
+    "options": ["To reduce fuel consumption", "To increase power output by forcing more air into the combustion chamber", "To reduce emissions", "To cool the engine"],
+    "correctAnswerIndex": 1,
+    "explanation": "A turbocharger in a diesel engine is used to increase power output by forcing more air into the combustion chamber. It uses the energy from the exhaust gases to drive a turbine that compresses the intake air, allowing more fuel to be burned and thus generating more power.",
+    "subject": "railway",
+    "topic": "diesel_engines",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-tech-006",
+    "question": "Which of the following is used to change the direction of rotation of a three-phase induction motor?",
+    "options": ["Changing the supply voltage", "Changing the frequency", "Interchanging any two phases of the supply", "Adding a capacitor in series"],
+    "correctAnswerIndex": 2,
+    "explanation": "The direction of rotation of a three-phase induction motor can be reversed by interchanging any two phases of the supply. This changes the phase sequence, which in turn reverses the direction of the rotating magnetic field and consequently the direction of rotation of the motor.",
+    "subject": "railway",
+    "topic": "induction_motors",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-tech-007",
+    "question": "The unit of Young's modulus is:",
+    "options": ["N/m", "N/m²", "N·m", "N·m²"],
+    "correctAnswerIndex": 1,
+    "explanation": "Young's modulus, also known as the elastic modulus, is a measure of the stiffness of a solid material. It is defined as the ratio of stress (force per unit area) to strain (proportional deformation), and thus has units of N/m² or Pascal (Pa).",
+    "subject": "railway",
+    "topic": "material_science",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-tech-008",
+    "question": "Which of the following track gauges is used for high-speed trains in India?",
+    "options": ["Narrow gauge (762 mm)", "Metre gauge (1000 mm)", "Broad gauge (1676 mm)", "Standard gauge (1435 mm)"],
+    "correctAnswerIndex": 2,
+    "explanation": "In India, the broad gauge (1676 mm) is used for high-speed trains. The Indian Railways primarily operates on broad gauge tracks, which allow for higher speeds and greater stability compared to narrower gauges.",
+    "subject": "railway",
+    "topic": "railway_tracks",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-tech-009",
+    "question": "What is the function of a ballast in railway tracks?",
+    "options": ["To provide additional weight to the track", "To provide support and stability to the track and assist in drainage", "To reduce noise from passing trains", "To prevent track expansion due to heat"],
+    "correctAnswerIndex": 1,
+    "explanation": "Ballast is the layer of crushed stone or gravel that forms the bed on which railway sleepers (ties) are laid. Its main function is to provide support and stability to the track, distribute the load from the sleepers, assist in drainage, and prevent the growth of vegetation. It also helps in limiting the longitudinal and lateral movement of the track.",
+    "subject": "railway",
+    "topic": "railway_tracks",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-tech-010",
+    "question": "What is the working principle of a transformer?",
+    "options": ["Faraday's law of electromagnetic induction", "Coulomb's law", "Ohm's law", "Kirchhoff's laws"],
+    "correctAnswerIndex": 0,
+    "explanation": "A transformer works on the principle of Faraday's law of electromagnetic induction, which states that a changing magnetic field induces an electromotive force (EMF) in a conductor. In a transformer, the alternating current in the primary winding creates a changing magnetic field, which induces an EMF in the secondary winding.",
+    "subject": "railway",
+    "topic": "electrical_engineering",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-tech-011",
+    "question": "In a four-stroke diesel engine, compression ignition occurs during which stroke?",
+    "options": ["Intake stroke", "Compression stroke", "Power stroke", "Exhaust stroke"],
+    "correctAnswerIndex": 2,
+    "explanation": "In a four-stroke diesel engine, compression ignition occurs during the power stroke (third stroke). During the compression stroke (second stroke), air is compressed to high pressure and temperature. At the end of the compression stroke, fuel is injected, which ignites due to the high temperature of the compressed air, and the expansion of the burning gases drives the piston down during the power stroke.",
+    "subject": "railway",
+    "topic": "internal_combustion_engines",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-tech-012",
+    "question": "What is the purpose of an air compressor in a diesel-electric locomotive?",
+    "options": ["To cool the engine", "To provide compressed air for the braking system", "To increase the power output", "To mix air with fuel for combustion"],
+    "correctAnswerIndex": 1,
+    "explanation": "An air compressor in a diesel-electric locomotive is primarily used to provide compressed air for the braking system. The compressed air is used to operate the air brakes on the locomotive and the train. It is also used for other pneumatic systems such as horns, bells, and sometimes door operations.",
+    "subject": "railway",
+    "topic": "diesel_locomotives",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-tech-013",
+    "question": "The maximum permissible speed of a train on a curved track depends on:",
+    "options": ["The length of the train", "The weight of the train", "The radius of the curve and the applied cant", "The number of coaches in the train"],
+    "correctAnswerIndex": 2,
+    "explanation": "The maximum permissible speed of a train on a curved track primarily depends on the radius of the curve and the applied cant (superelevation). A larger radius and appropriate cant allow for higher speeds by counteracting the centrifugal force experienced by the train while negotiating the curve.",
+    "subject": "railway",
+    "topic": "railway_operations",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "rly-tech-014",
+    "question": "Which of the following is the correct sequence of operations in a typical automatic signaling system on railways?",
+    "options": ["Track circuit detection, signal aspect change, train movement", "Train movement, track circuit detection, signal aspect change", "Signal aspect change, train movement, track circuit detection", "Track circuit detection, train movement, signal aspect change"],
+    "correctAnswerIndex": 0,
+    "explanation": "In a typical automatic signaling system on railways, the sequence of operations is: (1) Track circuit detection - the presence of a train is detected by the track circuit, (2) Signal aspect change - the signal behind the train changes to red and the ones ahead change according to the block occupancy, (3) Train movement - the train proceeds based on the signal aspects it encounters.",
+    "subject": "railway",
+    "topic": "railway_signaling",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "rly-tech-015",
+    "question": "What is the function of a pantograph in an electric locomotive?",
+    "options": ["To control the speed of the locomotive", "To collect electric current from overhead wires", "To transfer power to the wheels", "To provide emergency braking"],
+    "correctAnswerIndex": 1,
+    "explanation": "A pantograph is a device mounted on the roof of an electric locomotive to collect electric current from overhead catenary wires. It consists of a hinged frame that presses a collector against the overhead wire, allowing the locomotive to receive power while in motion, even at high speeds.",
+    "subject": "railway",
+    "topic": "electric_locomotives",
+    "difficultyLevel": "EASY"
+  }
+] 

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "rly-math-001",
+    "question": "A train 240 m long passes a pole in 24 seconds. Find the speed of the train in km/hr.",
+    "options": ["32 km/hr", "34 km/hr", "36 km/hr", "38 km/hr"],
+    "correctAnswerIndex": 2,
+    "explanation": "Speed = Distance/Time = 240/24 = 10 m/s = 10 × (18/5) = 36 km/hr.",
+    "subject": "railway",
+    "topic": "time_speed_distance",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-math-002",
+    "question": "If 15 men can complete a piece of work in 20 days, how many additional men should be employed to complete the same work in 15 days?",
+    "options": ["3", "5", "7", "10"],
+    "correctAnswerIndex": 1,
+    "explanation": "Work done by 15 men in 1 day = 1/20. Work to be done by (15+x) men in 1 day = 1/15. Since the amount of work done in a day is proportional to the number of men, (15+x)/15 = 20/15. Solving for x, we get x = 15 × (20/15 - 1) = 15 × (5/15) = 5.",
+    "subject": "railway",
+    "topic": "time_work",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-math-003",
+    "question": "A vendor buys bananas at 4 for Rs. 3 and sells them at 3 for Rs. 4. What is his profit percentage?",
+    "options": ["75.33%", "77.33%", "78.33%", "77.77%"],
+    "correctAnswerIndex": 3,
+    "explanation": "Cost price of 12 bananas = Rs. (12 × 3/4) = Rs. 9. Selling price of 12 bananas = Rs. (12 × 4/3) = Rs. 16. Profit = Rs. (16 - 9) = Rs. 7. Profit percentage = (7/9) × 100 = 77.77%.",
+    "subject": "railway",
+    "topic": "profit_loss",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-math-004",
+    "question": "The simple interest on a sum of money at 5% per annum for 3 years is Rs. 600. Find the sum.",
+    "options": ["Rs. 3,000", "Rs. 4,000", "Rs. 5,000", "Rs. 6,000"],
+    "correctAnswerIndex": 1,
+    "explanation": "Simple Interest = (Principal × Rate × Time)/100. 600 = (P × 5 × 3)/100. Solving for P, we get P = (600 × 100)/(5 × 3) = 60000/15 = 4000. So, the sum is Rs. 4,000.",
+    "subject": "railway",
+    "topic": "simple_interest",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-math-005",
+    "question": "If the ratio of the costs of two laptops A and B is 5:6, and the cost of laptop A is Rs. 30,000, what is the cost of laptop B?",
+    "options": ["Rs. 32,000", "Rs. 34,000", "Rs. 36,000", "Rs. 38,000"],
+    "correctAnswerIndex": 2,
+    "explanation": "Let the cost of laptop B be Rs. x. Given, the ratio of costs is 5:6. So, 30000/x = 5/6. Solving for x, we get x = (30000 × 6)/5 = 36000. Thus, the cost of laptop B is Rs. 36,000.",
+    "subject": "railway",
+    "topic": "ratio_proportion",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-math-006",
+    "question": "A man can row 5 km/hr in still water. If the river is flowing at 1 km/hr, it takes him 75 minutes to row to a place and back. How far is the place?",
+    "options": ["3 km", "4 km", "5 km", "6 km"],
+    "correctAnswerIndex": 1,
+    "explanation": "Let the distance be x km. Speed upstream = (5 - 1) = 4 km/hr, and speed downstream = (5 + 1) = 6 km/hr. Time taken = Time upstream + Time downstream = x/4 + x/6 = (3x + 2x)/12 = 5x/12 hours = 75/60 = 5/4 hours. Solving, 5x/12 = 5/4, which gives x = 4. So, the place is 4 km away.",
+    "subject": "railway",
+    "topic": "time_speed_distance",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "rly-math-007",
+    "question": "In how many ways can 5 boys and 3 girls be seated in a row such that all the girls sit together?",
+    "options": ["720", "1440", "2880", "4320"],
+    "correctAnswerIndex": 1,
+    "explanation": "The 3 girls can be arranged among themselves in 3! = 6 ways. The group of 3 girls can be treated as a single unit, so we need to arrange 5 boys and this 1 unit of girls, which can be done in 6! = 720 ways. Total number of ways = 6 × 720 = 4320.",
+    "subject": "railway",
+    "topic": "permutation_combination",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "rly-math-008",
+    "question": "The average weight of 8 men increases by 1.5 kg when one man weighing 65 kg is replaced by a new man. The weight of the new man is:",
+    "options": ["74 kg", "75 kg", "76 kg", "77 kg"],
+    "correctAnswerIndex": 3,
+    "explanation": "Initial total weight of 8 men = 8 × original average. Final total weight of 8 men = 8 × (original average + 1.5). Difference = 8 × 1.5 = 12 kg. This difference is due to the replacement of the 65 kg man with the new man. So, weight of new man = 65 + 12 = 77 kg.",
+    "subject": "railway",
+    "topic": "average",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-math-009",
+    "question": "A sum of Rs. 12,000 amounts to Rs. 14,400 in 4 years at simple interest. Find the rate of interest.",
+    "options": ["5%", "5.5%", "6%", "6.5%"],
+    "correctAnswerIndex": 2,
+    "explanation": "SI = Principal × Rate × Time / 100. Given, SI = 14400 - 12000 = 2400, P = 12000, T = 4 years. So, 2400 = (12000 × R × 4) / 100. Solving for R, we get R = (2400 × 100) / (12000 × 4) = 240000 / 48000 = 5. So, the rate of interest is 5%.",
+    "subject": "railway",
+    "topic": "simple_interest",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-math-010",
+    "question": "Find the value of sin 30° × cos 60° + cos 30° × sin 60°.",
+    "options": ["0.5", "0.866", "1", "√3"],
+    "correctAnswerIndex": 2,
+    "explanation": "Using the trigonometric identity sin A × cos B + cos A × sin B = sin(A + B), we have sin 30° × cos 60° + cos 30° × sin 60° = sin(30° + 60°) = sin 90° = 1.",
+    "subject": "railway",
+    "topic": "trigonometry",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-math-011",
+    "question": "Two pipes A and B can fill a tank in 12 minutes and 15 minutes respectively. If both the pipes are opened together, in how many minutes will the tank be filled?",
+    "options": ["5.5", "6", "6.5", "7"],
+    "correctAnswerIndex": 1,
+    "explanation": "Rate of filling by pipe A = 1/12 of the tank per minute. Rate of filling by pipe B = 1/15 of the tank per minute. Combined rate of filling = 1/12 + 1/15 = (5 + 4)/60 = 9/60 = 3/20 of the tank per minute. Time taken to fill the tank = 1 / (3/20) = 20/3 = 6.67 minutes, which is approximately 6.7 minutes.",
+    "subject": "railway",
+    "topic": "time_work",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-math-012",
+    "question": "A train 150 m long passes a platform 250 m long in 24 seconds. The speed of the train is:",
+    "options": ["50 km/hr", "54 km/hr", "60 km/hr", "64 km/hr"],
+    "correctAnswerIndex": 1,
+    "explanation": "Total distance to be covered = Length of train + Length of platform = 150 + 250 = 400 m. Time taken = 24 seconds. Speed = Distance/Time = 400/24 = 16.67 m/s = 16.67 × 3.6 = 60 km/hr.",
+    "subject": "railway",
+    "topic": "time_speed_distance",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-math-013",
+    "question": "The dimensions of a rectangular room are 12 m × 8 m × 6 m. The cost of painting its four walls at Rs. 5 per square meter is:",
+    "options": ["Rs. 500", "Rs. 600", "Rs. 700", "Rs. 800"],
+    "correctAnswerIndex": 1,
+    "explanation": "Area of the four walls = 2 × (12 × 6 + 8 × 6) = 2 × (72 + 48) = 2 × 120 = 240 square meters. Cost of painting = 240 × 5 = Rs. 1200.",
+    "subject": "railway",
+    "topic": "mensuration",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-math-014",
+    "question": "If the compound interest on a certain sum for 2 years at 10% per annum is Rs. 420, find the sum.",
+    "options": ["Rs. 1,800", "Rs. 2,000", "Rs. 2,100", "Rs. 2,200"],
+    "correctAnswerIndex": 1,
+    "explanation": "Let the principal be P. Amount after 2 years = P(1 + 10/100)^2 = P(1.1)^2 = 1.21P. Compound interest = 1.21P - P = 0.21P = 420. Solving for P, we get P = 420/0.21 = 2000. So, the sum is Rs. 2,000.",
+    "subject": "railway",
+    "topic": "compound_interest",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-math-015",
+    "question": "Two trains are moving in the same direction at speeds of 60 km/hr and 84 km/hr. The faster train completely crosses a man sitting in the slower train in 18 seconds. What is the length of the faster train?",
+    "options": ["100 m", "110 m", "120 m", "130 m"],
+    "correctAnswerIndex": 2,
+    "explanation": "Relative speed of the faster train with respect to the slower train = 84 - 60 = 24 km/hr = 24 × (5/18) = 6.67 m/s. Time taken to cross = 18 seconds. Length of the faster train = Relative speed × Time = 6.67 × 18 = 120 m.",
+    "subject": "railway",
+    "topic": "time_speed_distance",
+    "difficultyLevel": "HARD"
+  }
+]

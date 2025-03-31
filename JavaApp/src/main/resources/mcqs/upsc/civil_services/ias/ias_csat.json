@@ -1,0 +1,222 @@
+[
+  {
+    "id": "upsc-csat-001",
+    "question": "If a train runs at 40 km/hr instead of 30 km/hr, it takes 1 hour less to reach its destination. The distance traveled is:",
+    "options": ["120 km", "160 km", "200 km", "240 km"],
+    "correctAnswerIndex": 0,
+    "explanation": "Let the distance be d km. Time taken at 30 km/hr = d/30 hrs. Time taken at 40 km/hr = d/40 hrs. Given (d/30) - (d/40) = 1. Solving, d(1/30 - 1/40) = 1, d(4-3)/120 = 1, d/120 = 1, d = 120 km.",
+    "subject": "csat",
+    "topic": "quantitative_aptitude",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-csat-002",
+    "question": "In a class of 50 students, 40% are girls. How many boys need to be added to the class to make the percentage of girls 25%?",
+    "options": ["30", "20", "50", "15"],
+    "correctAnswerIndex": 0,
+    "explanation": "Number of girls = 40% of 50 = 20. Number of boys = 30. Let x more boys be added. Then 20/(50+x) = 1/4. Solving, 20 = (50+x)/4, 80 = 50+x, x = 30.",
+    "subject": "csat",
+    "topic": "quantitative_aptitude",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-csat-003",
+    "question": "Read the following statements and answer the question: All cats are mammals. Some mammals are not dogs. Which of the following conclusions can be drawn from the above statements?",
+    "options": [
+      "Some cats are not dogs",
+      "All mammals are cats",
+      "No cat is a dog",
+      "None of the above"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "From the given statements, we cannot conclude any of the options. 'All cats are mammals' and 'Some mammals are not dogs' do not give us any definitive relationship between cats and dogs.",
+    "subject": "csat",
+    "topic": "logical_reasoning",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "upsc-csat-004",
+    "question": "In a certain code language, 'COMPUTER' is written as 'RFUVQNPD'. How will 'MEDICINE' be written in that code?",
+    "options": ["EOJDJEFM", "MFEJDJOF", "EOJDJEFO", "MFEDJJOF"],
+    "correctAnswerIndex": 1,
+    "explanation": "In the given code, each letter is replaced by the next letter in the English alphabet. So, M is replaced by N, E by F, D by E, I by J, C by D, I by J, N by O, E by F. So, MEDICINE becomes MFEJDJOF.",
+    "subject": "csat",
+    "topic": "logical_reasoning",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-csat-005",
+    "question": "A person walks 30 m towards South, then turns right and walks 30 m, then turns right and walks 55 m, then turns left and walks 20 m. In which direction is he from the starting point?",
+    "options": ["South-West", "South", "North-East", "South-East"],
+    "correctAnswerIndex": 3,
+    "explanation": "From the starting point: 30 m South, 30 m West, 55 m North, 20 m East. Net displacement: (30-55) = -25 m in North direction (i.e., 25 m in South direction) and (30-20) = 10 m in West direction. So, the person is in South-East direction from the starting point.",
+    "subject": "csat",
+    "topic": "analytical_ability",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-csat-006",
+    "question": "A larger cube is formed by arranging 216 identical smaller cubes. If the smaller cube has an edge of 5 cm, what is the surface area of the larger cube?",
+    "options": ["13500 sq cm", "15000 sq cm", "16200 sq cm", "18000 sq cm"],
+    "correctAnswerIndex": 0,
+    "explanation": "Number of smaller cubes = 216 = 6³. So, the larger cube has 6 smaller cubes along each edge. Length of edge of larger cube = 6 × 5 = 30 cm. Surface area of larger cube = 6 × 30² = 5400 sq cm.",
+    "subject": "csat",
+    "topic": "mathematical_ability",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "upsc-csat-007",
+    "question": "Study the following information and answer the question: Six persons A, B, C, D, E and F are standing in a row facing East. C is standing to the right of F. D is standing between A and C. B is standing to the left of A. E is standing to the right of C. Who is standing to the left of D?",
+    "options": ["A", "B", "F", "Cannot be determined"],
+    "correctAnswerIndex": 0,
+    "explanation": "The arrangement from left to right is: B, A, D, C, E, F. So, A is standing to the left of D.",
+    "subject": "csat",
+    "topic": "analytical_ability",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "upsc-csat-008",
+    "question": "A shopkeeper sold an article at a profit of 20%. If he had bought it at 20% less and sold it for Rs. 100 less, he would have gained 25%. The cost price of the article is:",
+    "options": ["Rs. 1000", "Rs. 1200", "Rs. 1500", "Rs. 1800"],
+    "correctAnswerIndex": 0,
+    "explanation": "Let the cost price be Rs. x. Then, selling price = 1.2x. If cost price is 0.8x, and selling price is (1.2x - 100), then profit = 25%. So, (1.2x - 100 - 0.8x)/0.8x = 25/100. Solving, (0.4x - 100)/0.8x = 1/4, 0.4x - 100 = 0.2x, 0.2x = 100, x = 500.",
+    "subject": "csat",
+    "topic": "mathematical_ability",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "upsc-csat-009",
+    "question": "If the nth term of an A.P. is (2n + 1), what is the sum of the first 10 terms?",
+    "options": ["110", "115", "120", "125"],
+    "correctAnswerIndex": 1,
+    "explanation": "The nth term of the A.P. is (2n + 1). So, the first 10 terms are: 3, 5, 7, 9, 11, 13, 15, 17, 19, 21. Sum = 10(first term + last term)/2 = 10(3 + 21)/2 = 10 × 24/2 = 120.",
+    "subject": "csat",
+    "topic": "mathematical_ability",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-csat-010",
+    "question": "Read the following passage and answer the question: The World Health Organization (WHO) defines health as a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity. According to the author, which of the following statements is true?",
+    "options": [
+      "Health is defined as the absence of disease",
+      "Mental well-being is not a component of health",
+      "WHO defines health holistically, including physical, mental, and social aspects",
+      "WHO focuses only on physical aspects of health"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The passage states that WHO defines health as 'a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.' This indicates a holistic approach to health that includes physical, mental, and social aspects.",
+    "subject": "csat",
+    "topic": "reading_comprehension",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-csat-011",
+    "question": "A student multiplied a number by 3/5 instead of 5/3. What is the percentage error in the calculation?",
+    "options": ["64%", "36%", "44%", "72%"],
+    "correctAnswerIndex": 0,
+    "explanation": "Let the number be x. Correct value = 5x/3. Calculated value = 3x/5. Error = 5x/3 - 3x/5 = (25x - 9x)/15 = 16x/15. Percentage error = (16x/15)/(5x/3) × 100 = (16x/15) × (3/5x) × 100 = 16 × 3 × 100/(15 × 5) = 4800/75 = 64%.",
+    "subject": "csat",
+    "topic": "mathematical_ability",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "upsc-csat-012",
+    "question": "Five years ago, the average age of P, Q, R, and S was 45 years. With T joining them now, the average age becomes 49 years. How old is T now?",
+    "options": ["45 years", "49 years", "65 years", "25 years"],
+    "correctAnswerIndex": 2,
+    "explanation": "Let the sum of ages of P, Q, R, and S five years ago be 4 × 45 = 180 years. Current sum of ages = 180 + 5 × 4 = 200 years. With T, the average becomes 49. So, (200 + T)/5 = 49. Solving, 200 + T = 245, T = 45 years.",
+    "subject": "csat",
+    "topic": "mathematical_ability",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-csat-013",
+    "question": "In a certain code language, 'NOIDA' is written as '39652' and 'DELHI' is written as '28476'. How is 'INDIA' written in that code?",
+    "options": ["63265", "63562", "65236", "65632"],
+    "correctAnswerIndex": 2,
+    "explanation": "In the given code, N = 3, O = 9, I = 6, D = 5, A = 2, L = 7, H = 4. So, INDIA is coded as 63562.",
+    "subject": "csat",
+    "topic": "logical_reasoning",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-csat-014",
+    "question": "Consider the statement: 'All teachers are students.' Which of the following statements contradicts this statement?",
+    "options": [
+      "Some students are teachers",
+      "Some teachers are not students",
+      "No student is a teacher",
+      "All students are teachers"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The statement 'All teachers are students' means every teacher is also a student. The contradiction would be 'Some teachers are not students', which denies that every teacher is a student.",
+    "subject": "csat",
+    "topic": "logical_reasoning",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-csat-015",
+    "question": "A clock shows 8:30. If the minute hand points East, in which direction does the hour hand point?",
+    "options": ["South-East", "North-East", "South", "North"],
+    "correctAnswerIndex": 0,
+    "explanation": "At 8:30, the hour hand has moved 8.5 hours from 12 o'clock (vertical position). One complete rotation is 12 hours or 360°. So, the hour hand has moved 8.5 × 30° = 255° from the vertical position. From North, it has moved 255° clockwise, which places it in the South-East direction.",
+    "subject": "csat",
+    "topic": "analytical_ability",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-csat-016",
+    "question": "Study the following information and answer the question: In a certain code, '253' means 'books are old', '546' means 'man is old' and '378' means 'buy good books'. What stands for 'are' in that code?",
+    "options": ["2", "5", "3", "4"],
+    "correctAnswerIndex": 2,
+    "explanation": "From '253' and '378', we can see that 3 is common and 'books' is common. So, 3 represents 'books'. From '253' and '546', we see that 5 is common and 'old' is common. So, 5 represents 'old'. In '253', we have 2 and 3 representing 'are' and 'books', and we know 3 is 'books'. So, 2 represents 'are'.",
+    "subject": "csat",
+    "topic": "logical_reasoning",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "upsc-csat-017",
+    "question": "If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled is:",
+    "options": ["50 km", "56 km", "70 km", "80 km"],
+    "correctAnswerIndex": 0,
+    "explanation": "Let the actual distance be x km. Time taken at 10 km/hr = x/10 hours. If he walks at 14 km/hr, distance covered in the same time = 14 × (x/10) = 1.4x km. Given, 1.4x - x = 20, 0.4x = 20, x = 50 km.",
+    "subject": "csat",
+    "topic": "quantitative_aptitude",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-csat-018",
+    "question": "Read the passage and answer the question: Democracy is not merely a form of government. It is primarily a mode of associated living, of conjoint communicated experience. It is essentially an attitude of respect and reverence towards fellow men. According to the passage, democracy requires:",
+    "options": [
+      "A strong leader",
+      "Respect for fellow citizens",
+      "Economic equality",
+      "Social uniformity"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The passage states that democracy is 'essentially an attitude of respect and reverence towards fellow men.' This clearly indicates that respect for fellow citizens is a requirement for democracy according to the passage.",
+    "subject": "csat",
+    "topic": "reading_comprehension",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-csat-019",
+    "question": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream.",
+    "options": ["4 hours", "5 hours", "2 hours", "6 hours"],
+    "correctAnswerIndex": 0,
+    "explanation": "Speed downstream = Speed in still water + Speed of stream = 13 + 4 = 17 km/hr. Time taken to travel 68 km = 68/17 = 4 hours.",
+    "subject": "csat",
+    "topic": "quantitative_aptitude",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-csat-020",
+    "question": "Study the following information and answer the question: Six people A, B, C, D, E, and F are sitting around a circular table. A is sitting between E and F. E is opposite to D. C is sitting to the right of D. Who is sitting opposite to B?",
+    "options": ["A", "C", "E", "F"],
+    "correctAnswerIndex": 0,
+    "explanation": "Starting from any position and going clockwise, the arrangement is: D, C, B, F, A, E. A is opposite to D, and E is opposite to B. So, A is sitting opposite to B.",
+    "subject": "csat",
+    "topic": "analytical_ability",
+    "difficultyLevel": "HARD"
+  }
+] 

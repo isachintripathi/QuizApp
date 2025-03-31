@@ -1,0 +1,82 @@
+[
+  {
+    "id": "hist_001",
+    "question": "Who was the first Mughal Emperor of India?",
+    "options": [
+      "Akbar",
+      "Babur",
+      "Humayun",
+      "Jahangir"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Babur was the first Mughal Emperor who ruled from 1526 to 1530. He defeated Ibrahim Lodi at the First Battle of Panipat in 1526 to establish the Mughal Empire in India.",
+    "topic": "PYQs",
+    "subject": "History",
+    "difficultyLevel": "MEDIUM",
+    "tags": ["Mughal Empire", "Medieval India", "Rulers"]
+  },
+  {
+    "id": "hist_002",
+    "question": "The Battle of Plassey was fought in which year?",
+    "options": [
+      "1757",
+      "1764",
+      "1765",
+      "1775"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The Battle of Plassey was fought on June 23, 1757 between the British East India Company and the Nawab of Bengal and his French allies. It was a decisive victory for the British and marked the beginning of British rule in India.",
+    "topic": "PYQs",
+    "subject": "History",
+    "difficultyLevel": "EASY",
+    "tags": ["Colonial Period", "British India", "Battles"]
+  },
+  {
+    "id": "hist_003",
+    "question": "Who among the following started the Swadeshi Movement?",
+    "options": [
+      "Mahatma Gandhi",
+      "Subhas Chandra Bose",
+      "Bal Gangadhar Tilak",
+      "Rabindranath Tagore"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The Swadeshi Movement was officially started by Bal Gangadhar Tilak on August 7, 1905, to protest against the partition of Bengal by Lord Curzon. The movement promoted the use of Indian-made goods and boycott of British goods.",
+    "topic": "Mock Test",
+    "subject": "History",
+    "difficultyLevel": "MEDIUM",
+    "tags": ["Freedom Movement", "Indian Nationalism", "Swadeshi"]
+  },
+  {
+    "id": "hist_004",
+    "question": "Which among the following was NOT a part of the Indus Valley Civilization?",
+    "options": [
+      "Harappa",
+      "Mohenjo-daro",
+      "Pataliputra",
+      "Lothal"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Pataliputra (modern-day Patna) was a city established during the Magadha Empire and later became the capital of the Mauryan Empire. It was not part of the Indus Valley Civilization. Harappa, Mohenjo-daro, and Lothal were major cities of the Indus Valley Civilization.",
+    "topic": "Mock Test",
+    "subject": "History",
+    "difficultyLevel": "HARD",
+    "tags": ["Ancient History", "Indus Valley", "Archaeology"]
+  },
+  {
+    "id": "hist_005",
+    "question": "The Quit India Movement was launched by Mahatma Gandhi in which year?",
+    "options": [
+      "1939",
+      "1940",
+      "1942",
+      "1945"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The Quit India Movement, also known as the August Movement, was launched by Mahatma Gandhi on August 8, 1942, at the Bombay session of the All India Congress Committee, demanding an end to British rule in India.",
+    "topic": "PYQs",
+    "subject": "History",
+    "difficultyLevel": "EASY",
+    "tags": ["Freedom Movement", "Gandhi", "World War II"]
+  }
+] 

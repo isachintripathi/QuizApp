@@ -1,0 +1,47 @@
+{
+  "Math": [
+    "Algebra",
+    "Geometry",
+    "Trigonometry"
+  ],
+  "Hindi": [
+    "Physics Basics",
+    "Chemistry Reactions"
+  ],
+  "CDP": [
+    "वृद्धि और विकास (Growth and Development)",
+    "विकास (Development)",
+    "विकास की अवस्थाएँ (Stages of Development)",
+    "विकास के सिद्धांत (Principles of Development)",
+    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+    "व्यक्तिगत भिन्नता (Individual Differences)",
+    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+    "प्रेरणा (Motivation)",
+    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+    "प्रतिभाशाली बच्चे (Gifted Children)",
+    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+    "संज्ञान (Cognition) और भावना (Emotion)",
+    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+    "समतुलन की प्रक्रिया (Process of Equilibration)",
+    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+    "नैतिक विकास (Moral Development)",
+    "समावेशी शिक्षा (Inclusive Education)",
+    "विकलांगता के प्रकार (Types of Disability)",
+    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+    "समाजीकरण (Socialization)",
+    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+    "भाषा (Language)",
+    "लिंग (Gender)",
+    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+    "21वीं सदी के कौशल (21st Century Skills)",
+    "मेटाकॉग्निशन (Metacognition)"
+  ]
+}

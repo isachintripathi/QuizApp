@@ -1,0 +1,252 @@
+[
+  {
+    "id": "upsc-hist-001",
+    "question": "The Indus Valley Civilization is characterized by which of the following features?",
+    "options": [
+      "Worship of a mother goddess",
+      "Use of iron tools",
+      "Presence of large temples",
+      "Caste-based social structure"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The Indus Valley Civilization (3300-1300 BCE) is characterized by the worship of a mother goddess as evidenced by numerous female figurines discovered at various sites. Iron was not used during this period (it appeared later in the Iron Age). There's no evidence of large temples or a caste-based social structure during this civilization.",
+    "subject": "history",
+    "topic": "ancient_india",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-hist-002",
+    "question": "Which Mughal emperor abolished the pilgrimage tax and the jizya tax?",
+    "options": ["Babur", "Akbar", "Jahangir", "Aurangzeb"],
+    "correctAnswerIndex": 1,
+    "explanation": "Akbar abolished both the pilgrimage tax on Hindus and the jizya tax (a tax imposed on non-Muslims) in 1564 and 1579 respectively as part of his liberal religious policies. These taxes were later reinstated by Aurangzeb in the late 17th century.",
+    "subject": "history",
+    "topic": "medieval_india",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-hist-003",
+    "question": "The Ryotwari Settlement was introduced in parts of British India by:",
+    "options": [
+      "Lord Cornwallis",
+      "Thomas Munro",
+      "Lord William Bentinck",
+      "Lord Dalhousie"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The Ryotwari Settlement was primarily introduced by Thomas Munro in parts of Madras Presidency in the early 19th century. Under this system, land revenue was directly collected from the cultivators (ryots) rather than through intermediaries as in the Zamindari system, which was introduced by Lord Cornwallis.",
+    "subject": "history",
+    "topic": "modern_india",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-hist-004",
+    "question": "Which of the following dynasties was established after the decline of the Mauryan Empire?",
+    "options": ["Gupta", "Kushan", "Sunga", "Pallava"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Sunga dynasty was established immediately after the decline of the Mauryan Empire around 185 BCE when Pushyamitra Sunga, a Brahmin general, assassinated the last Mauryan ruler Brihadratha and usurped the throne. The Sunga dynasty ruled over parts of northern India from approximately 185 to 73 BCE.",
+    "subject": "history",
+    "topic": "ancient_india",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-hist-005",
+    "question": "The Battle of Plassey was fought in which year?",
+    "options": ["1757", "1764", "1746", "1761"],
+    "correctAnswerIndex": 0,
+    "explanation": "The Battle of Plassey was fought on June 23, 1757, between the forces of the East India Company led by Robert Clive and those of Siraj ud-Daulah, the Nawab of Bengal. This battle is often considered a crucial turning point in establishing British rule in India.",
+    "subject": "history",
+    "topic": "modern_india",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-hist-006",
+    "question": "Which of the following Vedas contains the famous Gayatri Mantra?",
+    "options": ["Rigveda", "Samaveda", "Yajurveda", "Atharvaveda"],
+    "correctAnswerIndex": 0,
+    "explanation": "The famous Gayatri Mantra appears in the Rigveda (in the third Mandala), which is the oldest of the four Vedas. The Gayatri Mantra is dedicated to Savitr, a solar deity, and is regarded as one of the most sacred mantras in Hinduism.",
+    "subject": "history",
+    "topic": "ancient_india",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-hist-007",
+    "question": "The 'Lion Capital' at Sarnath, which has been adopted as the National Emblem of India, was built during the reign of:",
+    "options": ["Chandragupta Maurya", "Ashoka", "Kanishka", "Harsha"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Lion Capital at Sarnath was built during the reign of Emperor Ashoka (around 250 BCE). It originally topped a pillar (Ashoka Pillar) at Sarnath, where Buddha gave his first sermon. The capital features four lions standing back to back, symbolizing power, courage, confidence, and pride.",
+    "subject": "history",
+    "topic": "ancient_india",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-hist-008",
+    "question": "The Quit India Movement was launched by Mahatma Gandhi in:",
+    "options": ["August 1942", "January 1930", "September 1920", "August 1947"],
+    "correctAnswerIndex": 0,
+    "explanation": "The Quit India Movement (also known as the August Movement) was launched by Mahatma Gandhi on August 8, 1942, at the Bombay session of the All India Congress Committee. Gandhi gave the slogan 'Do or Die' during this movement, demanding an end to British rule in India.",
+    "subject": "history",
+    "topic": "modern_india",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-hist-009",
+    "question": "Which of the following pairs is correctly matched?",
+    "options": [
+      "Kalinga War - Chandragupta Maurya",
+      "Battle of Talikota - Decline of Vijayanagara Empire",
+      "Third Battle of Panipat - Decline of Maratha Power",
+      "Both (b) and (c)"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Both (b) and (c) are correctly matched. The Battle of Talikota (1565) led to the decline of the Vijayanagara Empire when a coalition of Deccan sultanates defeated Ram Raya. The Third Battle of Panipat (1761) between the Marathas and Ahmad Shah Abdali resulted in a devastating defeat for the Marathas, significantly diminishing their power. The Kalinga War was fought by Ashoka, not Chandragupta Maurya.",
+    "subject": "history",
+    "topic": "medieval_india",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-hist-010",
+    "question": "Who among the following founded the 'Servants of India Society'?",
+    "options": [
+      "Bal Gangadhar Tilak",
+      "Gopal Krishna Gokhale",
+      "Bipin Chandra Pal",
+      "Lala Lajpat Rai"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Gopal Krishna Gokhale founded the Servants of India Society in 1905 in Pune. The society aimed to train national missionaries for the service of India and to promote, by all constitutional means, the national interests of the Indian people. It focused on education, social service, and political reform within the constitutional framework.",
+    "subject": "history",
+    "topic": "modern_india",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-hist-011",
+    "question": "The Harappan site of Lothal is located in which present-day state?",
+    "options": ["Gujarat", "Punjab", "Haryana", "Rajasthan"],
+    "correctAnswerIndex": 0,
+    "explanation": "Lothal, an important Harappan port city, is located in the present-day state of Gujarat (about 85 km southwest of Ahmedabad). It is known for its dockyard, which is considered one of the earliest known in the world, suggesting maritime trade links with Mesopotamia and other civilizations.",
+    "subject": "history",
+    "topic": "ancient_india",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-hist-012",
+    "question": "Who among the following is considered the author of the Sanskrit play 'Mudrarakshasa'?",
+    "options": ["Kalidasa", "Vishakhadatta", "Bhasa", "Shudraka"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Sanskrit play 'Mudrarakshasa' (The Signet Ring of Rakshasa) is attributed to Vishakhadatta, who lived during the Gupta period (around 4th-5th century CE). The play revolves around Chanakya's clever strategies to win over Rakshasa, the loyal minister of the Nanda dynasty, to serve Chandragupta Maurya.",
+    "subject": "history",
+    "topic": "ancient_india",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "upsc-hist-013",
+    "question": "The Ilbert Bill controversy during British rule in India was related to:",
+    "options": [
+      "Land revenue reforms",
+      "Educational reforms",
+      "Judicial reforms",
+      "Administrative reforms"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The Ilbert Bill controversy (1883-84) was related to judicial reforms. The bill, introduced by Sir Courtenay Ilbert, proposed that Indian judges could try cases involving European British subjects in India. This faced strong opposition from the European community in India, ultimately leading to a compromised version of the bill being passed.",
+    "subject": "history",
+    "topic": "modern_india",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-hist-014",
+    "question": "Which of the following empires controlled the largest territory in Indian history?",
+    "options": ["Maurya Empire", "Gupta Empire", "Mughal Empire", "British Indian Empire"],
+    "correctAnswerIndex": 3,
+    "explanation": "The British Indian Empire (British Raj) controlled the largest territory in Indian history at its peak, encompassing present-day India, Pakistan, Bangladesh, and parts of Myanmar. At its height, it included more than 565 princely states under British suzerainty and directly ruled provinces, covering a much larger area than any previous empire in the subcontinent.",
+    "subject": "history",
+    "topic": "modern_india",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-hist-015",
+    "question": "Who among the following started the newspaper 'Kesari'?",
+    "options": [
+      "Bal Gangadhar Tilak",
+      "Mahatma Gandhi",
+      "Gopal Krishna Gokhale",
+      "Dadabhai Naoroji"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Bal Gangadhar Tilak started the Marathi newspaper 'Kesari' (meaning 'Lion') in 1881 in Pune. He also started an English newspaper called 'The Mahratta' in the same year. These newspapers became powerful tools for political awakening and spreading nationalist ideas among the masses during the Indian freedom struggle.",
+    "subject": "history",
+    "topic": "modern_india",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-hist-016",
+    "question": "The Chola dynasty is known for its advancement in:",
+    "options": [
+      "Literature and art",
+      "Maritime trade and naval power",
+      "Temple architecture",
+      "All of the above"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The Chola dynasty (9th-13th century CE) is known for advancements in all three areas. They patronized Tamil literature and art, possessed a powerful navy with maritime trade connections extending to Southeast Asia, and built magnificent temples such as the Brihadeeswarar Temple at Thanjavur, showcasing their distinctive architectural style.",
+    "subject": "history",
+    "topic": "ancient_india",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-hist-017",
+    "question": "The Chauth and Sardeshmukhi were taxes collected by the:",
+    "options": ["Mughals", "Marathas", "Rajputs", "Delhi Sultans"],
+    "correctAnswerIndex": 1,
+    "explanation": "Chauth and Sardeshmukhi were taxes collected by the Marathas. Chauth was a regular tax equal to 1/4th of the land revenue paid to the Marathas to avoid raids. Sardeshmukhi was an additional levy of 1/10th of the land revenue, claimed by the Marathas as the hereditary right of their ruler (as the Sardeshmukh or head of the territory).",
+    "subject": "history",
+    "topic": "medieval_india",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-hist-018",
+    "question": "Which of the following Acts transferred power from the East India Company to the British Crown?",
+    "options": [
+      "Regulating Act of 1773",
+      "Pitt's India Act of 1784",
+      "Charter Act of 1833",
+      "Government of India Act of 1858"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The Government of India Act of 1858, also known as the Act for the Good Government of India, transferred the administration of India from the East India Company to the British Crown. It was enacted in the aftermath of the Revolt of 1857 and created the position of Secretary of State for India with a Council to assist him.",
+    "subject": "history",
+    "topic": "modern_india",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-hist-019",
+    "question": "The Sangam literature primarily deals with which of the following themes?",
+    "options": [
+      "War and love",
+      "Religion and philosophy",
+      "Science and mathematics",
+      "Medicine and astronomy"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Sangam literature, a body of ancient Tamil poetry compiled between approximately 300 BCE and 300 CE, primarily deals with the themes of war (puram) and love (agam). It classifies human experiences in terms of landscape, time, and emotional states, providing valuable insights into early Tamil society, culture, and politics.",
+    "subject": "history",
+    "topic": "ancient_india",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-hist-020",
+    "question": "Who was the first European to discover a sea route to India?",
+    "options": [
+      "Christopher Columbus",
+      "Vasco da Gama",
+      "Ferdinand Magellan",
+      "Marco Polo"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Vasco da Gama, a Portuguese explorer, was the first European to discover a sea route to India by sailing around Africa. He reached Calicut (now Kozhikode) on the Malabar Coast of India on May 20, 1498. This discovery opened up direct sea trade between Europe and Asia, circumventing the Middle Eastern land routes controlled by the Ottoman Empire and Venetian traders.",
+    "subject": "history",
+    "topic": "modern_india",
+    "difficultyLevel": "EASY"
+  }
+] 

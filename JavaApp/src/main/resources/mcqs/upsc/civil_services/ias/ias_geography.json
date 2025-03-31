@@ -1,0 +1,262 @@
+[
+  {
+    "id": "upsc-geo-001",
+    "question": "Which of the following is NOT a type of plate boundary?",
+    "options": ["Convergent", "Divergent", "Transform", "Rotational"],
+    "correctAnswerIndex": 3,
+    "explanation": "There are three main types of plate boundaries: Convergent (where plates move toward each other), Divergent (where plates move away from each other), and Transform (where plates slide past each other horizontally). 'Rotational' is not a recognized type of plate boundary in plate tectonics theory.",
+    "subject": "geography",
+    "topic": "physical_geography",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-geo-002",
+    "question": "The Mercator projection, commonly used for navigation, has which of the following characteristics?",
+    "options": [
+      "Equal area representation",
+      "Preserves shape but distorts size",
+      "Preserves direction but distorts shape",
+      "Preserves distance between all points"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The Mercator projection is a cylindrical map projection that preserves angles and shapes of small objects (making it conformal) but significantly distorts the size of objects near the poles. This makes it useful for navigation but problematic for understanding the true relative sizes of land masses.",
+    "subject": "geography",
+    "topic": "cartography",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-geo-003",
+    "question": "Which of the following is NOT a characteristic of tropical cyclones?",
+    "options": [
+      "They form over warm ocean waters",
+      "They develop an 'eye' at their center",
+      "They gain strength over land masses",
+      "They rotate counterclockwise in the Northern Hemisphere"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Tropical cyclones do not gain strength over land masses; rather, they rapidly weaken after making landfall due to increased surface friction and the loss of warm water energy source. They require warm ocean waters (typically above 26-27°C) to form and maintain their strength.",
+    "subject": "geography",
+    "topic": "climatology",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-geo-004",
+    "question": "The 'Von Thünen Model' is associated with which aspect of geography?",
+    "options": [
+      "Urban morphology",
+      "Agricultural land use",
+      "Industrial location",
+      "Population distribution"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The Von Thünen Model, developed by Johann Heinrich von Thünen in 1826, is a theoretical model that explains agricultural land use patterns around a central market city. It proposes that land use is determined by land rent and transportation costs, with more profitable and transport-sensitive crops being grown closer to the market.",
+    "subject": "geography",
+    "topic": "economic_geography",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "upsc-geo-005",
+    "question": "The Great Barrier Reef is located near the coast of which country?",
+    "options": ["Japan", "Australia", "Brazil", "South Africa"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Great Barrier Reef, the world's largest coral reef system, is located in the Coral Sea off the coast of Queensland, Australia. It stretches for over 2,300 kilometers and consists of nearly 3,000 individual reefs and 900 islands.",
+    "subject": "geography",
+    "topic": "oceanography",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-geo-006",
+    "question": "Which of the following is NOT a major factor affecting the Indian Monsoon?",
+    "options": [
+      "Tibetan Plateau",
+      "El Niño-Southern Oscillation",
+      "Indian Ocean Dipole",
+      "Antarctic Circumpolar Current"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The Antarctic Circumpolar Current has minimal direct impact on the Indian Monsoon. The main factors affecting the Indian Monsoon include the thermal contrast between land and sea, the Tibetan Plateau's heating effect, the Inter-Tropical Convergence Zone (ITCZ), El Niño-Southern Oscillation (ENSO), and the Indian Ocean Dipole.",
+    "subject": "geography",
+    "topic": "climatology",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-geo-007",
+    "question": "Which theory in urban geography describes the city as growing in concentric zones around a central business district?",
+    "options": [
+      "Sector Model",
+      "Multiple Nuclei Model",
+      "Concentric Zone Model",
+      "Central Place Theory"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The Concentric Zone Model, developed by Ernest Burgess in 1925, describes urban land use as organized in concentric rings around a central business district (CBD). Each ring represents a different land use zone, with land values and intensity of use decreasing with distance from the center.",
+    "subject": "geography",
+    "topic": "urban_geography",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-geo-008",
+    "question": "Which of the following rivers flows through a rift valley?",
+    "options": ["Amazon", "Mississippi", "Rhine", "Nile"],
+    "correctAnswerIndex": 3,
+    "explanation": "The Nile River, particularly its upper portion, flows through the East African Rift Valley, which is part of the Great Rift Valley system. This rift valley was formed by the separation of the African and Arabian tectonic plates.",
+    "subject": "geography",
+    "topic": "geomorphology",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-geo-009",
+    "question": "The 'Demographic Transition Model' describes changes in:",
+    "options": [
+      "Population migration patterns",
+      "Urbanization processes",
+      "Birth and death rates over time",
+      "Gender ratios in population"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The Demographic Transition Model describes how populations change over time through different stages characterized by changes in birth rates and death rates. It typically shows a transition from high birth and death rates to low birth and death rates as a country develops economically and socially.",
+    "subject": "geography",
+    "topic": "population_geography",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-geo-010",
+    "question": "Which of the following best describes 'Katabatic winds'?",
+    "options": [
+      "Warm winds that blow up mountain slopes",
+      "Cold, dense air flowing downslope under gravity",
+      "Winds that form at coastal areas due to pressure differences",
+      "High-altitude winds in the upper troposphere"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Katabatic winds are cold, dense air masses that flow downslope under the influence of gravity. They occur when the air on a high elevation surface, such as a mountain, plateau, or glacier, is cooled by radiation cooling. The cold air, being denser than the surrounding air, flows downhill, often reaching high speeds.",
+    "subject": "geography",
+    "topic": "climatology",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "upsc-geo-011",
+    "question": "The Deccan Trap formation in India was caused by:",
+    "options": [
+      "Folding due to tectonic plate movement",
+      "Extensive volcanic activity",
+      "Deposition of sediments from ancient rivers",
+      "Glacial action during the ice age"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The Deccan Traps were formed by extensive volcanic activity at the end of the Cretaceous period (approximately 66 million years ago). This was one of the largest volcanic events in Earth's history, covering much of central and southern India with multiple layers of basaltic lava flows.",
+    "subject": "geography",
+    "topic": "physical_geography",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-geo-012",
+    "question": "Which of the following is NOT a method of irrigation practiced in India?",
+    "options": [
+      "Canal irrigation",
+      "Tank irrigation",
+      "Center-pivot irrigation",
+      "Artesian well irrigation"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Center-pivot irrigation, which involves applying water from a central pivot point using a system of rotating sprinklers, is not commonly practiced in India. It is more prevalent in countries like the United States where large, flat agricultural fields are common. Indian irrigation systems traditionally include canal, tank, well, tube well, and artesian well irrigation.",
+    "subject": "geography",
+    "topic": "agricultural_geography",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-geo-013",
+    "question": "The 'Walvis Ridge' is a geological feature located in which ocean?",
+    "options": ["Atlantic Ocean", "Pacific Ocean", "Indian Ocean", "Arctic Ocean"],
+    "correctAnswerIndex": 0,
+    "explanation": "The Walvis Ridge is a submarine ridge located in the South Atlantic Ocean, extending from the African coast near Namibia (named after Walvis Bay) to Tristan da Cunha. It was formed by hotspot volcanism as the African Plate moved over the Tristan hotspot.",
+    "subject": "geography",
+    "topic": "oceanography",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "upsc-geo-014",
+    "question": "Which of the following atmospheric layers contains the ozone layer?",
+    "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+    "correctAnswerIndex": 1,
+    "explanation": "The ozone layer is primarily located in the stratosphere, which extends from about 10-15 km to 50 km above Earth's surface. The ozone layer, which absorbs most of the Sun's ultraviolet radiation, is concentrated in the lower portion of the stratosphere, from approximately 15-35 km altitude.",
+    "subject": "geography",
+    "topic": "climatology",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-geo-015",
+    "question": "The 'Heartland Theory' proposed by Halford Mackinder is related to:",
+    "options": [
+      "Cultural geography",
+      "Urban geography",
+      "Economic geography",
+      "Political geography"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The Heartland Theory, proposed by Sir Halford Mackinder in 1904, is a geopolitical concept that suggests that whoever controls the resource-rich 'Heartland' (Eastern Europe and Central Asia) could control the 'World Island' (Eurasia and Africa) and ultimately the world. It is a fundamental theory in political geography and international relations.",
+    "subject": "geography",
+    "topic": "political_geography",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-geo-016",
+    "question": "Which of the following soil types is most prevalent in the Indo-Gangetic plains?",
+    "options": ["Black soil", "Red soil", "Alluvial soil", "Laterite soil"],
+    "correctAnswerIndex": 2,
+    "explanation": "Alluvial soil is the most prevalent soil type in the Indo-Gangetic plains. These soils have been deposited by the rivers of the Indus, Ganges, and Brahmaputra systems over millions of years. They are fertile, rich in minerals, and well-suited for agriculture, making the Indo-Gangetic plain one of the most productive agricultural regions in India.",
+    "subject": "geography",
+    "topic": "soil_geography",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "upsc-geo-017",
+    "question": "Which of the following is a correct sequence of climate types from the equator to the poles according to the Köppen climate classification?",
+    "options": [
+      "Tropical, Temperate, Mediterranean, Tundra",
+      "Tropical, Desert, Mediterranean, Polar",
+      "Tropical, Subtropical, Temperate, Polar",
+      "Equatorial, Tropical, Subtropical, Polar"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "According to the Köppen climate classification, the general sequence of climate types from the equator to the poles is: Tropical climates near the equator (A), followed by Subtropical/Arid climates (B), Temperate/Mesothermal climates (C), Continental/Microthermal climates (D), and finally Polar climates near the poles (E).",
+    "subject": "geography",
+    "topic": "climatology",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-geo-018",
+    "question": "Which of the following geographical features is formed by wave erosion?",
+    "options": ["Inselberg", "Drumlin", "Sea Arch", "Esker"],
+    "correctAnswerIndex": 2,
+    "explanation": "A Sea Arch is formed by wave erosion when waves erode a headland from two sides, eventually creating an arch-like opening. Examples include Durdle Door in England. Inselbergs are isolated rock hills, drumlins are glacial deposits, and eskers are long ridges of glacial sediment.",
+    "subject": "geography",
+    "topic": "geomorphology",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-geo-019",
+    "question": "Which of the following states in India has the highest population density according to the 2011 census?",
+    "options": ["Uttar Pradesh", "West Bengal", "Kerala", "Bihar"],
+    "correctAnswerIndex": 3,
+    "explanation": "According to the 2011 census, Bihar has the highest population density among the major states of India, with about 1,106 persons per square kilometer. It is followed by West Bengal with approximately 1,028 persons per square kilometer. National Capital Territory of Delhi, being a union territory, has a higher density than Bihar.",
+    "subject": "geography",
+    "topic": "population_geography",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "upsc-geo-020",
+    "question": "The 'Gersmehl model' in geography is associated with:",
+    "options": [
+      "Urban development",
+      "Watershed management",
+      "Cultural diffusion",
+      "Industrial location"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The Gersmehl model, developed by geographer Philip Gersmehl, is associated with watershed management and stream dynamics. It describes how watersheds function and how human activities affect stream flow, sedimentation, and water quality through a systems approach, highlighting the interconnectedness of various components within a watershed.",
+    "subject": "geography",
+    "topic": "hydrology",
+    "difficultyLevel": "HARD"
+  }
+] 

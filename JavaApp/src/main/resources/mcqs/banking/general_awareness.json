@@ -1,0 +1,177 @@
+[
+  {
+    "id": "bank-ga-001",
+    "question": "Which of the following is the central banking institution of India?",
+    "options": ["State Bank of India", "Reserve Bank of India", "ICICI Bank", "NABARD"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Reserve Bank of India (RBI) is the central banking institution of India, established on April 1, 1935. It regulates the issue of banknotes, maintains reserves, and controls monetary policy in India.",
+    "subject": "banking",
+    "topic": "financial_institutions",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bank-ga-002",
+    "question": "What is the full form of NEFT in banking?",
+    "options": [
+      "National Electronic Funds Transfer",
+      "National Electronic Financial Transaction",
+      "New Electronic Funds Transfer",
+      "National Electric Fund Transfer"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "NEFT stands for National Electronic Funds Transfer. It is an electronic funds transfer system maintained by the Reserve Bank of India (RBI) that enables bank customers to transfer funds between accounts at different banks across India.",
+    "subject": "banking",
+    "topic": "payment_systems",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bank-ga-003",
+    "question": "The headquarters of the International Monetary Fund (IMF) is located in:",
+    "options": ["New York, USA", "Washington D.C., USA", "Geneva, Switzerland", "Paris, France"],
+    "correctAnswerIndex": 1,
+    "explanation": "The headquarters of the International Monetary Fund (IMF) is located in Washington D.C., USA. The IMF is an international organization that promotes global monetary cooperation, secure financial stability, and facilitates international trade.",
+    "subject": "banking",
+    "topic": "international_finance",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-ga-004",
+    "question": "Which of the following is NOT a commercial bank in India?",
+    "options": ["Axis Bank", "HDFC Bank", "SEBI", "Yes Bank"],
+    "correctAnswerIndex": 2,
+    "explanation": "SEBI (Securities and Exchange Board of India) is not a commercial bank. It is the regulatory body for the securities market in India. Axis Bank, HDFC Bank, and Yes Bank are all commercial banks operating in India.",
+    "subject": "banking",
+    "topic": "indian_banking_system",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bank-ga-005",
+    "question": "What is the minimum percentage of loans that commercial banks in India need to provide to the agriculture sector as per Priority Sector Lending (PSL) norms?",
+    "options": ["10%", "18%", "40%", "75%"],
+    "correctAnswerIndex": 1,
+    "explanation": "As per the Priority Sector Lending (PSL) norms set by the RBI, commercial banks in India need to provide a minimum of 18% of their Adjusted Net Bank Credit (ANBC) to the agriculture sector. The overall PSL target is 40% of ANBC for domestic commercial banks.",
+    "subject": "banking",
+    "topic": "banking_regulations",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-ga-006",
+    "question": "Which of the following organizations publishes the Financial Stability Report (FSR) in India?",
+    "options": ["Ministry of Finance", "SEBI", "RBI", "NITI Aayog"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Reserve Bank of India (RBI) publishes the Financial Stability Report (FSR) bi-annually. The FSR reflects the collective assessment of the Sub-Committee of the Financial Stability and Development Council (FSDC) on risks to financial stability and the resilience of the financial system.",
+    "subject": "banking",
+    "topic": "financial_stability",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-ga-007",
+    "question": "Banking Ombudsman in India is appointed by:",
+    "options": ["Government of India", "State Governments", "Reserve Bank of India", "Supreme Court of India"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Banking Ombudsman is appointed by the Reserve Bank of India (RBI) under the Banking Ombudsman Scheme. The Banking Ombudsman is a quasi-judicial authority that resolves complaints from bank customers relating to certain services provided by banks.",
+    "subject": "banking",
+    "topic": "banking_regulations",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bank-ga-008",
+    "question": "Which of the following is the first payments bank to start operations in India?",
+    "options": ["Paytm Payments Bank", "Airtel Payments Bank", "India Post Payments Bank", "Jio Payments Bank"],
+    "correctAnswerIndex": 1,
+    "explanation": "Airtel Payments Bank was the first payments bank to start operations in India on November 23, 2016. Payments Banks are a new model of banks conceptualized by the Reserve Bank of India (RBI) to expand banking services to the unbanked and underbanked population.",
+    "subject": "banking",
+    "topic": "indian_banking_system",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-ga-009",
+    "question": "The Statutory Liquidity Ratio (SLR) is maintained in the form of:",
+    "options": [
+      "Cash only",
+      "Gold only",
+      "Government securities only",
+      "Cash, gold, and approved securities"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The Statutory Liquidity Ratio (SLR) is the percentage of deposits that commercial banks are required to maintain in the form of cash, gold, and approved securities. It is maintained to ensure the solvency and liquidity of banks and control credit expansion.",
+    "subject": "banking",
+    "topic": "banking_regulations",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-ga-010",
+    "question": "EFTPOS stands for:",
+    "options": [
+      "Electronic Fund Transfer Point of Sale",
+      "Electronic Financial Transfer Point of Service",
+      "Electronic Funds Transfer at Point of Sale",
+      "Electronic Fund Transfer Process of Sale"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "EFTPOS stands for Electronic Funds Transfer at Point of Sale. It is a payment system that allows customers to make payments electronically rather than using cash when purchasing products or services at retail outlets using debit or credit cards.",
+    "subject": "banking",
+    "topic": "payment_systems",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-ga-011",
+    "question": "The Unified Payments Interface (UPI) in India was developed by:",
+    "options": ["RBI", "NPCI", "SEBI", "Ministry of Finance"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Unified Payments Interface (UPI) was developed by the National Payments Corporation of India (NPCI). UPI is a real-time payment system that powers multiple bank accounts into a single mobile application, merging several banking features, seamless fund routing & merchant payments.",
+    "subject": "banking",
+    "topic": "digital_banking",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bank-ga-012",
+    "question": "Which of the following is the regulator for the insurance sector in India?",
+    "options": ["RBI", "SEBI", "IRDAI", "PFRDA"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Insurance Regulatory and Development Authority of India (IRDAI) is the regulatory body for the insurance sector in India. It was established by the Insurance Regulatory and Development Authority Act, 1999, to protect the interests of policyholders and regulate the insurance industry.",
+    "subject": "banking",
+    "topic": "financial_regulators",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bank-ga-013",
+    "question": "The concept of 'Universal Banking' refers to:",
+    "options": [
+      "Banks offering services only to all citizens universally",
+      "Banks operating in all countries of the world",
+      "Banks providing a wide range of financial services under one roof",
+      "Banks owned jointly by all nations"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Universal Banking refers to a system where banks provide a wide range of financial services under one roof, including both commercial banking and investment banking services. This allows customers to fulfill all their financial needs through a single institution.",
+    "subject": "banking",
+    "topic": "banking_concepts",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-ga-014",
+    "question": "Which of the following is NOT a type of cheque?",
+    "options": ["Bearer Cheque", "Order Cheque", "Crossed Cheque", "Transfer Cheque"],
+    "correctAnswerIndex": 3,
+    "explanation": "Transfer Cheque is not a standard type of cheque. The common types of cheques include Bearer Cheque (payable to the bearer), Order Cheque (payable to a specific person or entity), and Crossed Cheque (can only be deposited directly into a bank account, not cashed).",
+    "subject": "banking",
+    "topic": "banking_instruments",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-ga-015",
+    "question": "What is the full form of CASA in banking terminology?",
+    "options": [
+      "Credit and Savings Account",
+      "Current Account Savings Account",
+      "Cash and Salary Account",
+      "Credit Account Services Authority"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "CASA stands for Current Account Savings Account. It refers to the ratio of deposits in current and saving accounts to total deposits. A higher CASA ratio indicates a lower cost of funds for banks, as they pay either zero or low interest rates on these deposits.",
+    "subject": "banking",
+    "topic": "banking_concepts",
+    "difficultyLevel": "MEDIUM"
+  }
+] 

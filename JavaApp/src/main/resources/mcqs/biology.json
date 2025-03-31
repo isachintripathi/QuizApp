@@ -1,0 +1,77 @@
+[
+  {
+    "id": "bio_001",
+    "question": "What is the powerhouse of the cell?",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Golgi Body",
+      "Endoplasmic Reticulum"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Mitochondria are known as the powerhouse of the cell because they produce ATP",
+    "subject": "biology",
+    "topic": "cell_structure",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bio_002",
+    "question": "What is the process by which plants convert light energy into chemical energy?",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Transpiration",
+      "Digestion"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Photosynthesis is the process by which plants convert light energy into chemical energy",
+    "subject": "biology",
+    "topic": "plant_physiology",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bio_003",
+    "question": "What is the largest organ in the human body?",
+    "options": [
+      "Heart",
+      "Brain",
+      "Skin",
+      "Liver"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The skin is the largest organ in the human body",
+    "subject": "biology",
+    "topic": "human_anatomy",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bio_004",
+    "question": "What is the process of cell division called?",
+    "options": [
+      "Mitosis",
+      "Meiosis",
+      "Cytokinesis",
+      "Binary Fission"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Mitosis is the process of cell division in eukaryotic cells",
+    "subject": "biology",
+    "topic": "cell_division",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bio_005",
+    "question": "What is the function of red blood cells?",
+    "options": [
+      "Fight infection",
+      "Transport oxygen",
+      "Produce hormones",
+      "Digest food"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Red blood cells transport oxygen throughout the body",
+    "subject": "biology",
+    "topic": "human_physiology",
+    "difficultyLevel": "MEDIUM"
+  }
+] 

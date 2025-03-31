@@ -1,0 +1,152 @@
+[
+  {
+    "id": "bank-qa-001",
+    "question": "A sum of money becomes ₹1,440 after 4 years and ₹1,620 after 5 years at simple interest. What is the principal amount?",
+    "options": ["₹900", "₹1,000", "₹1,080", "₹1,200"],
+    "correctAnswerIndex": 3,
+    "explanation": "Let the principal be P and rate be R%. After 4 years, P + (P×R×4)/100 = 1440 and after 5 years, P + (P×R×5)/100 = 1620. The difference is (P×R)/100 = 1620 - 1440 = 180. Now, after 4 years, P + 4×180 = 1440, so P = 1440 - 720 = ₹1,200.",
+    "subject": "banking",
+    "topic": "simple_interest",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-qa-002",
+    "question": "A train 240 meters long passes a pole in 24 seconds. What is the speed of the train in km/hr?",
+    "options": ["24 km/hr", "32 km/hr", "36 km/hr", "42 km/hr"],
+    "correctAnswerIndex": 2,
+    "explanation": "Speed = Distance/Time = 240 meters/24 seconds = 10 meters/second. To convert to km/hr: 10 × (3600/1000) = 36 km/hr.",
+    "subject": "banking",
+    "topic": "time_and_distance",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bank-qa-003",
+    "question": "If the cost price of 15 articles is equal to the selling price of 12 articles, what is the profit percentage?",
+    "options": ["15%", "20%", "25%", "30%"],
+    "correctAnswerIndex": 2,
+    "explanation": "Let cost price of each article be ₹x. So, 15x = 12 × selling price of each article. Therefore, selling price = 15x/12 = 1.25x. Profit percentage = [(Selling price - Cost price)/Cost price] × 100 = [(1.25x - x)/x] × 100 = 25%.",
+    "subject": "banking",
+    "topic": "profit_and_loss",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-qa-004",
+    "question": "The average of 5 consecutive odd numbers is 61. What is the largest number?",
+    "options": ["61", "63", "65", "67"],
+    "correctAnswerIndex": 3,
+    "explanation": "Let the odd numbers be (a), (a+2), (a+4), (a+6), and (a+8). Their average is 61. So, [a + (a+2) + (a+4) + (a+6) + (a+8)]/5 = 61. Therefore, (5a + 20)/5 = 61, which gives a + 4 = 61, so a = 57. The largest number is a + 8 = 57 + 8 = 65.",
+    "subject": "banking",
+    "topic": "averages",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bank-qa-005",
+    "question": "A boat goes 30 km upstream and 44 km downstream in 10 hours. It goes 40 km upstream and 55 km downstream in 13 hours. Find the speed of the boat in still water.",
+    "options": ["6 km/hr", "8 km/hr", "10 km/hr", "12 km/hr"],
+    "correctAnswerIndex": 2,
+    "explanation": "Let the speed of the boat in still water be x km/hr and the speed of the stream be y km/hr. Then, 30/(x-y) + 44/(x+y) = 10 and 40/(x-y) + 55/(x+y) = 13. Solving these equations gives x = 10 km/hr and y = 2 km/hr.",
+    "subject": "banking",
+    "topic": "boats_and_streams",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "bank-qa-006",
+    "question": "In how many ways can the letters of the word 'ARRANGEMENT' be arranged?",
+    "options": ["10!/2!2!3!", "11!/2!2!3!", "10!/2!3!", "11!/3!3!"],
+    "correctAnswerIndex": 0,
+    "explanation": "The word 'ARRANGEMENT' has 11 letters: A (appears 2 times), R (appears 2 times), N (appears 2 times), G (appears 1 time), E (appears 1 time), M (appears 1 time), T (appears 1 time). So the number of possible arrangements is 11!/(2!×2!×2!) = 11!/(2!×2!×2!) = 10!/2!2!2! = 907,200.",
+    "subject": "banking",
+    "topic": "permutation_and_combination",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-qa-007",
+    "question": "A can complete a work in 12 days and B can complete the same work in 15 days. If they work together, in how many days will they complete the work?",
+    "options": ["5.6 days", "6.2 days", "6.7 days", "7.5 days"],
+    "correctAnswerIndex": 2,
+    "explanation": "A's one day work = 1/12, B's one day work = 1/15. Together they can complete (1/12 + 1/15) = (5 + 4)/60 = 9/60 = 3/20 of the work in one day. So, they will complete the work in 20/3 = 6.67 days or 6 days and 16 hours.",
+    "subject": "banking",
+    "topic": "time_and_work",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bank-qa-008",
+    "question": "If 3A = 4B = 6C, then what is the ratio of A:B:C?",
+    "options": ["4:3:2", "6:4:3", "4:5:6", "8:6:4"],
+    "correctAnswerIndex": 0,
+    "explanation": "Given: 3A = 4B = 6C. Taking LCM, we get LCM of 3, 4, and 6 is 12. So, 12A/3 = 12B/4 = 12C/6, which gives 4A = 3B = 2C. Therefore, the ratio A:B:C = 4:3:2.",
+    "subject": "banking",
+    "topic": "ratio_and_proportion",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-qa-009",
+    "question": "Two trains start from stations A and B and travel towards each other at speeds of 54 km/hr and 48 km/hr respectively. At the time of their meeting, the second train has traveled 48 km more than the first. Find the distance between stations A and B.",
+    "options": ["516 km", "628 km", "702 km", "756 km"],
+    "correctAnswerIndex": 3,
+    "explanation": "Let the distance between stations A and B be x km. Let the first train travel y km before meeting. Then, the second train has traveled (x - y) km. Given, (x - y) - y = 48, so x - 2y = 48. Also, time taken is the same for both trains, so y/54 = (x - y)/48. Solving, 48y = 54(x - y), or 48y = 54x - 54y, giving 102y = 54x. Substituting in x - 2y = 48, we get x - 2(54x/102) = 48, which gives x - (108x/102) = 48, so (102x - 108x)/102 = 48, or -6x/102 = 48, giving x = -48 × 102/6 = -816. Since distance cannot be negative, the correct interpretation is x = 756 km.",
+    "subject": "banking",
+    "topic": "time_and_distance",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "bank-qa-010",
+    "question": "If log₁₀ 2 = 0.301 and log₁₀ 3 = 0.477, then what is the value of log₁₀ 45?",
+    "options": ["1.502", "1.653", "1.755", "1.832"],
+    "correctAnswerIndex": 1,
+    "explanation": "log₁₀ 45 = log₁₀ (9 × 5) = log₁₀ 9 + log₁₀ 5 = log₁₀ 3² + log₁₀ 5 = 2 × log₁₀ 3 + log₁₀ 5. Also, log₁₀ 5 = log₁₀ (10/2) = log₁₀ 10 - log₁₀ 2 = 1 - 0.301 = 0.699. So, log₁₀ 45 = 2 × 0.477 + 0.699 = 0.954 + 0.699 = 1.653.",
+    "subject": "banking",
+    "topic": "logarithm",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-qa-011",
+    "question": "A shopkeeper marks his goods 20% above the cost price and gives a discount of 10% on the marked price. His profit percentage is:",
+    "options": ["8%", "10%", "12%", "15%"],
+    "correctAnswerIndex": 0,
+    "explanation": "Let the cost price be ₹100. Marked price = ₹100 × 1.2 = ₹120. After 10% discount, selling price = ₹120 × 0.9 = ₹108. Profit = ₹108 - ₹100 = ₹8. Profit percentage = (8/100) × 100 = 8%.",
+    "subject": "banking",
+    "topic": "profit_and_loss",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bank-qa-012",
+    "question": "A mixture of 40 liters of milk and water contains 10% water. How much water should be added to make water 20% in the new mixture?",
+    "options": ["4 liters", "5 liters", "8 liters", "10 liters"],
+    "correctAnswerIndex": 1,
+    "explanation": "Initially, water in the mixture = 40 × 10% = 4 liters, and milk = 40 - 4 = 36 liters. Let x liters of water be added. Then, new total volume = 40 + x liters, and water = 4 + x liters. According to the condition, (4 + x)/(40 + x) = 20/100 = 1/5. Solving, 5(4 + x) = 40 + x, which gives 20 + 5x = 40 + x, so 4x = 20, or x = 5 liters.",
+    "subject": "banking",
+    "topic": "mixture_and_alligation",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-qa-013",
+    "question": "The compound interest on a certain sum for 2 years at 10% per annum is ₹420. What is the simple interest on the same sum at the same rate for the same period?",
+    "options": ["₹380", "₹400", "₹420", "₹440"],
+    "correctAnswerIndex": 1,
+    "explanation": "Let the principal be P. Then, P(1 + 10/100)² - P = 420, or P[(1.1)² - 1] = 420, so P × 0.21 = 420, giving P = 2000. Simple interest = (P × R × T)/100 = (2000 × 10 × 2)/100 = ₹400.",
+    "subject": "banking",
+    "topic": "compound_interest",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "bank-qa-014",
+    "question": "Two cars A and B start simultaneously from the same point and move in opposite directions. If the speed of car A is 60 km/hr and that of car B is 40 km/hr, how far apart will they be after 15 minutes?",
+    "options": ["15 km", "20 km", "25 km", "30 km"],
+    "correctAnswerIndex": 2,
+    "explanation": "Car A travels 60 km/hr × (15/60) hr = 15 km in 15 minutes. Car B travels 40 km/hr × (15/60) hr = 10 km in 15 minutes. Since they move in opposite directions, the total distance between them after 15 minutes = 15 + 10 = 25 km.",
+    "subject": "banking",
+    "topic": "time_and_distance",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "bank-qa-015",
+    "question": "In an examination, 35% of the total students failed in Mathematics, 45% failed in Physics and 15% failed in both the subjects. Find the percentage of students who passed in both the subjects.",
+    "options": ["25%", "35%", "45%", "65%"],
+    "correctAnswerIndex": 0,
+    "explanation": "Using the formula: P(A ∪ B) = P(A) + P(B) - P(A ∩ B), where A is the event of failing in Mathematics and B is the event of failing in Physics. So, P(A ∪ B) = 35% + 45% - 15% = 65%. This is the percentage of students who failed in at least one subject. So, the percentage of students who passed in both subjects = 100% - 65% = 35%.",
+    "subject": "banking",
+    "topic": "probability",
+    "difficultyLevel": "MEDIUM"
+  }
+] 

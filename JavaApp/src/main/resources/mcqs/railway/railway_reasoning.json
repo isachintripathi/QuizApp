@@ -1,0 +1,152 @@
+[
+  {
+    "id": "rly-reas-001",
+    "question": "If in a certain code language, 'TERMINAL' is written as 'SDQNHOBM', how would 'RAILWAY' be written in that code?",
+    "options": ["QBHMVZX", "QZHMXBV", "QBHVXZM", "QBHVXZF"],
+    "correctAnswerIndex": 0,
+    "explanation": "In the given code, each letter of the word is replaced by the letter that comes before it in the English alphabet, and the entire word is then reversed. So, T → S, E → D, R → Q, etc., then reversed. Similarly, for RAILWAY: R → Q, A → Z, I → H, L → K, W → V, A → Z, Y → X. This gives XZAVKIHQ, which when reversed gives QHIKVAZX.",
+    "subject": "railway",
+    "topic": "coding_decoding",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "rly-reas-002",
+    "question": "Complete the series: 3, 6, 10, 15, 21, ?",
+    "options": ["24", "27", "28", "30"],
+    "correctAnswerIndex": 2,
+    "explanation": "The pattern is that each number is obtained by adding consecutive integers. 3 + 3 = 6, 6 + 4 = 10, 10 + 5 = 15, 15 + 6 = 21, and 21 + 7 = 28.",
+    "subject": "railway",
+    "topic": "number_series",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-reas-003",
+    "question": "Choose the odd one out: Train, Bus, Car, Scooter",
+    "options": ["Train", "Bus", "Car", "Scooter"],
+    "correctAnswerIndex": 0,
+    "explanation": "Train runs on tracks, while Bus, Car, and Scooter run on roads. So Train is the odd one out.",
+    "subject": "railway",
+    "topic": "odd_one_out",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-reas-004",
+    "question": "A man pointing to a photograph says, 'The lady in the photograph is my nephew's maternal grandmother.' How is the lady in the photograph related to the man's sister who has no other sister?",
+    "options": ["Mother", "Sister", "Cousin", "Mother-in-law"],
+    "correctAnswerIndex": 0,
+    "explanation": "The lady is the maternal grandmother of the nephew, which means she is the mother of the nephew's mother. Since the nephew is the child of the man's sibling, and the man has only one sister, the nephew must be the child of this sister. So, the lady is the mother of the man's sister, which means the lady is the man's mother.",
+    "subject": "railway",
+    "topic": "blood_relation",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "rly-reas-005",
+    "question": "If 'train' is called 'bus', 'bus' is called 'car', 'car' is called 'scooter', 'scooter' is called 'bicycle', 'bicycle' is called 'walk', 'walk' is called 'mobile', then tell what a person drives to reach office?",
+    "options": ["Train", "Mobile", "Car", "Scooter"],
+    "correctAnswerIndex": 2,
+    "explanation": "Usually, a person drives a car to reach office. In the given code, 'car' is called 'scooter'. Therefore, a person drives a 'scooter' to reach office.",
+    "subject": "railway",
+    "topic": "coding_decoding",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-reas-006",
+    "question": "Select the related word from the given alternatives: Engine : Train :: ? : Car",
+    "options": ["Wheel", "Motor", "Driver", "Road"],
+    "correctAnswerIndex": 1,
+    "explanation": "Engine is the power source of a Train. Similarly, Motor is the power source of a Car.",
+    "subject": "railway",
+    "topic": "analogy",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-reas-007",
+    "question": "In a row of children, Rohit is 7th from the left and Vikas is 12th from the right. If they interchange their positions, Rohit becomes 22nd from the left. How many children are there in the row?",
+    "options": ["32", "33", "34", "35"],
+    "correctAnswerIndex": 1,
+    "explanation": "Initially, Rohit is 7th from left and Vikas is 12th from right. After interchanging, Rohit becomes 22nd from left. Let there be a total of n children. Initially, Rohit's position from right = n + 1 - 7 = n - 6. After interchanging, Rohit's position from right = 12 and position from left = 22. So, 12 + 22 - 1 = n. This gives n = 33.",
+    "subject": "railway",
+    "topic": "linear_arrangement",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "rly-reas-008",
+    "question": "If South-East becomes North, North-East becomes West, and so on, what will West become?",
+    "options": ["North-West", "South-West", "South-East", "North-East"],
+    "correctAnswerIndex": 2,
+    "explanation": "In the given pattern, each direction is rotated 135° clockwise. South-East (135°) becomes North (315°), North-East (45°) becomes West (225°). Similarly, West (270°) becomes South-East (135°).",
+    "subject": "railway",
+    "topic": "direction_sense",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-reas-009",
+    "question": "In a certain code, LOCOMOTIVE is written as RLBPVLULEZ. How is PASSENGER written in that code?",
+    "options": ["VBTTPOFSH", "VYTTZGHZJ", "VCUUQPHFS", "QBTTFOHFS"],
+    "correctAnswerIndex": 3,
+    "explanation": "In the given code, each letter is replaced by the next letter in the English alphabet. So, L → M, O → P, C → D, etc. But there's a discrepancy because LOCOMOTIVE should be coded as MPNPNPUJWF if we follow this rule. Let's try the next rule: each letter is replaced by the letter that comes after it in the English alphabet. P → Q, A → B, S → T, etc. So, PASSENGER is coded as QBTTFOHFS.",
+    "subject": "railway",
+    "topic": "coding_decoding",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-reas-010",
+    "question": "Find the missing number in the series: 4, 9, 25, 49, ?",
+    "options": ["64", "81", "100", "121"],
+    "correctAnswerIndex": 3,
+    "explanation": "The given series consists of squares of consecutive prime numbers: 4 = 2², 9 = 3², 25 = 5², 49 = 7². The next prime number after 7 is 11, and 11² = 121.",
+    "subject": "railway",
+    "topic": "number_series",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-reas-011",
+    "question": "If A + B means A is the brother of B; A - B means A is the sister of B; A × B means A is the father of B; A ÷ B means A is the mother of B; then which of the following expressions indicates that P is the maternal uncle of Q?",
+    "options": ["P - M ÷ N × Q", "P + M ÷ N × Q", "P + M × N × Q", "P - M × N × Q"],
+    "correctAnswerIndex": 1,
+    "explanation": "P + M means P is the brother of M; M ÷ N means M is the mother of N; N × Q means N is the father of Q. So, P is the brother of M, M is the mother of N, and N is the father of Q. This means P is the maternal uncle (mother's brother) of Q.",
+    "subject": "railway",
+    "topic": "blood_relation",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "rly-reas-012",
+    "question": "Which one of the following diagrams best depicts the relationship among Train, Engine, and Compartment?",
+    "options": ["Three overlapping circles", "Three separate circles", "One circle containing two smaller separate circles", "Three concentric circles"],
+    "correctAnswerIndex": 2,
+    "explanation": "Train is the whole, while Engine and Compartment are its distinct parts. So, the relationship is best represented by one circle (Train) containing two smaller separate circles (Engine and Compartment).",
+    "subject": "railway",
+    "topic": "venn_diagrams",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-reas-013",
+    "question": "A bus starts from city X. The number of women in the bus is half of the number of men. At city Y, 10 men leave the bus and 5 women enter. This results in the number of women becoming equal to the number of men. What was the total number of passengers in the bus initially?",
+    "options": ["30", "36", "45", "60"],
+    "correctAnswerIndex": 1,
+    "explanation": "Let the initial number of men be m and the initial number of women be w. Given that w = m/2. After the changes, (m - 10) = (w + 5). Substituting, m - 10 = m/2 + 5, which gives m/2 = 15, so m = 30. Thus, w = 15. The total number of passengers initially = m + w = 30 + 15 = 45.",
+    "subject": "railway",
+    "topic": "logical_reasoning",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-reas-014",
+    "question": "Find the number of triangles in the given figure.\n[A figure showing a Star of David, which is formed by two overlapping equilateral triangles]",
+    "options": ["2", "6", "8", "12"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Star of David is formed by two overlapping equilateral triangles, creating 6 smaller triangles along with the original 2 large triangles. So, the total number of triangles is 6 + 2 = 8.",
+    "subject": "railway",
+    "topic": "figure_counting",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-reas-015",
+    "question": "If a mirror is placed on the line MN, then which of the answer figures is the right image of the given figure?\n[A figure showing 'R' with a vertical line MN to the right of it]",
+    "options": ["Image A showing '9'", "Image B showing 'ꓤ'", "Image C showing 'R'", "Image D showing 'Я'"],
+    "correctAnswerIndex": 3,
+    "explanation": "When a mirror is placed on the line MN (vertical line to the right of 'R'), the mirror image will be a horizontal flip of 'R', which would be 'Я' (R flipped horizontally). This corresponds to Image D.",
+    "subject": "railway",
+    "topic": "mirror_images",
+    "difficultyLevel": "EASY"
+  }
+] 

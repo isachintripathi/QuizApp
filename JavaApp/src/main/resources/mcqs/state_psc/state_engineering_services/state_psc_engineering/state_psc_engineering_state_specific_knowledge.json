@@ -1,0 +1,17 @@
+﻿{
+    "subject": "state_specific_knowledge",
+    "questions": [
+        {
+            "id": "1",
+            "question": "Sample question for ",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Explanation for the correct answer"
+        }
+    ]
+}

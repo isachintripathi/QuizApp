@@ -1,0 +1,152 @@
+[
+  {
+    "id": "rly-ga-001",
+    "question": "Which of the following is the headquarters of the Central Railway?",
+    "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+    "correctAnswerIndex": 0,
+    "explanation": "The headquarters of the Central Railway is located in Mumbai, Maharashtra. It was earlier called the Great Indian Peninsula Railway.",
+    "subject": "railway",
+    "topic": "railway_organization",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-ga-002",
+    "question": "Which is the longest railway platform in India?",
+    "options": ["Gorakhpur", "Kharagpur", "Sonepur", "Hubli"],
+    "correctAnswerIndex": 1,
+    "explanation": "Kharagpur railway station in West Bengal has the longest railway platform in India with a length of 1,072 meters (3,517 feet). It was recorded in the Guinness Book of World Records.",
+    "subject": "railway",
+    "topic": "railway_general",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-ga-003",
+    "question": "The 'Palace on Wheels' luxury train was originally introduced to promote tourism in which state?",
+    "options": ["Madhya Pradesh", "Rajasthan", "Gujarat", "Maharashtra"],
+    "correctAnswerIndex": 1,
+    "explanation": "The 'Palace on Wheels' luxury train was introduced by the Indian Railways in collaboration with Rajasthan Tourism Development Corporation to promote tourism in Rajasthan. It was first launched in 1982.",
+    "subject": "railway",
+    "topic": "railway_tourism",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-ga-004",
+    "question": "Who was the first Railway Minister of independent India?",
+    "options": ["Lal Bahadur Shastri", "John Mathai", "Dr. B.R. Ambedkar", "Sardar Vallabhbhai Patel"],
+    "correctAnswerIndex": 1,
+    "explanation": "John Mathai was the first Railway Minister of independent India, serving from 1947 to 1948. He later served as the Finance Minister of India.",
+    "subject": "railway",
+    "topic": "railway_history",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-ga-005",
+    "question": "The first electric train in India ran between which two stations?",
+    "options": ["Bombay VT to Kurla", "Calcutta to Sealdah", "Madras to Tambaram", "Delhi to New Delhi"],
+    "correctAnswerIndex": 0,
+    "explanation": "The first electric train in India ran between Bombay Victoria Terminus (now Chhatrapati Shivaji Terminus) and Kurla on February 3, 1925. It was a significant milestone in the development of railway infrastructure in India.",
+    "subject": "railway",
+    "topic": "railway_history",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-ga-006",
+    "question": "In which year was the Railway Budget in India merged with the Union Budget?",
+    "options": ["2015", "2016", "2017", "2018"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Railway Budget was merged with the Union Budget in 2017. The then Finance Minister Arun Jaitley presented the first combined budget on February 1, 2017, ending a 92-year-old tradition of having a separate Railway Budget.",
+    "subject": "railway",
+    "topic": "railway_budget",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-ga-007",
+    "question": "Which is India's first semi-high speed train?",
+    "options": ["Shatabdi Express", "Rajdhani Express", "Duronto Express", "Gatimaan Express"],
+    "correctAnswerIndex": 3,
+    "explanation": "Gatimaan Express is India's first semi-high speed train, inaugurated on April 5, 2016. It runs between Delhi and Jhansi, with a maximum operational speed of 160 km/h.",
+    "subject": "railway",
+    "topic": "railway_technology",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-ga-008",
+    "question": "The Nilgiri Mountain Railway, a UNESCO World Heritage Site, is located in which state?",
+    "options": ["Kerala", "Karnataka", "Tamil Nadu", "Himachal Pradesh"],
+    "correctAnswerIndex": 2,
+    "explanation": "The Nilgiri Mountain Railway is located in Tamil Nadu. It was built by the British in 1908 and was declared a UNESCO World Heritage Site in 2005. It is a 46-km long meter-gauge single-track railway that connects Mettupalayam to Ooty.",
+    "subject": "railway",
+    "topic": "railway_heritage",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-ga-009",
+    "question": "The Indian Railways Institute of Mechanical and Electrical Engineering (IRIMEE) is located at?",
+    "options": ["Nasik", "Jamalpur", "Secunderabad", "Pune"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Indian Railways Institute of Mechanical and Electrical Engineering (IRIMEE) is located at Jamalpur in Bihar. It is the oldest of the five Centralised Training Institutes (CTIs) of Indian Railways.",
+    "subject": "railway",
+    "topic": "railway_education",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "rly-ga-010",
+    "question": "Which of the following is NOT a zonal headquarters of Indian Railways?",
+    "options": ["Hubli", "Bhubaneswar", "Jaipur", "Hajipur"],
+    "correctAnswerIndex": 2,
+    "explanation": "Jaipur is not a zonal headquarters of Indian Railways. Hubli is the headquarters of South Western Railway, Bhubaneswar of East Coast Railway, and Hajipur of East Central Railway. The North Western Railway has its headquarters at Jaipur.",
+    "subject": "railway",
+    "topic": "railway_zones",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "rly-ga-011",
+    "question": "Which train service connects India and Bangladesh?",
+    "options": ["Thar Express", "Samjhauta Express", "Maitree Express", "Maitreyi Express"],
+    "correctAnswerIndex": 2,
+    "explanation": "Maitree Express connects Kolkata (India) with Dhaka (Bangladesh). It was launched in April 2008 and is the first train service between the two countries since the partition of India in 1947.",
+    "subject": "railway",
+    "topic": "international_railways",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "rly-ga-012",
+    "question": "Who is known as the 'Father of Indian Railways'?",
+    "options": ["Lord Dalhousie", "Lord William Bentinck", "Lord Curzon", "Lord Ripon"],
+    "correctAnswerIndex": 0,
+    "explanation": "Lord Dalhousie, who was the Governor-General of India from 1848 to 1856, is known as the 'Father of Indian Railways'. Under his administration, the first railway line in India was opened in 1853 between Bombay and Thane.",
+    "subject": "railway",
+    "topic": "railway_history",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-ga-013",
+    "question": "Which of the following is India's first fully solar-powered railway station?",
+    "options": ["Guwahati", "Secunderabad", "Jaipur", "Kacheguda"],
+    "correctAnswerIndex": 3,
+    "explanation": "Kacheguda railway station in Hyderabad became India's first energy-efficient railway station with the installation of 500 kWp solar panels in 2017, making it the first fully solar-powered railway station in the country.",
+    "subject": "railway",
+    "topic": "railway_technology",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "rly-ga-014",
+    "question": "The first underground railway (Metro Rail) started in India in?",
+    "options": ["Delhi", "Kolkata", "Mumbai", "Chennai"],
+    "correctAnswerIndex": 1,
+    "explanation": "The first underground railway (Metro Rail) in India started in Kolkata on October 24, 1984. It was the first metro railway in India, with the first stretch operating between Esplanade and Bhowanipore (now Netaji Bhavan) stations.",
+    "subject": "railway",
+    "topic": "metro_rail",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "rly-ga-015",
+    "question": "Which is the longest railway bridge in India?",
+    "options": ["Vembanad Rail Bridge", "Bogibeel Bridge", "Vallarpadam Bridge", "Godavari Bridge"],
+    "correctAnswerIndex": 1,
+    "explanation": "The Bogibeel Bridge, located over the Brahmaputra River in Assam, is the longest rail-cum-road bridge in India with a length of 4.94 kilometers. It was inaugurated on December 25, 2018, and connects Dhemaji district and Dibrugarh district of Assam.",
+    "subject": "railway",
+    "topic": "railway_infrastructure",
+    "difficultyLevel": "MEDIUM"
+  }
+] 

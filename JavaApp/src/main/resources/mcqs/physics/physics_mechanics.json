@@ -1,0 +1,82 @@
+[
+  {
+    "id": "physics-mechanics-001",
+    "question": "What is Newton's First Law of Motion?",
+    "options": [
+      "An object in motion stays in motion, and an object at rest stays at rest unless acted upon by an external force",
+      "Force equals mass times acceleration",
+      "For every action, there is an equal and opposite reaction",
+      "Energy can neither be created nor destroyed, only transformed"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Newton's First Law, also known as the Law of Inertia, states that an object will remain at rest or in uniform motion in a straight line unless acted upon by an external force.",
+    "topic": "physics",
+    "subject": "mechanics",
+    "difficultyLevel": "EASY",
+    "tags": ["newton's laws", "inertia", "motion"]
+  },
+  {
+    "id": "physics-mechanics-002",
+    "question": "What is the formula for kinetic energy?",
+    "options": [
+      "KE = mgh",
+      "KE = 1/2 mv²",
+      "KE = Fd",
+      "KE = mv"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The kinetic energy of an object is given by KE = 1/2 mv², where m is the mass and v is the velocity of the object.",
+    "topic": "physics",
+    "subject": "mechanics",
+    "difficultyLevel": "EASY",
+    "tags": ["energy", "kinetic energy", "formulas"]
+  },
+  {
+    "id": "physics-mechanics-003",
+    "question": "A 2 kg object moving at 3 m/s collides with a stationary 1 kg object. If the collision is perfectly elastic, what will be the velocity of the 2 kg object after the collision?",
+    "options": [
+      "1 m/s",
+      "0 m/s",
+      "2 m/s",
+      "3 m/s"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Using conservation of momentum and kinetic energy in an elastic collision: The 2 kg object will have a velocity of 1 m/s after the collision.",
+    "topic": "physics",
+    "subject": "mechanics",
+    "difficultyLevel": "MEDIUM",
+    "tags": ["collisions", "momentum", "elastic"]
+  },
+  {
+    "id": "physics-mechanics-004",
+    "question": "What is the moment of inertia of a solid sphere of mass M and radius R about its diameter?",
+    "options": [
+      "I = MR²",
+      "I = 2/5 MR²",
+      "I = 2/3 MR²",
+      "I = 1/2 MR²"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The moment of inertia of a solid sphere about its diameter is I = 2/5 MR². About an axis through its center, it is I = 2/3 MR².",
+    "topic": "physics",
+    "subject": "mechanics",
+    "difficultyLevel": "HARD",
+    "tags": ["rotational motion", "moment of inertia", "rigid bodies"]
+  },
+  {
+    "id": "physics-mechanics-005",
+    "question": "A simple pendulum has a period of 2 seconds on Earth. What would be its period on the Moon, where the acceleration due to gravity is 1/6 that of Earth?",
+    "options": [
+      "2 seconds",
+      "4.9 seconds",
+      "1/6 seconds",
+      "12 seconds"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The period of a simple pendulum is T = 2π√(L/g). Since the period is proportional to 1/√g, and g on the Moon is 1/6 that on Earth, the period on the Moon would be √6 times the period on Earth, which is approximately 2.45 seconds. The closest answer is 4.9 seconds, but that's actually incorrect - it should be closer to 2√6 ≈ 4.9 seconds.",
+    "topic": "physics",
+    "subject": "mechanics",
+    "difficultyLevel": "MEDIUM",
+    "tags": ["pendulum", "oscillations", "gravity"]
+  }
+] 

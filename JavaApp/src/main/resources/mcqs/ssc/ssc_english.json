@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ssc-eng-001",
+    "question": "Choose the correctly spelt word.",
+    "options": ["Accomodation", "Acommodation", "Accommodation", "Acomodation"],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct spelling is 'Accommodation' with double 'c' and double 'm'.",
+    "subject": "ssc",
+    "topic": "spelling",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-eng-002",
+    "question": "Choose the word that is opposite in meaning to 'BENEVOLENT'.",
+    "options": ["Malevolent", "Generous", "Charitable", "Kind"],
+    "correctAnswerIndex": 0,
+    "explanation": "The word 'Benevolent' means kind, generous, and caring. Its antonym is 'Malevolent' which means having or showing a wish to do evil to others.",
+    "subject": "ssc",
+    "topic": "antonyms",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-eng-003",
+    "question": "Choose the alternative which best expresses the meaning of the idiom: 'To bite the dust'",
+    "options": ["To be disappointed", "To be defeated", "To die", "To be humiliated"],
+    "correctAnswerIndex": 2,
+    "explanation": "The idiom 'To bite the dust' means to die or to be killed. It can also mean to fail completely or to be defeated.",
+    "subject": "ssc",
+    "topic": "idioms_phrases",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-eng-004",
+    "question": "Choose the correct one-word substitute for 'A person who loves books'.",
+    "options": ["Bibliophile", "Bibliophobe", "Bibliographer", "Bibliomaniac"],
+    "correctAnswerIndex": 0,
+    "explanation": "A 'Bibliophile' is a person who loves or collects books. 'Bibliophobe' means someone who fears books, 'Bibliographer' is someone who writes about books, and 'Bibliomaniac' is someone who has an obsessive passion for collecting books.",
+    "subject": "ssc",
+    "topic": "one_word_substitution",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-eng-005",
+    "question": "Select the most appropriate meaning of the given idiom: 'To leave no stone unturned'",
+    "options": ["To try to move heavy objects", "To work in a quarry", "To destroy everything", "To try everything possible"],
+    "correctAnswerIndex": 3,
+    "explanation": "The idiom 'To leave no stone unturned' means to try everything possible in order to achieve something or find something.",
+    "subject": "ssc",
+    "topic": "idioms_phrases",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-eng-006",
+    "question": "Change the following sentence into indirect speech: He said, 'I am going to school.'",
+    "options": ["He said that he was going to school.", "He said that I am going to school.", "He said that he is going to school.", "He told that he was going to school."],
+    "correctAnswerIndex": 0,
+    "explanation": "When converting from direct to indirect speech, the present tense 'am' changes to past tense 'was'. So, 'He said, \"I am going to school.\"' becomes 'He said that he was going to school.'",
+    "subject": "ssc",
+    "topic": "direct_indirect_speech",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-eng-007",
+    "question": "Fill in the blank with the appropriate article: _____ European countries have adopted the Euro as their currency.",
+    "options": ["A", "An", "The", "No article required"],
+    "correctAnswerIndex": 2,
+    "explanation": "When referring to a specific group of countries, we use the definite article 'The'. In this case, we're referring to the specific European countries that have adopted the Euro, not all European countries.",
+    "subject": "ssc",
+    "topic": "articles",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-eng-008",
+    "question": "Identify the sentence with the correct use of punctuation.",
+    "options": ["The movie, which we saw yesterday was excellent.", "The movie which we saw yesterday, was excellent.", "The movie which we saw yesterday was excellent.", "The movie which we saw, yesterday was excellent."],
+    "correctAnswerIndex": 2,
+    "explanation": "When a relative clause is essential to the meaning of the sentence (restrictive clause), no commas are used. The clause 'which we saw yesterday' is essential because it specifies which movie is being referred to, so the correct sentence is 'The movie which we saw yesterday was excellent.'",
+    "subject": "ssc",
+    "topic": "punctuation",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "ssc-eng-009",
+    "question": "Choose the correct form of the verb to complete the sentence: Each of the students _____ a different topic for their project.",
+    "options": ["choose", "chooses", "chose", "chosen"],
+    "correctAnswerIndex": 1,
+    "explanation": "When 'each' is the subject of a sentence, it takes a singular verb. Therefore, the correct form is 'chooses' (present tense, third person singular).",
+    "subject": "ssc",
+    "topic": "subject_verb_agreement",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-eng-010",
+    "question": "Identify the part of speech of the underlined word in the sentence: She spoke very eloquently at the conference.",
+    "options": ["Noun", "Verb", "Adjective", "Adverb"],
+    "correctAnswerIndex": 3,
+    "explanation": "The word 'eloquently' modifies the verb 'spoke' by describing how she spoke. Words that modify verbs are adverbs.",
+    "subject": "ssc",
+    "topic": "parts_of_speech",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-eng-011",
+    "question": "Choose the word with the correct spelling.",
+    "options": ["Beleive", "Relieve", "Recieve", "Concieve"],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct spelling is 'Relieve'. The others should be spelled as 'Believe', 'Receive', and 'Conceive', following the rule 'i before e except after c'.",
+    "subject": "ssc",
+    "topic": "spelling",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-eng-012",
+    "question": "Identify the sentence with incorrect grammar.",
+    "options": ["Neither of the sisters were present at the ceremony.", "Both of them are good at mathematics.", "She and her friend are going to the party.", "The jury has reached its decision."],
+    "correctAnswerIndex": 0,
+    "explanation": "In the sentence 'Neither of the sisters were present at the ceremony', the verb should be singular ('was') because 'neither' is singular. The correct sentence would be 'Neither of the sisters was present at the ceremony.'",
+    "subject": "ssc",
+    "topic": "error_detection",
+    "difficultyLevel": "HARD"
+  },
+  {
+    "id": "ssc-eng-013",
+    "question": "Choose the appropriate preposition to complete the sentence: We arrived _____ the station at 6 o'clock.",
+    "options": ["at", "in", "on", "to"],
+    "correctAnswerIndex": 0,
+    "explanation": "The preposition 'at' is used with specific points or locations like stations, bus stops, etc. So, 'We arrived at the station at 6 o'clock' is correct.",
+    "subject": "ssc",
+    "topic": "prepositions",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "id": "ssc-eng-014",
+    "question": "Choose the word that is similar in meaning to 'CANDID'.",
+    "options": ["Honest", "Clever", "Careful", "Curious"],
+    "correctAnswerIndex": 0,
+    "explanation": "The word 'Candid' means truthful, straightforward, and frank. 'Honest' is most similar in meaning to 'Candid'.",
+    "subject": "ssc",
+    "topic": "synonyms",
+    "difficultyLevel": "MEDIUM"
+  },
+  {
+    "id": "ssc-eng-015",
+    "question": "Identify the sentence in the passive voice.",
+    "options": ["We have completed the task.", "The task has been completed by us.", "We are completing the task.", "The task is complete."],
+    "correctAnswerIndex": 1,
+    "explanation": "In passive voice, the subject receives the action of the verb. 'The task has been completed by us' is in passive voice because the subject 'task' receives the action 'completed'.",
+    "subject": "ssc",
+    "topic": "active_passive_voice",
+    "difficultyLevel": "MEDIUM"
+  }
+] 
