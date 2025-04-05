@@ -165,40 +165,51 @@ class HomeScreenState extends State<HomeScreen> {
                       return Card(
                         elevation: 3,
                         margin: const EdgeInsets.only(right: 10),
-                        child: InkWell(
-                          onTap: () {
-                            // Navigate to the topic selection screen
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => TopicSelectionScreen(
-                                  exam: exam.name,
-                                  groupId: exam.groupId,
-                                  subgroupId: exam.subgroupId,
-                                  examId: exam.examId,
+                        child: MouseRegion(
+                          cursor: SystemMouseCursors.click,
+                          child: Tooltip(
+                            message: exam.name,
+                            waitDuration: const Duration(milliseconds: 200),
+                            child: InkWell(
+                              onTap: () {
+                                // Navigate to the topic selection screen
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => TopicSelectionScreen(
+                                      exam: exam.name,
+                                      groupId: exam.groupId,
+                                      subgroupId: exam.subgroupId,
+                                      examId: exam.examId,
+                                    ),
+                                  ),
+                                ).then((_) {
+                                  // Refresh favorites when returning
+                                  loadFavorites();
+                                });
+                              },
+                              hoverColor: Theme.of(context).primaryColor.withOpacity(0.1),
+                              child: Container(
+                                width: 150,
+                                padding: const EdgeInsets.all(12),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Icon(Icons.school, color: Theme.of(context).primaryColor),
+                                    const SizedBox(height: 8),
+                                    Text(
+                                      exam.name,
+                                      style: const TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 14,
+                                      ),
+                                      maxLines: 2,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ],
                                 ),
                               ),
-                            );
-                          },
-                          child: Container(
-                            width: 150,
-                            padding: const EdgeInsets.all(12),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Icon(Icons.school, color: Theme.of(context).primaryColor),
-                                const SizedBox(height: 8),
-                                Text(
-                                  exam.name,
-                                  style: const TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 14,
-                                  ),
-                                  maxLines: 2,
-                                  overflow: TextOverflow.ellipsis,
-                                ),
-                              ],
                             ),
                           ),
                         ),

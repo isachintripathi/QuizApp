@@ -60,25 +60,97 @@ class GroupSelectionScreenState extends State<GroupSelectionScreen> {
           ? const Center(child: CircularProgressIndicator())
           : errorMessage != null
           ? Center(child: Text(errorMessage!))
-          : ListView.builder(
-        itemCount: groups.length,
-        itemBuilder: (context, index) {
-          return ListTile(
-            title: Text(groups[index]),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => SubGroupSelectionScreen(
-                    group: groups[index],
-                    groupId: groupsData[index]['id'],
-                  ),
+          : Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: GridView.builder(
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 3,
+                  childAspectRatio: 1.25,
+                  crossAxisSpacing: 12,
+                  mainAxisSpacing: 12,
                 ),
-              );
-            },
-          );
-        },
-      ),
+                itemCount: groups.length,
+                itemBuilder: (context, index) {
+                  final groupName = groups[index];
+                  final groupId = groupsData[index]['id'];
+                  
+                  // Choose an icon based on group name
+                  IconData iconData;
+                  if (groupName.toLowerCase().contains('teaching') || 
+                      groupName.toLowerCase().contains('education')) {
+                    iconData = Icons.school;
+                  } else if (groupName.toLowerCase().contains('banking')) {
+                    iconData = Icons.account_balance;
+                  } else if (groupName.toLowerCase().contains('defence') || 
+                            groupName.toLowerCase().contains('military')) {
+                    iconData = Icons.security;
+                  } else if (groupName.toLowerCase().contains('engineering')) {
+                    iconData = Icons.engineering;
+                  } else if (groupName.toLowerCase().contains('medical')) {
+                    iconData = Icons.medical_services;
+                  } else {
+                    iconData = Icons.book;
+                  }
+                  
+                  return Card(
+                    elevation: 4,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: MouseRegion(
+                      cursor: SystemMouseCursors.click,
+                      child: Tooltip(
+                        message: groupName,
+                        waitDuration: const Duration(milliseconds: 200),
+                        child: InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => SubGroupSelectionScreen(
+                                  group: groupName,
+                                  groupId: groupId,
+                                ),
+                              ),
+                            );
+                          },
+                          borderRadius: BorderRadius.circular(12),
+                          hoverColor: Theme.of(context).primaryColor.withOpacity(0.1),
+                          child: SizedBox(
+                            width: 150,
+                            height: 120,
+                            child: Padding(
+                              padding: const EdgeInsets.all(12.0),
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Icon(
+                                    iconData,
+                                    size: 48,
+                                    color: Theme.of(context).primaryColor,
+                                  ),
+                                  const SizedBox(height: 12),
+                                  Text(
+                                    groupName,
+                                    textAlign: TextAlign.center,
+                                    style: const TextStyle(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                    maxLines: 2,
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ),
     );
   }
 }

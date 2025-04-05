@@ -173,7 +173,7 @@ class TopicSelectionScreenState extends State<TopicSelectionScreen> {
                       ),
                     ),
                   ).then((_) => loadFavoriteStatus());
-                
+                } else if (categories[index] == 'Live Lecture') {
                   // Show videos
                   Navigator.push(
                     context,

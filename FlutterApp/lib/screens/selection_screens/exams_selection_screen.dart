@@ -102,40 +102,119 @@ class ExamSelectionScreenState extends State<ExamSelectionScreen> {
           ? const Center(child: CircularProgressIndicator())
           : errorMessage != null
           ? Center(child: Text(errorMessage!))
-          : ListView.builder(
-        itemCount: exams.length,
-        itemBuilder: (context, index) {
-          final examId = examsData[index]['id'];
-          final isFavorite = favoriteStatus[examId] ?? false;
-          
-          return ListTile(
-            title: Text(exams[index]),
-            trailing: IconButton(
-              icon: Icon(
-                isFavorite ? Icons.favorite : Icons.favorite_border,
-                color: isFavorite ? Colors.red : null,
-              ),
-              onPressed: () => toggleFavorite(index),
-            ),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => TopicSelectionScreen(
-                    exam: exams[index],
-                    groupId: widget.groupId,
-                    subgroupId: widget.subgroupId,
-                    examId: examsData[index]['id'],
-                  ),
+          : Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: GridView.builder(
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 3,
+                  childAspectRatio: 1.25,
+                  crossAxisSpacing: 12,
+                  mainAxisSpacing: 12,
                 ),
-              ).then((_) {
-                // Refresh favorite status when returning from topic screen
-                fetchExams();
-              });
-            },
-          );
-        },
-      ),
+                itemCount: exams.length,
+                itemBuilder: (context, index) {
+                  final examName = exams[index];
+                  final examId = examsData[index]['id'];
+                  final isFavorite = favoriteStatus[examId] ?? false;
+                  
+                  // Choose an icon based on exam name
+                  IconData iconData;
+                  if (examName.toLowerCase().contains('upsc') || 
+                      examName.toLowerCase().contains('civil')) {
+                    iconData = Icons.account_balance;
+                  } else if (examName.toLowerCase().contains('gate') || 
+                           examName.toLowerCase().contains('engineering')) {
+                    iconData = Icons.engineering;
+                  } else if (examName.toLowerCase().contains('neet') || 
+                           examName.toLowerCase().contains('medical')) {
+                    iconData = Icons.medical_services;
+                  } else if (examName.toLowerCase().contains('bank') || 
+                           examName.toLowerCase().contains('sbi')) {
+                    iconData = Icons.account_balance_wallet;
+                  } else if (examName.toLowerCase().contains('ssc') || 
+                           examName.toLowerCase().contains('staff')) {
+                    iconData = Icons.badge;
+                  } else if (examName.toLowerCase().contains('ctet') || 
+                           examName.toLowerCase().contains('teaching')) {
+                    iconData = Icons.school;
+                  } else {
+                    iconData = Icons.quiz;
+                  }
+                  
+                  return Card(
+                    elevation: 4,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: MouseRegion(
+                      cursor: SystemMouseCursors.click,
+                      child: Tooltip(
+                        message: examName,
+                        waitDuration: const Duration(milliseconds: 200),
+                        child: InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => TopicSelectionScreen(
+                                  exam: examName,
+                                  groupId: widget.groupId,
+                                  subgroupId: widget.subgroupId,
+                                  examId: examId,
+                                ),
+                              ),
+                            ).then((_) {
+                              // Refresh favorite status when returning from topic screen
+                              fetchExams();
+                            });
+                          },
+                          borderRadius: BorderRadius.circular(12),
+                          hoverColor: Theme.of(context).primaryColor.withOpacity(0.1),
+                          child: SizedBox(
+                            width: 150,
+                            height: 120,
+                            child: Padding(
+                              padding: const EdgeInsets.all(12.0),
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Icon(
+                                    iconData,
+                                    size: 40,
+                                    color: Theme.of(context).primaryColor,
+                                  ),
+                                  const SizedBox(height: 12),
+                                  Text(
+                                    examName,
+                                    textAlign: TextAlign.center,
+                                    style: const TextStyle(
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                    maxLines: 2,
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
+                                  const SizedBox(height: 8),
+                                  IconButton(
+                                    icon: Icon(
+                                      isFavorite ? Icons.favorite : Icons.favorite_border,
+                                      color: isFavorite ? Colors.red : Colors.grey,
+                                    ),
+                                    onPressed: () => toggleFavorite(index),
+                                    padding: EdgeInsets.zero,
+                                    constraints: const BoxConstraints(),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ),
     );
   }
 }
