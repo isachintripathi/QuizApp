@@ -22,6 +22,7 @@ public class SubjectListDeserializer extends JsonDeserializer<List<Subject>> {
                 Subject subject = new Subject();
                 if (subjectNode.isObject()) {
                     subject.setName(subjectNode.get("name").asText());
+//                    subject.setId(subjectNode.get("id").asText());
                     // Set other fields if they exist in the JSON
                     if (subjectNode.has("pdfs")) {
                         List<String> pdfs = new ArrayList<>();

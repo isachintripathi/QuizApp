@@ -23,29 +23,37 @@ public class MockTestController {
     @Autowired
     private MCQService mcqService;
 
-    @GetMapping("/groups")
+    @GetMapping(value = "/groups", produces = "application/json; charset=UTF-8")
     public ResponseEntity<List<Group>> getGroups() {
         return ResponseEntity.ok(dataService.getGroups());
     }
 
-    @GetMapping("/subgroups/{groupId}")
+    @GetMapping(value = "/subgroups/{groupId}", produces = "application/json; charset=UTF-8")
     public ResponseEntity<List<Subgroup>> getSubgroups(@PathVariable String groupId) {
         return ResponseEntity.ok(dataService.getSubgroups(groupId));
     }
 
-    @GetMapping("/exams/{groupId}/{subgroupId}")
+    @GetMapping(value = "/exams/{groupId}/{subgroupId}",produces = "application/json; charset=UTF-8")
     public ResponseEntity<List<Exam>> getExams(@PathVariable String groupId, @PathVariable String subgroupId) {
         return ResponseEntity.ok(dataService.getExams(groupId, subgroupId));
     }
 
-    @GetMapping("/subjects/{groupId}/{subgroupId}/{examId}")
-    public ResponseEntity<List<Subject>> getSubjects(@PathVariable String groupId, 
+    @GetMapping(value = "/subjects/{groupId}/{subgroupId}/{examId}", produces = "application/json; charset=UTF-8")
+    public ResponseEntity<List<Subject>> getSubjects(@PathVariable String groupId,
                                                    @PathVariable String subgroupId,
                                                    @PathVariable String examId) {
         return ResponseEntity.ok(dataService.getSubjects(groupId, subgroupId, examId));
     }
 
-    @GetMapping("/pdfs/{groupId}/{subgroupId}/{examId}/{subject}")
+    @GetMapping(value = "/chapters/{groupId}/{subgroupId}/{examId}/{subjectId}", produces = "application/json; charset=UTF-8")
+    public ResponseEntity<List<Chapter>> getChapters(@PathVariable String groupId,
+                                                     @PathVariable String subgroupId,
+                                                     @PathVariable String examId,
+                                                     @PathVariable String subjectId) {
+        return ResponseEntity.ok(dataService.getChapters(groupId, subgroupId, examId, subjectId));
+    }
+
+    @GetMapping(value = "/pdfs/{groupId}/{subgroupId}/{examId}/{subject}", produces = "application/json; charset=UTF-8")
     public ResponseEntity<List<String>> getPdfs(@PathVariable String groupId,
                                               @PathVariable String subgroupId,
                                               @PathVariable String examId,
@@ -58,7 +66,7 @@ public class MockTestController {
                 .orElse(ResponseEntity.ok(new ArrayList<>()));
     }
 
-    @GetMapping("/docs/{groupId}/{subgroupId}/{examId}/{subject}")
+    @GetMapping(value = "/docs/{groupId}/{subgroupId}/{examId}/{subject}",produces = "application/json; charset=UTF-8")
     public ResponseEntity<List<String>> getDocs(@PathVariable String groupId,
                                               @PathVariable String subgroupId,
                                               @PathVariable String examId,
@@ -71,7 +79,7 @@ public class MockTestController {
                 .orElse(ResponseEntity.ok(new ArrayList<>()));
     }
 
-    @GetMapping("/videos/{groupId}/{subgroupId}/{examId}/{subject}")
+    @GetMapping(value = "/videos/{groupId}/{subgroupId}/{examId}/{subject}",produces = "application/json; charset=UTF-8")
     public ResponseEntity<List<String>> getVideos(@PathVariable String groupId,
                                                 @PathVariable String subgroupId,
                                                 @PathVariable String examId,
@@ -84,12 +92,12 @@ public class MockTestController {
                 .orElse(ResponseEntity.ok(new ArrayList<>()));
     }
 
-    @GetMapping("/mcqs/{subject}")
-    public ResponseEntity<List<MCQ>> getMCQs(@PathVariable String subject) {
-        return ResponseEntity.ok(mcqService.getMCQsBySubject(subject));
+    @GetMapping(value = "/mcqs/{subjectId}",produces = "application/json; charset=UTF-8")
+    public ResponseEntity<List<MCQ>> getMCQs(@PathVariable String subjectId) {
+        return ResponseEntity.ok(mcqService.getMCQsBySubject(subjectId));
     }
 
-    @GetMapping("/mcqs")
+    @GetMapping(value = "/mcqs",produces = "application/json; charset=UTF-8")
     public ResponseEntity<List<MCQ>> getMCQs(
             @RequestParam(required = false) String topic,
             @RequestParam String subject,
@@ -108,14 +116,14 @@ public class MockTestController {
         return ResponseEntity.ok(result);
     }
 
-    @GetMapping("/mcq-stats")
+    @GetMapping(value = "/mcq-stats",produces = "application/json; charset=UTF-8")
     public Map<String, Object> getMcqStats() {
         Map<String, Object> stats = new HashMap<>();
         stats.put("totalMCQs", mcqService.getTotalMCQCount());
         return stats;
     }
 
-    @PostMapping("/reset-mcq-tracking")
+    @PostMapping(value = "/reset-mcq-tracking",produces = "application/json; charset=UTF-8")
     public Map<String, String> resetMcqTracking(@RequestParam(required = false) String userId) {
         mcqService.resetRecentlyServedMCQs();
         Map<String, String> response = new HashMap<>();
