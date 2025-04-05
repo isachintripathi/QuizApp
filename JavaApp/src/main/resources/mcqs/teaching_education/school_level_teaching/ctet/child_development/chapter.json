@@ -1,0 +1,245 @@
+{
+  "subject": "chapter",
+  "questions": [
+    {
+      "id": "1",
+      "question": "शिशु अवस्था में निम्नलिखित में से कौन सा गुण देखने को नहीं मिलता?",
+      "options": [
+        "शारीरिक विकास की तीव्र गति",
+        "सूक्ष्म मोटर कौशलों का विकास",
+        "दूध के दाँतों का गिरना",
+        "सार्वभौमिक सोच का विकास"
+      ],
+      "correctAnswer": 3,
+      "explanation": "सार्वभौमिक सोच किशोरावस्था में विकसित होती है, न कि शिशु अवस्था में। शिशु अवस्था में मुख्य रूप से शारीरिक विकास और मोटर कौशल विकसित होते हैं।"
+    },
+    {
+      "id": "2",
+      "question": "पियाजे के संज्ञानात्मक विकास सिद्धांत के अनुसार, 2 से 7 वर्ष की आयु के बच्चों की विशेषता क्या होती है?",
+      "options": [
+        "संवेदी-मोटर अवस्था",
+        "पूर्व संक्रियात्मक अवस्था",
+        "ठोस संक्रियात्मक अवस्था",
+        "औपचारिक संक्रियात्मक अवस्था"
+      ],
+      "correctAnswer": 1,
+      "explanation": "2 से 7 वर्ष की आयु में बच्चे पूर्व संक्रियात्मक अवस्था में होते हैं, जहाँ वे प्रतीकात्मक सोच और काल्पनिक खेलों का उपयोग करना शुरू करते हैं।"
+    },
+    {
+      "id": "3",
+      "question": "बाल विकास के प्रमुख सिद्धांतकार कौन हैं जिन्होंने 'सांस्कृतिक ऐतिहासिक सिद्धांत' प्रस्तुत किया?",
+      "options": [
+        "जीन पियाजे",
+        "लैव वायगोत्स्की",
+        "बी. एफ. स्किनर",
+        "अल्बर्ट बांदुरा"
+      ],
+      "correctAnswer": 1,
+      "explanation": "लैव वायगोत्स्की ने 'सांस्कृतिक ऐतिहासिक सिद्धांत' प्रस्तुत किया, जिसमें सामाजिक और सांस्कृतिक परिवेश को सीखने में महत्वपूर्ण माना गया।"
+    },
+    {
+      "id": "4",
+      "question": "कौन सा कारक बच्चे के संज्ञानात्मक विकास को प्रभावित नहीं करता?",
+      "options": [
+        "आनुवंशिकता",
+        "पर्यावरण",
+        "माता-पिता का व्यवसाय",
+        "पोषण"
+      ],
+      "correctAnswer": 2,
+      "explanation": "बच्चे के संज्ञानात्मक विकास को आनुवंशिकता, पर्यावरण और पोषण प्रभावित करते हैं, जबकि माता-पिता का व्यवसाय इसका प्रत्यक्ष कारक नहीं होता।"
+    },
+    {
+      "id": "5",
+      "question": "'निकटस्थ विकास क्षेत्र' की अवधारणा किस मनोवैज्ञानिक ने दी?",
+      "options": [
+        "पियाजे",
+        "स्किनर",
+        "वायगोत्स्की",
+        "फ्रायड"
+      ],
+      "correctAnswer": 2,
+      "explanation": "लैव वायगोत्स्की ने 'निकटस्थ विकास क्षेत्र' की अवधारणा दी, जो यह दर्शाती है कि बच्चे शिक्षण और सहयोग के माध्यम से अधिक कुशलता से सीख सकते हैं।"
+    },
+    {
+      "id": "6",
+      "question": "बाल मनोविज्ञान में 'अनुकरण सिद्धांत' किसने दिया?",
+      "options": [
+        "जॉन वाटसन",
+        "अल्बर्ट बांदुरा",
+        "स्किनर",
+        "वायगोत्स्की"
+      ],
+      "correctAnswer": 1,
+      "explanation": "अल्बर्ट बांदुरा ने 'अनुकरण सिद्धांत' प्रस्तुत किया, जिसमें उन्होंने पर्यवेक्षण और मॉडलिंग के माध्यम से सीखने को समझाया।"
+    },
+    {
+      "id": "7",
+      "question": "'सकारात्मक सुदृढ़ीकरण' की अवधारणा किस सिद्धांत से संबंधित है?",
+      "options": [
+        "संज्ञानात्मक विकास सिद्धांत",
+        "संचालन कंडीशनिंग",
+        "मनोविश्लेषण सिद्धांत",
+        "सामाजिक अधिगम सिद्धांत"
+      ],
+      "correctAnswer": 1,
+      "explanation": "स्किनर के संचालन कंडीशनिंग सिद्धांत में 'सकारात्मक सुदृढ़ीकरण' की अवधारणा दी गई है, जो यह दर्शाता है कि एक व्यवहार को पुरस्कृत करने से उसकी पुनरावृत्ति की संभावना बढ़ती है।"
+    },
+    {
+      "id": "8",
+      "question": "बालक की भाषा का विकास मुख्य रूप से किस पर निर्भर करता है?",
+      "options": [
+        "अनुवांशिकता",
+        "सामाजिक वातावरण",
+        "बुद्धि स्तर",
+        "इनमें से सभी"
+      ],
+      "correctAnswer": 3,
+      "explanation": "भाषा विकास अनुवांशिकता, सामाजिक वातावरण और बुद्धि स्तर सहित विभिन्न कारकों पर निर्भर करता है।"
+    },
+    {
+      "id": "9",
+      "question": "किस सिद्धांत के अनुसार बच्चे का संज्ञानात्मक विकास विभिन्न चरणों में होता है?",
+      "options": [
+        "सामाजिक अधिगम सिद्धांत",
+        "संज्ञानात्मक विकास सिद्धांत",
+        "संचालन कंडीशनिंग",
+        "मनोविश्लेषण सिद्धांत"
+      ],
+      "correctAnswer": 1,
+      "explanation": "जीन पियाजे के संज्ञानात्मक विकास सिद्धांत के अनुसार, संज्ञानात्मक विकास विभिन्न चरणों में होता है।"
+    },
+    {
+      "id": "10",
+      "question": "बाल विकास में खेल की भूमिका क्या है?",
+      "options": [
+        "सामाजिक विकास",
+        "भावनात्मक विकास",
+        "भाषा कौशल विकास",
+        "उपरोक्त सभी"
+      ],
+      "correctAnswer": 3,
+      "explanation": "खेल बच्चों के सामाजिक, भावनात्मक और भाषा कौशल विकास में मदद करता है, इसलिए सभी विकल्प सही हैं।"
+    },
+    {
+      "id": "11",
+      "question": "शिक्षण-अधिगम प्रक्रिया में प्रेरणा की भूमिका क्या होती है? / What is the role of motivation in the teaching-learning process?",
+      "options": [
+        "यह सीखने की गति को बढ़ाती है / It accelerates the pace of learning",
+        "यह सीखने की दिशा निर्धारित करती है / It determines the direction of learning",
+        "यह बच्चे को चुनौतियों का सामना करने के लिए प्रेरित करती है / It encourages the child to face challenges",
+        "उपरोक्त सभी / All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "प्रेरणा सीखने की गति, दिशा और चुनौतियों को अपनाने की प्रवृत्ति को बढ़ाती है। / Motivation enhances the pace, direction, and willingness to accept challenges in learning."
+    },
+    {
+      "id": "12",
+      "question": "बच्चों में नैतिक विकास का प्रमुख सिद्धांतकार कौन है? / Who is the main theorist of moral development in children?",
+      "options": [
+        "पियाजे / Piaget",
+        "कोहलबर्ग / Kohlberg",
+        "स्किनर / Skinner",
+        "वायगोत्स्की / Vygotsky"
+      ],
+      "correctAnswer": 1,
+      "explanation": "लॉरेंस कोहलबर्ग ने नैतिक विकास के सिद्धांत को प्रस्तुत किया, जिसमें उन्होंने तीन स्तरों में नैतिक विकास को विभाजित किया। / Lawrence Kohlberg proposed the theory of moral development, dividing it into three levels."
+    },
+    {
+      "id": "13",
+      "question": "बालकों में सीखने की क्षमता को कौन से कारक प्रभावित करते हैं? / Which factors influence children's learning ability?",
+      "options": [
+        "आनुवंशिकता / Heredity",
+        "पर्यावरण / Environment",
+        "शिक्षण विधि / Teaching method",
+        "उपरोक्त सभी / All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "सीखने की क्षमता आनुवंशिकता, पर्यावरण और शिक्षण विधि जैसे विभिन्न कारकों से प्रभावित होती है। / Learning ability is influenced by various factors such as heredity, environment, and teaching methods."
+    },
+    {
+      "id": "14",
+      "question": "वायगोत्स्की के अनुसार, बच्चे का संज्ञानात्मक विकास किस पर निर्भर करता है? / According to Vygotsky, what does a child's cognitive development depend on?",
+      "options": [
+        "सामाजिक संपर्क / Social interaction",
+        "स्वतंत्र अन्वेषण / Independent exploration",
+        "आनुवंशिकी / Genetics",
+        "कोई प्रभाव नहीं / No influence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "वायगोत्स्की के अनुसार, सामाजिक संपर्क बच्चे के संज्ञानात्मक विकास का प्रमुख कारक है। / According to Vygotsky, social interaction is the key factor in a child's cognitive development."
+    },
+    {
+      "id": "15",
+      "question": "बाल विकास में 'सक्रिय अधिगम' का क्या अर्थ है? / What does 'active learning' mean in child development?",
+      "options": [
+        "बच्चा स्वेच्छा से सीखता है / The child learns voluntarily",
+        "शिक्षक द्वारा पूरी तरह निर्देशित अधिगम / Learning is fully teacher-directed",
+        "केवल पुस्तकों से सीखना / Learning only from books",
+        "सुनने और याद करने पर आधारित अधिगम / Learning based on listening and memorization"
+      ],
+      "correctAnswer": 0,
+      "explanation": "सक्रिय अधिगम का अर्थ है कि बच्चा स्वयं प्रयोग और अन्वेषण के माध्यम से सीखता है। / Active learning means that the child learns through experimentation and exploration."
+    },
+    {
+      "id": "16",
+      "question": "शिक्षकों के लिए गार्डनर के बहु-बुद्धि सिद्धांत का क्या महत्व है? / What is the significance of Gardner's multiple intelligence theory for teachers?",
+      "options": [
+        "सभी बच्चे एक ही प्रकार से सीखते हैं / All children learn the same way",
+        "बच्चों के विभिन्न प्रकार की बुद्धियों को पहचानने और समर्थन देने में मदद करता है / It helps recognize and support different types of intelligence in children",
+        "केवल गणितीय बुद्धि को महत्व देता है / It only emphasizes mathematical intelligence",
+        "यह सिद्धांत अप्रासंगिक है / This theory is irrelevant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "गार्डनर का बहु-बुद्धि सिद्धांत शिक्षकों को यह समझने में मदद करता है कि बच्चे विभिन्न तरीकों से सीखते हैं और उनकी विशिष्ट क्षमताओं को बढ़ावा देना आवश्यक है। / Gardner's multiple intelligence theory helps teachers understand that children learn in different ways, and it is essential to nurture their unique abilities."
+    },
+    {
+      "id": "17",
+      "question": "बाल विकास में खेल का क्या महत्व है? / What is the significance of play in child development?",
+      "options": [
+        "यह बच्चों के शारीरिक विकास में सहायक होता है / It aids in children's physical development",
+        "यह सामाजिक और संज्ञानात्मक कौशल को बढ़ावा देता है / It promotes social and cognitive skills",
+        "यह बच्चों की रचनात्मकता को विकसित करता है / It fosters children's creativity",
+        "उपरोक्त सभी / All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "खेल बाल विकास में महत्वपूर्ण भूमिका निभाता है क्योंकि यह शारीरिक, संज्ञानात्मक, सामाजिक और रचनात्मक विकास को बढ़ावा देता है। / Play plays a crucial role in child development as it enhances physical, cognitive, social, and creative growth."
+    },
+    {
+      "id": "18",
+      "question": "सीखने में सहयोगी अधिगम का क्या महत्व है? / What is the importance of cooperative learning in education?",
+      "options": [
+        "यह समूह में काम करने की भावना को बढ़ावा देता है / It promotes teamwork",
+        "यह सामाजिक कौशल विकसित करता है / It develops social skills",
+        "यह ज्ञान साझा करने में सहायक होता है / It helps in knowledge sharing",
+        "उपरोक्त सभी / All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "सहयोगी अधिगम विद्यार्थियों को मिलकर सीखने, सामाजिक कौशल विकसित करने और ज्ञान साझा करने में मदद करता है। / Cooperative learning helps students learn together, develop social skills, and share knowledge."
+    },
+    {
+      "id": "19",
+      "question": "बालकों में रचनात्मकता को बढ़ावा देने के लिए क्या किया जाना चाहिए?",
+      "options": [
+        "उन्हें स्वतंत्र रूप से सोचने और खोजने के अवसर देना",
+        "केवल पाठ्यक्रम आधारित शिक्षा पर ध्यान देना",
+        "उनके विचारों को नियंत्रित करना",
+        "केवल रटने पर जोर देना"
+      ],
+      "correctAnswer": 0,
+      "explanation": "बच्चों में रचनात्मकता को बढ़ावा देने के लिए उन्हें स्वतंत्र रूप से सोचने और खोजने के अवसर देना आवश्यक है।"
+    },
+    {
+      "id": "20",
+      "question": "बच्चों में अनुशासन विकसित करने का सबसे प्रभावी तरीका क्या है?",
+      "options": [
+        "उन्हें दंडित करना",
+        "उन्हें समझाना और उदाहरण देना",
+        "उन्हें धमकाना",
+        "उन्हें कड़े नियमों में बांधना"
+      ],
+      "correctAnswer": 1,
+      "explanation": "अनुशासन विकसित करने का सबसे अच्छा तरीका बच्चों को उचित व्यवहार समझाना और उदाहरण देना है।"
+    }
+  ]
+}

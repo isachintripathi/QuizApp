@@ -1,442 +1,64 @@
 {
   "groups": [
     {
-      "id": "upsc",
-      "name": "UPSC",
-    "subgroups": [
-      {
-          "id": "civil_services",
-          "name": "Civil Services",
-        "exams": [
-          {
-              "id": "ias",
-              "name": "Civil Services Examination (IAS, IPS, IFS, IRS)",
-              "description": "Preliminary, Main, and Interview stages",
-              "subjects": ["general_studies", "optional_subjects", "essay", "current_affairs"]
-              }
-            ]
-          },
-          {
-          "id": "engineering_services",
-          "name": "Engineering & Scientific Services",
-        "exams": [
-          {
-              "id": "ies",
-              "name": "Indian Engineering Services (IES/ESE)",
-              "description": "Engineering Services Examination",
-              "subjects": ["engineering", "general_studies", "technical_subjects"]
-            },
+      "id": "teaching_education",
+      "name": "Teaching & Education",
+      "subgroups": [
+        {
+          "id": "school_level_teaching",
+          "name": "School-Level Teaching Exams",
+          "exams": [
             {
-              "id": "ifs",
-              "name": "Indian Forest Service (IFS)",
-              "description": "Forest Service Examination",
-              "subjects": ["forestry", "general_studies", "optional_subjects"]
-              }
-            ]
-          },
-          {
-          "id": "defence_services",
-          "name": "Defence Services",
-        "exams": [
-          {
-              "id": "cds",
-              "name": "Combined Defence Services (CDS)",
-              "description": "Officer Selection in Army, Navy, and Air Force",
-              "subjects": ["english", "general_knowledge", "elementary_mathematics"]
-            },
-            {
-              "id": "nda",
-              "name": "National Defence Academy (NDA) & Naval Academy (NA)",
-              "description": "Entry to NDA and Naval Academy",
-              "subjects": ["mathematics", "general_ability_test"]
-            },
-            {
-              "id": "capf",
-              "name": "Central Armed Police Forces (CAPF)",
-              "description": "Assistant Commandant Selection",
-              "subjects": ["general_studies", "general_intelligence", "essay"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-      "id": "ssc",
-      "name": "SSC",
-    "subgroups": [
-      {
-          "id": "graduate_level",
-          "name": "Graduate Level Exams",
-        "exams": [
-          {
-              "id": "cgl",
-              "name": "SSC CGL (Combined Graduate Level)",
-              "description": "Tier I, II, III, and IV selection process",
-              "subjects": ["general_intelligence", "general_awareness", "quantitative_aptitude", "english"]
-              }
-            ]
-          },
-          {
-          "id": "higher_secondary",
-          "name": "Higher Secondary Level Exams",
-        "exams": [
-          {
-              "id": "chsl",
-              "name": "SSC CHSL (Combined Higher Secondary Level)",
-              "description": "Tier I and II selection process",
-              "subjects": ["general_intelligence", "general_awareness", "quantitative_aptitude", "english"]
-            },
-            {
-              "id": "stenographer",
-              "name": "SSC Stenographer (Grade C & D)",
-              "description": "Written exam and skill test",
-              "subjects": ["general_intelligence", "general_awareness", "english", "stenography"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-      "id": "banking",
-      "name": "Banking & Insurance",
-    "subgroups": [
-      {
-          "id": "banking_exams",
-          "name": "Banking Exams",
-        "exams": [
-          {
-              "id": "ibps_po",
-              "name": "IBPS PO (Probationary Officer)",
-              "description": "Preliminary, Main, and Interview stages",
-              "subjects": ["reasoning", "english", "quantitative_aptitude", "general_awareness", "computer_knowledge"]
-            },
-            {
-              "id": "ibps_clerk",
-              "name": "IBPS Clerk",
-              "description": "Preliminary and Main stages",
-              "subjects": ["reasoning", "english", "numerical_ability", "general_awareness", "computer_knowledge"]
-            },
-            {
-              "id": "sbi_po",
-              "name": "SBI PO",
-              "description": "Preliminary, Main, and Interview stages",
-              "subjects": ["reasoning", "english", "quantitative_aptitude", "general_awareness", "computer_knowledge"]
-              }
-            ]
-          },
-          {
-          "id": "insurance_exams",
-          "name": "Insurance Exams",
-        "exams": [
-          {
-              "id": "lic_aao",
-              "name": "LIC AAO (Assistant Administrative Officer)",
-              "description": "Preliminary, Main, and Interview stages",
-              "subjects": ["reasoning", "english", "quantitative_aptitude", "general_awareness", "computer_knowledge"]
-            },
-            {
-              "id": "nabard",
-              "name": "NABARD Grade A & B",
-              "description": "Preliminary, Main, and Interview stages",
-              "subjects": ["reasoning", "english", "quantitative_aptitude", "general_awareness", "economic_social_issues"]
-              }
-            ]
-          }
-        ]
-  },
-  {
-    "id": "railway",
-    "name": "Railway Exams (RRB – Railway Recruitment Board)",
-    "subgroups": [
-      {
-        "id": "non_technical_posts",
-        "name": "Non-Technical Posts",
-        "exams": [
-          {
-            "id": "rrb_ntpc",
-            "name": "RRB NTPC (Non-Technical Popular Categories)",
-            "description": "Recruitment for various non-technical posts",
-            "subjects": ["general_intelligence", "general_awareness", "mathematics", "reasoning"]
-          },
-          {
-            "id": "rrb_group_d",
-            "name": "RRB Group D",
-            "description": "Recruitment for Level 1 posts",
-            "subjects": ["general_intelligence", "general_awareness", "mathematics", "general_science"]
-          }
-        ]
-      },
-      {
-        "id": "technical_safety_posts",
-        "name": "Technical & Safety Posts",
-        "exams": [
-          {
-            "id": "rrb_je",
-            "name": "RRB JE (Junior Engineer)",
-            "description": "Recruitment for junior engineers",
-            "subjects": ["general_intelligence", "general_awareness", "technical_ability", "mathematics"]
-          },
-          {
-            "id": "rrb_alp",
-            "name": "RRB ALP (Assistant Loco Pilot)",
-            "description": "Recruitment for Assistant Loco Pilots",
-            "subjects": ["general_intelligence", "general_awareness", "mathematics", "general_science"]
-          },
-          {
-            "id": "rrb_paramedical",
-            "name": "RRB Paramedical & Ministerial Categories",
-            "description": "Recruitment for paramedical and ministerial staff",
-            "subjects": ["general_intelligence", "general_awareness", "technical_knowledge", "professional_knowledge"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "state_psc",
-    "name": "State Public Service Commissions (PSC)",
-    "subgroups": [
-      {
-        "id": "administrative_services",
-        "name": "Administrative Services (State Civil Services)",
-        "exams": [
-          {
-            "id": "state_civil_services",
-            "name": "UPPSC, BPSC, RPSC, MPPSC, MPSC, TNPSC, KPSC, WBPSC, etc.",
-            "description": "State civil services examinations",
-            "subjects": ["general_studies", "optional_subjects", "current_affairs", "state_specific_knowledge"]
-          }
-        ]
-      },
-      {
-        "id": "state_police_services",
-        "name": "State Police Services",
-        "exams": [
-          {
-            "id": "state_police_exams",
-            "name": "State SI & Constable Exams (UP Police, MP Police, Maharashtra Police, etc.)",
-            "description": "State police recruitment examinations",
-            "subjects": ["general_intelligence", "general_knowledge", "physical_fitness", "state_specific_knowledge"]
-          }
-        ]
-      },
-      {
-        "id": "state_engineering_services",
-        "name": "State Engineering Services",
-        "exams": [
-          {
-            "id": "state_psc_engineering",
-            "name": "State PSC Engineering Exams (Assistant Engineer & Junior Engineer)",
-            "description": "State engineering services examinations",
-            "subjects": ["engineering_subjects", "general_studies", "technical_knowledge", "state_specific_knowledge"]
-          }
-        ]
-      },
-      {
-        "id": "misc_state_exams",
-        "name": "Miscellaneous State Exams",
-        "exams": [
-          {
-            "id": "state_revenue_officer",
-            "name": "State Revenue Officer, Tax Officer, and other departmental exams",
-            "description": "Various state departmental examinations",
-            "subjects": ["general_studies", "departmental_knowledge", "state_specific_rules", "administration"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "defence_paramilitary",
-    "name": "Defence & Paramilitary Forces",
-    "subgroups": [
-      {
-        "id": "indian_armed_forces",
-        "name": "Indian Armed Forces",
-        "exams": [
-          {
-            "id": "afcat",
-            "name": "AFCAT (Air Force Common Admission Test)",
-            "description": "Selection for officers in Indian Air Force",
-            "subjects": ["general_awareness", "verbal_ability", "numerical_ability", "reasoning", "military_aptitude"]
-          },
-          {
-            "id": "nda_na",
-            "name": "NDA & NA (National Defence Academy & Naval Academy)",
-            "description": "Selection for entry into Defence academies",
-            "subjects": ["mathematics", "general_ability", "ssb_interview"]
-          },
-          {
-            "id": "cds",
-            "name": "CDS (Combined Defence Services)",
-            "description": "Selection for officers in Army, Navy, and Air Force",
-            "subjects": ["english", "general_knowledge", "elementary_mathematics"]
-          }
-        ]
-      },
-      {
-        "id": "paramilitary_police_forces",
-        "name": "Paramilitary & Police Forces",
-        "exams": [
-          {
-            "id": "capf_ac",
-            "name": "CAPF (Assistant Commandant)",
-            "description": "Selection for Assistant Commandant in CAPFs",
-            "subjects": ["general_studies", "general_ability", "intelligence", "professional_skills"]
-          },
-          {
-            "id": "icg",
-            "name": "Indian Coast Guard – Assistant Commandant & Navik (GD/DB)",
-            "description": "Selection for various posts in Indian Coast Guard",
-            "subjects": ["general_awareness", "mathematics", "english", "reasoning", "aptitude"]
-          },
-          {
-            "id": "ssc_cpo",
-            "name": "SSC CPO (Sub-Inspector in Delhi Police, CAPFs, CISF, etc.)",
-            "description": "Selection for Sub-Inspector posts",
-            "subjects": ["general_intelligence", "general_knowledge", "quantitative_aptitude", "english"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "teaching_education",
-    "name": "Teaching & Education",
-    "subgroups": [
-      {
-        "id": "school_level_teaching",
-        "name": "School-Level Teaching Exams",
-        "exams": [
-          {
-            "id": "ctet",
-            "name": "CTET (Central Teacher Eligibility Test)",
-            "description": "Eligibility test for teacher recruitment in central government schools",
-            "subjects": ["child_development", "pedagogy", "language_skills", "subject_knowledge"]
-          },
-          {
-            "id": "state_tet",
-            "name": "UPTET, HTET, MPTET, etc. (State Teacher Eligibility Tests)",
-            "description": "Eligibility tests for teacher recruitment in state government schools",
-            "subjects": ["child_development", "pedagogy", "language_skills", "subject_knowledge"]
-          },
-          {
-            "id": "kvs_nvs",
-            "name": "KVS (Kendriya Vidyalaya Sangathan) & NVS (Navodaya Vidyalaya Samiti)",
-            "description": "Selection for teachers in KVS and NVS schools",
-            "subjects": ["teaching_methodology", "subject_knowledge", "general_awareness", "reasoning"]
-          },
-          {
-            "id": "dsssb",
-            "name": "DSSSB (Delhi Subordinate Services Selection Board)",
-            "description": "Selection for teaching posts in Delhi government schools",
-            "subjects": ["general_awareness", "reasoning", "subject_knowledge", "teaching_aptitude"]
-          }
-        ]
-      },
-      {
-        "id": "college_university_level",
-        "name": "College & University-Level Exams",
-        "exams": [
-          {
-            "id": "ugc_net",
-            "name": "UGC NET (National Eligibility Test for Assistant Professor & JRF)",
-            "description": "Selection for Assistant Professor and Junior Research Fellowship",
-            "subjects": ["teaching_aptitude", "research_methodology", "subject_specific_knowledge"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "judicial_services",
-    "name": "Judicial Services",
-    "subgroups": [
-      {
-        "id": "lower_judiciary",
-        "name": "Lower Judiciary Exams",
-        "exams": [
-          {
-            "id": "pcs_j",
-            "name": "PCS J (Provincial Civil Services – Judicial)",
-            "description": "Selection for judicial officers at district level",
-            "subjects": ["law", "judgement_writing", "legal_knowledge", "reasoning"]
-          }
-        ]
-      },
-      {
-        "id": "higher_judiciary",
-        "name": "Higher Judiciary Exams",
-        "exams": [
-          {
-            "id": "district_judge",
-            "name": "District Judge Entry-Level Exams",
-            "description": "Selection for district judge positions",
-            "subjects": ["civil_law", "criminal_law", "constitutional_law", "legal_experience"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "psu_exams",
-    "name": "PSU (Public Sector Undertaking) Exams",
-    "subgroups": [
-      {
-        "id": "engineering_psu",
-        "name": "Engineering-Based PSU Exams",
-        "exams": [
-          {
-            "id": "gate_psu",
-            "name": "GATE (For PSU recruitment in IOCL, ONGC, BHEL, etc.)",
-            "description": "Selection for technical positions in PSUs through GATE scores",
-            "subjects": ["engineering_subjects", "aptitude", "technical_knowledge"]
-          },
-          {
-            "id": "energy_psu",
-            "name": "NTPC, HPCL, BPCL, CIL recruitment exams",
-            "description": "Direct recruitment in energy and mining sector PSUs",
-            "subjects": ["technical_knowledge", "general_awareness", "aptitude", "reasoning"]
-          }
-        ]
-      },
-      {
-        "id": "non_engineering_psu",
-        "name": "Non-Engineering PSU Exams",
-        "exams": [
-          {
-            "id": "fssai",
-            "name": "FSSAI (Food Safety and Standards Authority of India)",
-            "description": "Recruitment for various positions in FSSAI",
-            "subjects": ["food_safety", "general_awareness", "aptitude", "domain_knowledge"]
-          },
-          {
-            "id": "scientific_orgs",
-            "name": "DRDO, ISRO, BARC Scientist Recruitment",
-            "description": "Selection for scientist positions in research organizations",
-            "subjects": ["scientific_knowledge", "research_aptitude", "technical_skills"]
-          },
-          {
-            "id": "epfo",
-            "name": "EPFO (Employees' Provident Fund Organization) Exams",
-            "description": "Recruitment for various positions in EPFO",
-            "subjects": ["general_awareness", "quantitative_aptitude", "reasoning", "english"]
-          },
-          {
-            "id": "ib_exams",
-            "name": "IB (Intelligence Bureau) ACIO & Security Assistant",
-            "description": "Recruitment for intelligence and security positions",
-            "subjects": ["general_awareness", "reasoning", "quantitative_aptitude", "english"]
-          },
-          {
-            "id": "esic",
-            "name": "ESIC (Employees' State Insurance Corporation) Exams",
-            "description": "Recruitment for various positions in ESIC",
-            "subjects": ["general_awareness", "reasoning", "quantitative_aptitude", "english"]
-          }
-        ]
-      }
-    ]
-  }
-]
+              "id": "ctet",
+              "name": "CTET (Central Teacher Eligibility Test)",
+              "description": "Eligibility test for teacher recruitment in central government schools",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
