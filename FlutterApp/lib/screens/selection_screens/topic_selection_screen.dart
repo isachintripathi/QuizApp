@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../../enum/material_type.dart';
 import '../category_material_screen.dart';
 import 'mocktest_option_selection_screen.dart';
+import '../../services/favorite_service.dart';
 
 const String baseApiUrl = 'http://localhost:8080/api';
 
@@ -39,18 +40,74 @@ class TopicSelectionScreenState extends State<TopicSelectionScreen> {
     'Notes'
   ];
 
-  bool isLoading = false;
+  bool isLoading = true;
   String? errorMessage;
+  bool isFavorite = false;
 
   @override
   void initState() {
     super.initState();
+    loadFavoriteStatus();
+  }
+
+  Future<void> loadFavoriteStatus() async {
+    setState(() {
+      isLoading = true;
+    });
+    
+    try {
+      final status = await FavoriteService.isFavorite(widget.examId);
+      setState(() {
+        isFavorite = status;
+        isLoading = false;
+      });
+    } catch (e) {
+      print('Error checking favorite status: $e');
+      setState(() {
+        isLoading = false;
+      });
+    }
+  }
+
+  Future<void> toggleFavorite() async {
+    final favoriteExam = FavoriteExam(
+      id: widget.examId,
+      name: widget.exam,
+      groupId: widget.groupId,
+      subgroupId: widget.subgroupId,
+      examId: widget.examId,
+    );
+    
+    final result = await FavoriteService.toggleFavorite(favoriteExam);
+    
+    if (result) {
+      setState(() {
+        isFavorite = !isFavorite;
+      });
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(isFavorite ? 'Added to favorites' : 'Removed from favorites'),
+          duration: const Duration(seconds: 2),
+        ),
+      );
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Study Material for ${widget.exam}')),
+      appBar: AppBar(
+        title: Text('Study Material for ${widget.exam}'),
+        actions: [
+          IconButton(
+            icon: Icon(
+              isFavorite ? Icons.favorite : Icons.favorite_border,
+              color: isFavorite ? Colors.red : null,
+            ),
+            onPressed: toggleFavorite,
+          ),
+        ],
+      ),
       body: isLoading
           ? const Center(child: CircularProgressIndicator())
           : errorMessage != null
@@ -101,7 +158,7 @@ class TopicSelectionScreenState extends State<TopicSelectionScreen> {
                         // subjectId: widget.subjectId,
                       ),
                     ),
-                  );
+                  ).then((_) => loadFavoriteStatus());
                 } else if (categories[index] == 'PYQs') {
                   // Show PDFs
                   Navigator.push(
@@ -115,8 +172,8 @@ class TopicSelectionScreenState extends State<TopicSelectionScreen> {
                         examId: widget.examId,
                       ),
                     ),
-                  );
-                } else if (categories[index] == 'Live Lecture') {
+                  ).then((_) => loadFavoriteStatus());
+                
                   // Show videos
                   Navigator.push(
                     context,
@@ -129,7 +186,7 @@ class TopicSelectionScreenState extends State<TopicSelectionScreen> {
                         examId: widget.examId,
                       ),
                     ),
-                  );
+                  ).then((_) => loadFavoriteStatus());
                 } else if (categories[index] == 'Syllabus') {
                   // Show docs
                   Navigator.push(
@@ -143,7 +200,7 @@ class TopicSelectionScreenState extends State<TopicSelectionScreen> {
                         examId: widget.examId,
                       ),
                     ),
-                  );
+                  ).then((_) => loadFavoriteStatus());
                 } else if (categories[index] == 'Notes') {
                   // Show PDFs and docs
                   Navigator.push(
@@ -157,7 +214,7 @@ class TopicSelectionScreenState extends State<TopicSelectionScreen> {
                         examId: widget.examId,
                       ),
                     ),
-                  );
+                  ).then((_) => loadFavoriteStatus());
                 }
               },
             ),

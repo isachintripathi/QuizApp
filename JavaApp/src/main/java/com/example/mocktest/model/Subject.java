@@ -39,7 +39,7 @@ public class Subject {
         return id;
     }
 
-    public void setId(String name) {
+    public void setId(String id) {
         this.id = id;
     }
 

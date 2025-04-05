@@ -85,8 +85,16 @@ public class MCQService {
                         mcq.setSubject(subject);
                         // Extract exam name from file name (format: examname_subjectname.json)
                         String fileName = file.getFileName().toString();
-                        String examName = fileName.substring(0, fileName.indexOf('_'));
-                        mcq.setTopic(examName);
+                        int underscoreIndex = fileName.indexOf('_');
+                        if (underscoreIndex > 0) {
+                            String examName = fileName.substring(0, underscoreIndex);
+                            mcq.setTopic(examName);
+                        } else {
+                            // If no underscore found, use the filename without extension as the topic
+                            int dotIndex = fileName.lastIndexOf('.');
+                            String examName = dotIndex > 0 ? fileName.substring(0, dotIndex) : fileName;
+                            mcq.setTopic(examName);
+                        }
                     });
                     
                     mcqs.addAll(fileMcqs);

@@ -20,6 +20,13 @@ public class Chapter {
         this.name = name;
         this.mcqs = new ArrayList<>();
     }
+    
+    // Add a single string constructor for direct deserialization from string
+    public Chapter(String name) {
+        this.name = name;
+        this.id = name.replaceAll("\\s+", "_").toLowerCase();
+        this.mcqs = new ArrayList<>();
+    }
 
     public String getName() {
         return name;

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'dart:async';
+import '../../services/favorite_service.dart';
 
 import 'topic_selection_screen.dart';
 
@@ -29,6 +30,7 @@ class ExamSelectionScreen extends StatefulWidget {
 class ExamSelectionScreenState extends State<ExamSelectionScreen> {
   List<String> exams = [];
   List<dynamic> examsData = [];
+  Map<String, bool> favoriteStatus = {};
   bool isLoading = true;
   String? errorMessage;
 
@@ -45,9 +47,18 @@ class ExamSelectionScreenState extends State<ExamSelectionScreen> {
       final response = await http.get(Uri.parse(apiUrl));
       if (response.statusCode == 200) {
         final List<dynamic> data = json.decode(response.body);
+        
+        // Get initial favorite status for all exams
+        Map<String, bool> initialFavorites = {};
+        for (var exam in data) {
+          String examId = exam['id'];
+          initialFavorites[examId] = await FavoriteService.isFavorite(examId);
+        }
+        
         setState(() {
           examsData = data;
           exams = data.map((exam) => exam['name'] as String).toList();
+          favoriteStatus = initialFavorites;
           isLoading = false;
         });
       } else {
@@ -57,6 +68,28 @@ class ExamSelectionScreenState extends State<ExamSelectionScreen> {
       setState(() {
         errorMessage = "Error: ${e.toString()}";
         isLoading = false;
+      });
+    }
+  }
+
+  Future<void> toggleFavorite(int index) async {
+    final exam = examsData[index];
+    final examId = exam['id'];
+    final examName = exam['name'];
+    
+    final favoriteExam = FavoriteExam(
+      id: examId,
+      name: examName,
+      groupId: widget.groupId,
+      subgroupId: widget.subgroupId,
+      examId: examId
+    );
+    
+    final result = await FavoriteService.toggleFavorite(favoriteExam);
+    
+    if (result) {
+      setState(() {
+        favoriteStatus[examId] = !favoriteStatus[examId]!;
       });
     }
   }
@@ -72,8 +105,18 @@ class ExamSelectionScreenState extends State<ExamSelectionScreen> {
           : ListView.builder(
         itemCount: exams.length,
         itemBuilder: (context, index) {
+          final examId = examsData[index]['id'];
+          final isFavorite = favoriteStatus[examId] ?? false;
+          
           return ListTile(
             title: Text(exams[index]),
+            trailing: IconButton(
+              icon: Icon(
+                isFavorite ? Icons.favorite : Icons.favorite_border,
+                color: isFavorite ? Colors.red : null,
+              ),
+              onPressed: () => toggleFavorite(index),
+            ),
             onTap: () {
               Navigator.push(
                 context,
@@ -85,7 +128,10 @@ class ExamSelectionScreenState extends State<ExamSelectionScreen> {
                     examId: examsData[index]['id'],
                   ),
                 ),
-              );
+              ).then((_) {
+                // Refresh favorite status when returning from topic screen
+                fetchExams();
+              });
             },
           );
         },

@@ -21,7 +21,7 @@ public class MockTestController {
     private DataService dataService;
 
     @Autowired
-    private MCQService mcqService;
+    private MCQService  mcqService;
 
     @GetMapping(value = "/groups", produces = "application/json; charset=UTF-8")
     public ResponseEntity<List<Group>> getGroups() {

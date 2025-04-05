@@ -106,6 +106,8 @@ class SubjectListScreenState extends State<SubjectListScreen> {
                 onTap: () {
                   if (widget.isChapterWiseTest) {
                     // For chapter mock tests, go to the Chapter lists
+                    final String subjectId = subject['id']?.toString() ?? subject['name']?.toString() ?? 'unknown';
+                    
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -114,8 +116,8 @@ class SubjectListScreenState extends State<SubjectListScreen> {
                           groupId: widget.groupId,
                           subgroupId: widget.subgroupId,
                           examId: widget.examId,
-                          subjectId: subjectsData[index]['name'],
-                          subject: subjectsData[index]['name'],
+                          subjectId: subjectId,
+                          subject: subjectName,
                         ),
                       ),
                     );

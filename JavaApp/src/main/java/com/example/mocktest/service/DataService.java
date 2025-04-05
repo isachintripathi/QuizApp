@@ -85,7 +85,15 @@ public class DataService {
                 .flatMap(s -> s.getExams().stream())
                 .filter(e -> e.getId().equals(examId))
                 .flatMap(e -> e.getSubjects().stream())
-                .filter(s-> s.getId().equals(subjectId))
+                .filter(s -> {
+                    // Match by ID if not null, otherwise try to match by name
+                    if (s.getId() != null) {
+                        return s.getId().equals(subjectId);
+                    } else if (s.getName() != null) {
+                        return s.getName().equals(subjectId);
+                    }
+                    return false;
+                })
                 .findFirst()
                 .map(Subject::getChapters)
                 .orElse(new ArrayList<>());
