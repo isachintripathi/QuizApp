@@ -11,11 +11,14 @@ dependencies:
     sdk: flutter
   http: ^0.13.3
   uuid: ^3.0.7
-  # path_provider: ^2.0.0
+  path_provider: ^2.1.1
   # share_plus: ^4.0.0
   pdf: ^3.10.7
   shared_preferences: ^2.2.2
-  # open_file: ^3.3.2
+  open_file: ^3.3.2
+  provider: ^6.0.5
+  intl: ^0.19.0
+  # url_launcher: ^6.1.12
   # printing: ^5.11.1
 
 dev_dependencies:
@@ -26,6 +29,7 @@ dev_dependencies:
 flutter:
   assets:
     - assets/fonts/NotoSansDevanagari-Regular.ttf
+    - assets/sample_pdfs.json
   uses-material-design: true
   fonts:
     - family: NotoSansDevanagari

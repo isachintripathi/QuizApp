@@ -1,11 +1,12 @@
-import '../../Helper/user_session.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'mcq_review_screen.dart';
 import 'dart:convert';
 import 'dart:async';
+import '../../Helper/user_session.dart';
+import '../../utils/subject_id_mapper.dart';
 
-const String baseApiUrl = 'http://localhost:8080/api';
+const String baseApiUrl = 'http://192.168.1.37:8080/api';
 // ===============================
 // 7 MCQ Quiz Screen
 // ===============================
@@ -100,13 +101,76 @@ class MCQQuizScreenState extends State<MCQQuizScreen> {
 
   Future<void> fetchMCQs() async {
     try {
-      // Use the simpler MCQ endpoint that just takes a subject
-      final response = await http.get(
-          Uri.parse('$baseApiUrl/mcqs/${widget.subject}')
-      );
+      // Convert subject name to subjectId using the mapper
+      String subjectId = SubjectIdMapper.getSubjectId(widget.subject);
+      
+      // Debug: Print subject and mapped ID
+      print("Original subject: '${widget.subject}'");
+      print("Mapped to subjectId: '$subjectId'");
+      
+      // Use the MCQ endpoint with the correct subjectId
+      final Uri uri = Uri.parse('$baseApiUrl/mcqs/$subjectId');
+      print("Requesting MCQs from: $uri");
+      
+      final response = await http.get(uri);
 
       if (response.statusCode == 200) {
         List<dynamic> mcqData = json.decode(response.body);
+
+        // Check if we're dealing with CTET Child Development questions
+        bool isCtetChildDevelopment = widget.subject.toLowerCase().contains('child_development') || 
+                                     (mcqData.isNotEmpty && mcqData[0]['id'].toString().contains('ctet'));
+
+        // If this is CTET Child Development and we have fewer than 20 questions
+        // we want to ensure we use all available questions without repetition
+        if (isCtetChildDevelopment) {
+          // For CTET Child Development, use all 20 questions without repetition
+          print("Handling CTET Child Development questions (${mcqData.length} total questions)");
+          
+          // If all 20 questions have been seen, clear history to start fresh
+          if (mcqData.length <= UserSession().recentMcqIds.length) {
+            print("All questions have been seen, clearing history");
+            UserSession().clearRecentMcqs();
+          }
+          
+          // First, separate questions into seen and unseen
+          List<dynamic> unseenQuestions = [];
+          List<dynamic> seenQuestions = [];
+          
+          for (var mcq in mcqData) {
+            if (UserSession().hasSeen(mcq['id'].toString())) {
+              seenQuestions.add(mcq);
+            } else {
+              unseenQuestions.add(mcq);
+            }
+          }
+          
+          print("Found ${unseenQuestions.length} unseen questions and ${seenQuestions.length} seen questions");
+          
+          // Create a list with unseen questions first, then add seen ones if needed
+          List<dynamic> orderedMcqs = [...unseenQuestions];
+          
+          // If we don't have enough unseen questions, add some seen ones
+          if (orderedMcqs.length < widget.questionCount && seenQuestions.isNotEmpty) {
+            // Shuffle seen questions to avoid repetitive patterns
+            seenQuestions.shuffle();
+            orderedMcqs.addAll(seenQuestions);
+          }
+          
+          // Limit to requested question count
+          if (orderedMcqs.length > widget.questionCount && widget.questionCount > 0) {
+            orderedMcqs = orderedMcqs.sublist(0, widget.questionCount);
+          }
+          
+          mcqData = orderedMcqs;
+        } else {
+          // For other subjects, use the original logic with shuffling
+          // If we have more MCQs than requested, take a random subset
+          if (mcqData.length > widget.questionCount && widget.questionCount > 0) {
+            mcqData.shuffle();
+            mcqData = mcqData.sublist(0, widget.questionCount);
+          }
+        }
 
         setState(() {
           mcqs = mcqData.map((mcq) => {
@@ -118,12 +182,6 @@ class MCQQuizScreenState extends State<MCQQuizScreen> {
             'difficultyLevel': mcq['difficultyLevel'] ?? 'MEDIUM'
           }).toList();
 
-          // If we have more MCQs than requested, take a random subset
-          if (mcqs.length > widget.questionCount && widget.questionCount > 0) {
-            mcqs.shuffle();
-            mcqs = mcqs.sublist(0, widget.questionCount);
-          }
-
           userAnswers = List.filled(mcqs.length, null);
           isLoading = false;
         });
@@ -131,7 +189,7 @@ class MCQQuizScreenState extends State<MCQQuizScreen> {
         // Record these MCQs in the user session
         for (var mcq in mcqs) {
           if (mcq['id'] != null) {
-            UserSession().recordMcq(mcq['id']);
+            UserSession().recordMcq(mcq['id'].toString());
           }
         }
       } else {

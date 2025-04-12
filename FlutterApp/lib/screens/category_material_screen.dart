@@ -4,8 +4,9 @@ import 'dart:convert';
 import 'dart:async';
 import '../model/subject.dart';
 import '../enum/material_type.dart';
+import '../widgets/custom_app_bar.dart';
 
-const String baseApiUrl = 'http://localhost:8080/api';
+const String baseApiUrl = 'http://192.168.1.37:8080/api';
 // ===============================
 // CategoryMaterialScreen - For category-specific materials
 // ===============================
@@ -83,7 +84,7 @@ class CategoryMaterialScreenState extends State<CategoryMaterialScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(widget.title)),
+      appBar: CustomAppBar(title: 'Materials by Category'),
       body: isLoading
           ? const Center(child: CircularProgressIndicator())
           : errorMessage != null

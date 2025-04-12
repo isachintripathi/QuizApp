@@ -4,8 +4,9 @@ import 'dart:convert';
 import 'dart:async';
 
 import '../enum/material_type.dart';
+import '../widgets/custom_app_bar.dart';
 
-const String baseApiUrl = 'http://localhost:8080/api';
+const String baseApiUrl = 'http://192.168.1.37:8080/api';
 
 // ===============================
 // Topic Material Screen (for direct material display)
@@ -66,16 +67,24 @@ class TopicMaterialScreenState extends State<TopicMaterialScreen> {
 
   Future<void> fetchMaterialsForSubject(String subject) async {
     try {
+      // Extract path components from topic (assuming format: "Group/Subgroup/Exam")
+      List<String> pathParts = widget.topic.split('/');
+      String groupId = pathParts.isNotEmpty ? pathParts[0] : "default";
+      String subgroupId = pathParts.length > 1 ? pathParts[1] : "default";
+      String examId = pathParts.length > 2 ? pathParts[2] : "default";
+      
       if (widget.materialType == MaterialTypes.pdf ||
           widget.materialType == MaterialTypes.pdfAndDoc ||
           widget.materialType == MaterialTypes.all) {
         final pdfResponse = await http.get(
-            Uri.parse('$baseApiUrl/pdfs?topic=${widget.topic}&subject=$subject')
+            Uri.parse('$baseApiUrl/pdfs/$groupId/$subgroupId/$examId/$subject')
         );
         if (pdfResponse.statusCode == 200) {
           setState(() {
             pdfs.addAll(List<String>.from(json.decode(pdfResponse.body)));
           });
+        } else {
+          print("PDF API Error: ${pdfResponse.statusCode}");
         }
       }
 
@@ -83,24 +92,28 @@ class TopicMaterialScreenState extends State<TopicMaterialScreen> {
           widget.materialType == MaterialTypes.pdfAndDoc ||
           widget.materialType == MaterialTypes.all) {
         final docResponse = await http.get(
-            Uri.parse('$baseApiUrl/docs?topic=${widget.topic}&subject=$subject')
+            Uri.parse('$baseApiUrl/docs/$groupId/$subgroupId/$examId/$subject')
         );
         if (docResponse.statusCode == 200) {
           setState(() {
             docs.addAll(List<String>.from(json.decode(docResponse.body)));
           });
+        } else {
+          print("Docs API Error: ${docResponse.statusCode}");
         }
       }
 
       if (widget.materialType == MaterialTypes.video ||
           widget.materialType == MaterialTypes.all) {
         final videoResponse = await http.get(
-            Uri.parse('$baseApiUrl/videos?topic=${widget.topic}&subject=$subject')
+            Uri.parse('$baseApiUrl/videos/$groupId/$subgroupId/$examId/$subject')
         );
         if (videoResponse.statusCode == 200) {
           setState(() {
             videos.addAll(List<String>.from(json.decode(videoResponse.body)));
           });
+        } else {
+          print("Videos API Error: ${videoResponse.statusCode}");
         }
       }
     } catch (e) {
@@ -133,7 +146,7 @@ class TopicMaterialScreenState extends State<TopicMaterialScreen> {
     }
 
     return Scaffold(
-      appBar: AppBar(title: Text(screenTitle)),
+      appBar: CustomAppBar(title: screenTitle),
       body: isLoading
           ? const Center(child: CircularProgressIndicator())
           : errorMessage != null

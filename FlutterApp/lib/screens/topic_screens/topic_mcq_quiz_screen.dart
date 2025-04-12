@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-
+import '../../Helper/user_session.dart';
 import '../mcq_screens/mcq_review_screen.dart';
 
 // ===============================
@@ -37,6 +37,13 @@ class TopicMCQQuizScreenState extends State<TopicMCQQuizScreen> {
   void initState() {
     super.initState();
     userAnswers = List.filled(widget.mcqs.length, null);
+
+    // Record MCQs in user session for tracking
+    for (var mcq in widget.mcqs) {
+      if (mcq['id'] != null) {
+        UserSession().recordMcq(mcq['id'].toString());
+      }
+    }
 
     // Set up the timer
     remainingSeconds = widget.timeLimitMinutes * 60;

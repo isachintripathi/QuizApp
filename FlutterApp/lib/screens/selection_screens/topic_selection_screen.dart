@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import '../../enum/material_type.dart';
 import '../category_material_screen.dart';
+import '../pdf_viewer_screen.dart';
 import 'mocktest_option_selection_screen.dart';
 import '../../services/favorite_service.dart';
 
-const String baseApiUrl = 'http://localhost:8080/api';
+const String baseApiUrl = 'http://192.168.1.37:8080/api';
 
 // ===============================
 // 4️⃣ Topic Selection Screen
@@ -160,16 +161,12 @@ class TopicSelectionScreenState extends State<TopicSelectionScreen> {
                     ),
                   ).then((_) => loadFavoriteStatus());
                 } else if (categories[index] == 'PYQs') {
-                  // Show PDFs
+                  // Show PDF viewer with download option
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => CategoryMaterialScreen(
-                        title: 'Previous Year Questions',
-                        materialType: MaterialTypes.pdf,
-                        groupId: widget.groupId,
-                        subgroupId: widget.subgroupId,
-                        examId: widget.examId,
+                      builder: (context) => PdfViewerScreen(
+                        title: 'Previous Year Questions for ${widget.exam}',
                       ),
                     ),
                   ).then((_) => loadFavoriteStatus());

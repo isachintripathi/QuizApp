@@ -3,8 +3,9 @@ import 'package:http/http.dart' as http;
 import 'package:quiz_app/screens/topic_screens/topic_mcq_quiz_screen.dart';
 import 'dart:convert';
 import '../custom_test_screen.dart';
+import '../../Helper/user_session.dart';
 
-const String baseApiUrl = 'http://localhost:8080/api';
+const String baseApiUrl = 'http://192.168.1.37:8080/api';
 
 // ===============================
 // Mock Test Sets Screen
@@ -145,36 +146,49 @@ class MockTestSetsScreenState extends State<MockTestSetsScreen> {
   }
 
   void startTestSet(int questionCount, int duration, String difficulty) async {
-    // Show loading indicator
-    showDialog(
-      context: context,
-      barrierDismissible: false,
-      builder: (context) => const Center(
-        child: CircularProgressIndicator(),
-      ),
-    );
+    await loadMockTest(questionCount, duration, difficulty);
+  }
 
+  Future<void> loadMockTest(int questionCount, int duration, String difficulty) async {
     try {
-      // Get subjects to gather MCQs from
+      // Show a loading dialog
+      showDialog(
+        context: context,
+        barrierDismissible: false,
+        builder: (BuildContext context) => const Center(
+          child: CircularProgressIndicator(),
+        ),
+      );
+
+      // Get subjects for this exam
       final subjectsResponse = await http.get(
           Uri.parse('$baseApiUrl/subjects/${widget.groupId}/${widget.subgroupId}/${widget.examId}')
       );
 
       if (subjectsResponse.statusCode != 200) {
-        Navigator.pop(context); // Close loading dialog
-        showErrorDialog('Failed to load subjects');
-        return;
+        throw Exception('Failed to load subjects for this exam');
       }
 
-      final List<dynamic> subjectsData = json.decode(subjectsResponse.body);
+      List<dynamic> subjectsData = json.decode(subjectsResponse.body);
       List<Map<String, dynamic>> allMcqs = [];
+      
+      // To track CTET Child Development questions separately
+      bool hasCtetChildDevelopment = false;
+      List<Map<String, dynamic>> ctetChildDevMcqs = [];
 
       // Get MCQs from each subject
       for (var subject in subjectsData) {
         final subjectName = subject['name'];
         final subjectId = subject['id'];
+        final bool isCtetChildDev = subjectName.toLowerCase().contains('child_development') ||
+                                   subjectId.toString().toLowerCase().contains('ctet');
+        
+        if (isCtetChildDev) {
+          hasCtetChildDevelopment = true;
+        }
+        
         final mcqsResponse = await http.get(
-            Uri.parse('$baseApiUrl/mcqs/$subjectId')//NTC to subjectName
+            Uri.parse('$baseApiUrl/mcqs/$subjectId')
         );
 
         if (mcqsResponse.statusCode == 200) {
@@ -189,16 +203,57 @@ class MockTestSetsScreenState extends State<MockTestSetsScreen> {
 
           // Convert to the format we need
           for (var mcq in filteredMcqs) {
-            allMcqs.add({
+            final mcqMap = {
               'id': mcq['id'],
               'question': mcq['question'],
               'options': List<String>.from(mcq['options']),
               'correctAnswerIndex': mcq['correctAnswerIndex'],
               'explanation': mcq['explanation'],
               'difficultyLevel': mcq['difficultyLevel'] ?? 'MEDIUM'
-            });
+            };
+            
+            if (isCtetChildDev) {
+              ctetChildDevMcqs.add(mcqMap);
+            } else {
+              allMcqs.add(mcqMap);
+            }
           }
         }
+      }
+      
+      // Handle the CTET Child Development questions specially to avoid repetition
+      if (hasCtetChildDevelopment && ctetChildDevMcqs.isNotEmpty) {
+        print("Processing ${ctetChildDevMcqs.length} CTET Child Development questions");
+        
+        // If all questions have been seen, reset history
+        if (ctetChildDevMcqs.length <= UserSession().recentMcqIds.length) {
+          print("All CTET Child Development questions have been seen, clearing history");
+          UserSession().clearRecentMcqs();
+        }
+        
+        // Separate questions into seen and unseen
+        List<Map<String, dynamic>> unseenQuestions = [];
+        List<Map<String, dynamic>> seenQuestions = [];
+        
+        for (var mcq in ctetChildDevMcqs) {
+          if (UserSession().hasSeen(mcq['id'].toString())) {
+            seenQuestions.add(mcq);
+          } else {
+            unseenQuestions.add(mcq);
+          }
+        }
+        
+        // Create a list with unseen questions first, then add seen ones if needed
+        List<Map<String, dynamic>> orderedMcqs = [...unseenQuestions];
+        
+        // If we don't have enough unseen questions, add some seen ones
+        if (seenQuestions.isNotEmpty) {
+          seenQuestions.shuffle(); // Randomize the seen questions
+          orderedMcqs.addAll(seenQuestions);
+        }
+        
+        // Add the CTET Child Development questions to the main list
+        allMcqs.addAll(orderedMcqs);
       }
 
       // Pop the loading dialog
@@ -213,6 +268,13 @@ class MockTestSetsScreenState extends State<MockTestSetsScreen> {
       allMcqs.shuffle();
       if (allMcqs.length > questionCount) {
         allMcqs = allMcqs.sublist(0, questionCount);
+      }
+      
+      // Record the questions in the session
+      for (var mcq in allMcqs) {
+        if (mcq['id'] != null) {
+          UserSession().recordMcq(mcq['id'].toString());
+        }
       }
 
       // Navigate to the MCQ quiz with the fetched questions
