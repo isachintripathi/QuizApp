@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:quiz_app/screens/topic_screens/topic_mcq_quiz_screen.dart';
 import 'dart:convert';
 import 'dart:math' as math;
 import 'main.dart'; // Import for UserSession and TopicMCQQuizScreen
@@ -308,9 +309,10 @@ class CustomTestScreenState extends State<CustomTestScreen> {
     try {
       // Get subjects to gather MCQs from
       final subjectsResponse = await http.get(
-        Uri.parse('$BASE_API_URL/subjects/${widget.groupId}/${widget.subgroupId}/${widget.examId}')
+        Uri.parse('$baseApiUrl/subjects/${widget.groupId}/${widget.subgroupId}/${widget.examId}')
       );
-      
+      print("CustomTestScreen Url -->  ${Uri.parse('$baseApiUrl/subjects/${widget.groupId}/${widget.subgroupId}/${widget.examId}')}");
+
       if (subjectsResponse.statusCode != 200) {
         setState(() {
           isLoading = false;
@@ -328,11 +330,12 @@ class CustomTestScreenState extends State<CustomTestScreen> {
       
       // Get MCQs from each subject and categorize by difficulty
       for (var subject in subjectsData) {
-        final subjectName = subject['name'];
+        final subjectId = subject['id'];
         final mcqsResponse = await http.get(
-          Uri.parse('$BASE_API_URL/mcqs/$subjectName')
+          Uri.parse('$baseApiUrl/mcqs/$subjectId')
         );
-        
+        print("CustomTestScreen Url -->  ${Uri.parse('$baseApiUrl/subjects/$subjectId')}");
+
         if (mcqsResponse.statusCode == 200) {
           final List<dynamic> subjectMcqs = json.decode(mcqsResponse.body);
           

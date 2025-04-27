@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 @Service
 public class DataService {
@@ -73,6 +74,28 @@ public class DataService {
                 .filter(e -> e.getId().equals(examId))
                 .findFirst()
                 .map(Exam::getSubjects)
+                .orElse(new ArrayList<>());
+    }
+
+    public List<Chapter> getChapters(String groupId, String subgroupId, String examId, String subjectId) {
+        return groups.stream()
+                .filter(g -> g.getId().equals(groupId))
+                .flatMap(g -> g.getSubgroups().stream())
+                .filter(s -> s.getId().equals(subgroupId))
+                .flatMap(s -> s.getExams().stream())
+                .filter(e -> e.getId().equals(examId))
+                .flatMap(e -> e.getSubjects().stream())
+                .filter(s -> {
+                    // Match by ID if not null, otherwise try to match by name
+                    if (s.getId() != null) {
+                        return s.getId().equals(subjectId);
+                    } else if (s.getName() != null) {
+                        return s.getName().equals(subjectId);
+                    }
+                    return false;
+                })
+                .findFirst()
+                .map(Subject::getChapters)
                 .orElse(new ArrayList<>());
     }
 }
