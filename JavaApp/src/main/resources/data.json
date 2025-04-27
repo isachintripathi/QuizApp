@@ -3,440 +3,2349 @@
     {
       "id": "upsc",
       "name": "UPSC",
-    "subgroups": [
-      {
+      "subgroups": [
+        {
           "id": "civil_services",
           "name": "Civil Services",
-        "exams": [
-          {
+          "exams": [
+            {
               "id": "ias",
               "name": "Civil Services Examination (IAS, IPS, IFS, IRS)",
               "description": "Preliminary, Main, and Interview stages",
-              "subjects": ["general_studies", "optional_subjects", "essay", "current_affairs"]
-              }
-            ]
-          },
-          {
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "engineering_services",
           "name": "Engineering & Scientific Services",
-        "exams": [
-          {
+          "exams": [
+            {
               "id": "ies",
               "name": "Indian Engineering Services (IES/ESE)",
               "description": "Engineering Services Examination",
-              "subjects": ["engineering", "general_studies", "technical_subjects"]
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
             },
             {
               "id": "ifs",
               "name": "Indian Forest Service (IFS)",
               "description": "Forest Service Examination",
-              "subjects": ["forestry", "general_studies", "optional_subjects"]
-              }
-            ]
-          },
-          {
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "defence_services",
           "name": "Defence Services",
-        "exams": [
-          {
+          "exams": [
+            {
               "id": "cds",
               "name": "Combined Defence Services (CDS)",
               "description": "Officer Selection in Army, Navy, and Air Force",
-              "subjects": ["english", "general_knowledge", "elementary_mathematics"]
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
             },
             {
               "id": "nda",
               "name": "National Defence Academy (NDA) & Naval Academy (NA)",
               "description": "Entry to NDA and Naval Academy",
-              "subjects": ["mathematics", "general_ability_test"]
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
             },
             {
               "id": "capf",
               "name": "Central Armed Police Forces (CAPF)",
               "description": "Assistant Commandant Selection",
-              "subjects": ["general_studies", "general_intelligence", "essay"]
-          }
-        ]
-      }
-    ]
-  },
-  {
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ssc",
       "name": "SSC",
-    "subgroups": [
-      {
+      "subgroups": [
+        {
           "id": "graduate_level",
           "name": "Graduate Level Exams",
-        "exams": [
-          {
+          "exams": [
+            {
               "id": "cgl",
               "name": "SSC CGL (Combined Graduate Level)",
               "description": "Tier I, II, III, and IV selection process",
-              "subjects": ["general_intelligence", "general_awareness", "quantitative_aptitude", "english"]
-              }
-            ]
-          },
-          {
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "higher_secondary",
           "name": "Higher Secondary Level Exams",
-        "exams": [
-          {
+          "exams": [
+            {
               "id": "chsl",
               "name": "SSC CHSL (Combined Higher Secondary Level)",
               "description": "Tier I and II selection process",
-              "subjects": ["general_intelligence", "general_awareness", "quantitative_aptitude", "english"]
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
             },
             {
               "id": "stenographer",
               "name": "SSC Stenographer (Grade C & D)",
               "description": "Written exam and skill test",
-              "subjects": ["general_intelligence", "general_awareness", "english", "stenography"]
-          }
-        ]
-      }
-    ]
-  },
-  {
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "banking",
       "name": "Banking & Insurance",
-    "subgroups": [
-      {
+      "subgroups": [
+        {
           "id": "banking_exams",
           "name": "Banking Exams",
-        "exams": [
-          {
+          "exams": [
+            {
               "id": "ibps_po",
               "name": "IBPS PO (Probationary Officer)",
               "description": "Preliminary, Main, and Interview stages",
-              "subjects": ["reasoning", "english", "quantitative_aptitude", "general_awareness", "computer_knowledge"]
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
             },
             {
               "id": "ibps_clerk",
               "name": "IBPS Clerk",
               "description": "Preliminary and Main stages",
-              "subjects": ["reasoning", "english", "numerical_ability", "general_awareness", "computer_knowledge"]
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
             },
             {
               "id": "sbi_po",
               "name": "SBI PO",
               "description": "Preliminary, Main, and Interview stages",
-              "subjects": ["reasoning", "english", "quantitative_aptitude", "general_awareness", "computer_knowledge"]
-              }
-            ]
-          },
-          {
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "insurance_exams",
           "name": "Insurance Exams",
-        "exams": [
-          {
+          "exams": [
+            {
               "id": "lic_aao",
               "name": "LIC AAO (Assistant Administrative Officer)",
               "description": "Preliminary, Main, and Interview stages",
-              "subjects": ["reasoning", "english", "quantitative_aptitude", "general_awareness", "computer_knowledge"]
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
             },
             {
               "id": "nabard",
               "name": "NABARD Grade A & B",
               "description": "Preliminary, Main, and Interview stages",
-              "subjects": ["reasoning", "english", "quantitative_aptitude", "general_awareness", "economic_social_issues"]
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "railway",
+      "name": "Railway Exams (RRB – Railway Recruitment Board)",
+      "subgroups": [
+        {
+          "id": "non_technical_posts",
+          "name": "Non-Technical Posts",
+          "exams": [
+            {
+              "id": "rrb_ntpc",
+              "name": "RRB NTPC (Non-Technical Popular Categories)",
+              "description": "Recruitment for various non-technical posts",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rrb_group_d",
+              "name": "RRB Group D",
+              "description": "Recruitment for Level 1 posts",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "technical_safety_posts",
+          "name": "Technical & Safety Posts",
+          "exams": [
+            {
+              "id": "rrb_je",
+              "name": "RRB JE (Junior Engineer)",
+              "description": "Recruitment for junior engineers",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rrb_alp",
+              "name": "RRB ALP (Assistant Loco Pilot)",
+              "description": "Recruitment for Assistant Loco Pilots",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rrb_paramedical",
+              "name": "RRB Paramedical & Ministerial Categories",
+              "description": "Recruitment for paramedical and ministerial staff",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state_psc",
+      "name": "State Public Service Commissions (PSC)",
+      "subgroups": [
+        {
+          "id": "administrative_services",
+          "name": "Administrative Services (State Civil Services)",
+          "exams": [
+            {
+              "id": "state_civil_services",
+              "name": "UPPSC, BPSC, RPSC, MPPSC, MPSC, TNPSC, KPSC, WBPSC, etc.",
+              "description": "State civil services examinations",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "state_police_services",
+          "name": "State Police Services",
+          "exams": [
+            {
+              "id": "state_police_exams",
+              "name": "State SI & Constable Exams (UP Police, MP Police, Maharashtra Police, etc.)",
+              "description": "State police recruitment examinations",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "state_engineering_services",
+          "name": "State Engineering Services",
+          "exams": [
+            {
+              "id": "state_psc_engineering",
+              "name": "State PSC Engineering Exams (Assistant Engineer & Junior Engineer)",
+              "description": "State engineering services examinations",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "misc_state_exams",
+          "name": "Miscellaneous State Exams",
+          "exams": [
+            {
+              "id": "state_revenue_officer",
+              "name": "State Revenue Officer, Tax Officer, and other departmental exams",
+              "description": "Various state departmental examinations",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defence_paramilitary",
+      "name": "Defence & Paramilitary Forces",
+      "subgroups": [
+        {
+          "id": "indian_armed_forces",
+          "name": "Indian Armed Forces",
+          "exams": [
+            {
+              "id": "afcat",
+              "name": "AFCAT (Air Force Common Admission Test)",
+              "description": "Selection for officers in Indian Air Force",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nda_na",
+              "name": "NDA & NA (National Defence Academy & Naval Academy)",
+              "description": "Selection for entry into Defence academies",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "cds",
+              "name": "CDS (Combined Defence Services)",
+              "description": "Selection for officers in Army, Navy, and Air Force",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paramilitary_police_forces",
+          "name": "Paramilitary & Police Forces",
+          "exams": [
+            {
+              "id": "capf_ac",
+              "name": "CAPF (Assistant Commandant)",
+              "description": "Selection for Assistant Commandant in CAPFs",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "icg",
+              "name": "Indian Coast Guard – Assistant Commandant & Navik (GD/DB)",
+              "description": "Selection for various posts in Indian Coast Guard",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ssc_cpo",
+              "name": "SSC CPO (Sub-Inspector in Delhi Police, CAPFs, CISF, etc.)",
+              "description": "Selection for Sub-Inspector posts",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teaching_education",
+      "name": "Teaching & Education",
+      "subgroups": [
+        {
+          "id": "school_level_teaching",
+          "name": "School-Level Teaching Exams",
+          "exams": [
+            {
+              "id": "ctet_paper1",
+              "name": "CTET Paper - I",
+              "description": "Eligibility test for teacher recruitment in central government schools",
+              "subjects": [
+                {
+                  "id": "child_development_01",
+                  "name": "Child Development and Pedagogy",
+                  "description": "Section 1: Child Development (15 Marks) \n Section 2: Inclusive Education (5 Marks) \n Section 3: Learning and Pedagogy (10 Marks)",
+                  "chapters": [
+                      
+                      "Concept of development and its relationship with learning\nविकास की अवधारणा और सीखने से इसका संबंध",
+                      "Principles of the development of children\nबच्चों के विकास के सिद्धांत",
+                      "Influence of heredity and environment\nआनुवंशिकता और परिवेश का प्रभाव",
+                      "Socialization processes: Social world & children\nसामाजिकरण की प्रक्रिया: सामाजिक परिवेश और बच्चे",
+                      "Piaget, Kohlberg, and Vygotsky's theories of development\nपियाजे, कोहल्बर्ग और विगोत्स्की के विकास सिद्धांत",
+                      "Concepts of child-centered and progressive education\nबाल-केंद्रित और प्रगतिशील शिक्षा की अवधारणाएँ",
+                      "Construct of intelligence and multi-dimensional intelligence\nबुद्धिमत्ता की संकल्पना और बहु-आयामी बुद्धिमत्ता",
+                      "Language and thought\nभाषा और विचार",
+                      "Gender as a social construct, gender roles, bias, and educational practice\nलिंग एक सामाजिक निर्माण, लिंग भेद और शैक्षणिक व्यवहार",
+                      "Individual differences among learners\nछात्रों में व्यक्तिगत अंतर",
+                      "Understanding differences based on diversity of language, caste, gender, community, religion\nभाषा, जाति, लिंग, समुदाय, धर्म के आधार पर विविधता को समझना",
+                      "Assessment for learning vs assessment of learning\nसीखने के लिए मूल्यांकन बनाम सीखने का मूल्यांकन",
+                      "School-based assessment and CCE\nविद्यालय आधारित मूल्यांकन और सतत एवं व्यापक मूल्यांकन (CCE)",
+                      "Formulating appropriate questions to assess readiness levels of learners\nछात्रों की तत्परता को परखने हेतु उपयुक्त प्रश्न बनाना",
+                      
+                      "Addressing learners from diverse backgrounds\nविभिन्न पृष्ठभूमियों से आए छात्रों को संबोधित करना",
+                      "Addressing the needs of children with learning difficulties or disabilities\nसीखने में कठिनाई या दिव्यांगता वाले बच्चों की आवश्यकताओं को समझना",
+                      "Addressing gifted, creative, specially-abled learners\nप्रतिभाशाली, रचनात्मक, विशेष योग्यताओं वाले छात्रों को समझना",
+                      "Concept of inclusive education\nसमावेशी शिक्षा की अवधारणा",
+                      
+                      "How children think and learn\nबच्चे कैसे सोचते हैं और सीखते हैं",
+                      "Why children fail to achieve in school\nबच्चे स्कूल में असफल क्यों होते हैं",
+                      "Basic processes of teaching and learning\nशिक्षण और अधिगम की मूल प्रक्रियाएँ",
+                      "Childrens strategies of learning\nबच्चों की अधिगम रणनीतियाँ",
+                      "Learning as a social activity and social context of learning\nअधिगम एक सामाजिक गतिविधि और उसका सामाजिक संदर्भ",
+                      "Child as a problem solver and a scientific investigator\nबच्चा एक समस्या हल करने वाला और वैज्ञानिक अन्वेषक के रूप में",
+                      "Understanding children's errors as significant steps in learning\nबच्चों की गलतियों को अधिगम की प्रक्रिया का भाग समझना",
+                      "Cognition and emotions\nसंज्ञान और भावनाएँ",
+                      "Motivation and learning\nप्रेरणा और अधिगम",
+                      "Factors contributing to learning\npersonal & environmental\nअधिगम में सहायक व्यक्तिगत और पर्यावरणीय कारक"
+                  ]
+                },
+                {
+                "id": "language_hindi_01",
+                "name": "Language I\nHindi",
+                "description": "खंड 1: भाषा समझ (Language Comprehension) \n खंड 2: भाषा विकास की शिक्षाशास्त्र (Pedagogy of Language Development)",
+                "chapters": [
+                    
+                    "अपठित गद्यांश\nUnseen Prose Passage",
+                    "अपठित कविता\nUnseen Poem",
+                    "व्याकरण\nGrammar",
+                
+                    "भाषा अधिगम और अर्जन\nLanguage Learning and Acquisition",
+                    "भाषा शिक्षण के सिद्धांत\nPrinciples of Language Teaching",
+                    "सुनने और बोलने की भूमिका\nRole of Listening and Speaking",
+                    "भाषा के कार्य और बच्चों द्वारा इसे उपकरण के रूप में उपयोग\nFunctions of Language and How Children Use it as a Tool",
+                    "मौखिक और लिखित रूप में विचारों का संप्रेषण\nCommunicating Ideas Orally and in Written Form",
+                    "भाषा शिक्षण में व्याकरण की भूमिका\nRole of Grammar in Language Teaching",
+                    "विविध कक्षा में भाषा शिक्षण की चुनौतियाँ\nChallenges of Teaching Language in a Diverse Classroom",
+                    "भाषा कठिनाइयाँ, त्रुटियाँ और विकार\nLanguage Difficulties, Errors, and Disorders",
+                    "भाषा कौशल\nLanguage Skills",
+                    "बोलना, सुनना, पढ़ना और लिखना\nSpeaking, Listening, Reading, and Writing",
+                    "शिक्षण-अधिगम सामग्री\nTeaching-Learning Materials",
+                    "पाठ्यपुस्तक, बहु-मीडिया सामग्री, कक्षा के बहुभाषी संसाधन\nTextbooks, Multi-Media Materials, Multilingual Resources of Classroom",
+                    "उपचारात्मक शिक्षण\nRemedial Teaching"
+                ]
+                },
+                {
+                "id": "language_sanskrit_01",
+                "name": "Language II\nSanskrit",
+                "description": "खंड 1: भाषासंवेदन (Language Comprehension) \n खंड 2: भाषाविकासशिक्षणशास्त्र (Pedagogy of Language Development)",
+                "chapters": [
+                    
+                    "अपठितगद्यांशः",
+                    "अपठितपद्यांशः",
+                    "व्याकरणम्",
+                
+                    "भाषायाः अधिगमः च अर्जनम् च",
+                    "भाषाशिक्षणस्य सिद्धान्ताः",
+                    "श्रवणस्य च वाचनस्य च भूमिका",
+                    "भाषायाः कार्याणि च बालकैः तस्याः उपकरणरूपेण उपयोगः",
+                    "वाचिकरूपेण लेखनरूपेण च विचाराणां संप्रेषणम्",
+                    "व्याकरणस्य शिक्षायां भूमिका",
+                    "विविधकक्षायां शिक्षणस्य समस्याः",
+                    "भाषासम्बद्धदोषाः, त्रुटयः च विकृतयः",
+                    "भाषाकौशलम्",
+                    "वाचनम्, श्रवणम्, भाषणम्, लेखनम्",
+                    "शिक्षण-अधिगम-सामग्री",
+                    "पाठ्यपुस्तकम्, बहुमाध्यमसामग्री च, कक्षायाः बहुभाषासंसाधनानि",
+                    "उपचारात्मकशिक्षणम्"
+                ]
+              },
+                {
+                "id": "mathematics_01",
+                "name": "Mathematics",
+                "description": "खंड 1: सामग्री (Content) \n खंड 2: शिक्षण शास्त्र (Pedagogical Issues)",
+                "chapters": [
+
+                    "गणनाएँ\nNumber System",
+                    "पूर्णांक\nWhole Numbers",
+                    "भिन्न और दशमलव\nFractions and Decimals",
+                    "गुणनखंड और गुणनखंडता\nFactors and Multiples",
+                    "मापन (लंबाई, वजन, समय, क्षमता)\nMeasurement (Length, Weight, Time, Capacity)",
+                    "आयु और समय\nTime and Age",
+                    "ज्यामिति\nGeometry",
+                    "आकार और स्थान\nShapes and Spatial Understanding",
+                    "डाटा हैंडलिंग\nData Handling",
+                    "सरल ब्याज\nSimple Interest",
+                    "पैटर्न\nPatterns",
+                    "धन और लेन-देन\nMoney and Transactions",
+
+                    "गणित का अर्थ, प्रकृति और उद्देश्य\nNature of Mathematics/Logical Thinking",
+                    "गणित शिक्षण का स्थान और महत्व\nPlace of Mathematics in Curriculum",
+                    "समझ और रणनीति निर्माण\nUnderstanding Childrens Thinking and Strategies of Learning",
+                    "गणित में समस्याओं का हल\nProblem of Teaching Mathematics",
+                    "त्रुटि विश्लेषण और उपचारात्मक शिक्षण\nError Analysis and Remedial Teaching",
+                    "अभ्यास और मूल्यांकन\nEvaluation and Continuous Assessment",
+                    "शिक्षण विधियाँ और तकनीक\nTeaching Methods and Approaches",
+                    "गणित शिक्षण में सहायता सामग्री\nMaterials and Resources in Mathematics Teaching",
+                    "नवाचार और तकनीकी माध्यम\nInnovation and Technology in Mathematics"
+                ]
+              },
+                {
+                "id": "environmental_studies_01",
+                "name": "Environmental Studies",
+                "description": "खंड 1: विषय सामग्री (Content)\nखंड 2: शिक्षण शास्त्र (Pedagogical Issues)",
+                "chapters": [
+
+                    "परिवार और मित्र\nFamily and Friends",
+                    "रिश्तेदार\nRelationships",
+                    "खेल\nWork and Play",
+                    "जानवर\nAnimals",
+                    "पौधे\nPlants",
+                    "खाना\nFood",
+                    "जल\nWater",
+                    "यातायात\nTravel",
+                    "कपड़े\nThings We Make and Do / Shelter",
+                    "हमारा पर्यावरण\nOur Environment",
+
+                    "पर्यावरण अध्ययन की अवधारणा और प्रकृति\nConcept and Scope of EVS",
+                    "EVS का महत्व, उद्देश्य और एकीकरण\nImportance of EVS, Objectives, and Integration with other subjects",
+                    "बच्चों की समझ का विकास\nDevelopment of Learners Understanding",
+                    "पर्यावरणीय अवधारणाओं की प्रस्तुति\nPresentation of Environmental Concepts",
+                    "बाल केंद्रित शिक्षण और गतिविधि आधारित शिक्षण\nActivity-Based Learning and Child-Centered Approach",
+                    "शिक्षण में प्रयोग की भूमिका\nUse of Experimentation and Practical Work",
+                    "स्थानिक समझ\nUnderstanding of Spatial Environment",
+                    "EVS शिक्षण में मूल्यांकन\nEvaluation in EVS",
+                    "पर्यावरणीय समस्याएँ और उनका समाधान\nEnvironmental Issues and Their Solutions",
+                    "EVS में टीएलएम का प्रयोग\nUse of Teaching-Learning Materials (TLMs) in EVS"
+                ]
               }
-            ]
-          }
-        ]
-  },
-  {
-    "id": "railway",
-    "name": "Railway Exams (RRB – Railway Recruitment Board)",
-    "subgroups": [
-      {
-        "id": "non_technical_posts",
-        "name": "Non-Technical Posts",
-        "exams": [
-          {
-            "id": "rrb_ntpc",
-            "name": "RRB NTPC (Non-Technical Popular Categories)",
-            "description": "Recruitment for various non-technical posts",
-            "subjects": ["general_intelligence", "general_awareness", "mathematics", "reasoning"]
-          },
-          {
-            "id": "rrb_group_d",
-            "name": "RRB Group D",
-            "description": "Recruitment for Level 1 posts",
-            "subjects": ["general_intelligence", "general_awareness", "mathematics", "general_science"]
-          }
-        ]
-      },
-      {
-        "id": "technical_safety_posts",
-        "name": "Technical & Safety Posts",
-        "exams": [
-          {
-            "id": "rrb_je",
-            "name": "RRB JE (Junior Engineer)",
-            "description": "Recruitment for junior engineers",
-            "subjects": ["general_intelligence", "general_awareness", "technical_ability", "mathematics"]
-          },
-          {
-            "id": "rrb_alp",
-            "name": "RRB ALP (Assistant Loco Pilot)",
-            "description": "Recruitment for Assistant Loco Pilots",
-            "subjects": ["general_intelligence", "general_awareness", "mathematics", "general_science"]
-          },
-          {
-            "id": "rrb_paramedical",
-            "name": "RRB Paramedical & Ministerial Categories",
-            "description": "Recruitment for paramedical and ministerial staff",
-            "subjects": ["general_intelligence", "general_awareness", "technical_knowledge", "professional_knowledge"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "state_psc",
-    "name": "State Public Service Commissions (PSC)",
-    "subgroups": [
-      {
-        "id": "administrative_services",
-        "name": "Administrative Services (State Civil Services)",
-        "exams": [
-          {
-            "id": "state_civil_services",
-            "name": "UPPSC, BPSC, RPSC, MPPSC, MPSC, TNPSC, KPSC, WBPSC, etc.",
-            "description": "State civil services examinations",
-            "subjects": ["general_studies", "optional_subjects", "current_affairs", "state_specific_knowledge"]
-          }
-        ]
-      },
-      {
-        "id": "state_police_services",
-        "name": "State Police Services",
-        "exams": [
-          {
-            "id": "state_police_exams",
-            "name": "State SI & Constable Exams (UP Police, MP Police, Maharashtra Police, etc.)",
-            "description": "State police recruitment examinations",
-            "subjects": ["general_intelligence", "general_knowledge", "physical_fitness", "state_specific_knowledge"]
-          }
-        ]
-      },
-      {
-        "id": "state_engineering_services",
-        "name": "State Engineering Services",
-        "exams": [
-          {
-            "id": "state_psc_engineering",
-            "name": "State PSC Engineering Exams (Assistant Engineer & Junior Engineer)",
-            "description": "State engineering services examinations",
-            "subjects": ["engineering_subjects", "general_studies", "technical_knowledge", "state_specific_knowledge"]
-          }
-        ]
-      },
-      {
-        "id": "misc_state_exams",
-        "name": "Miscellaneous State Exams",
-        "exams": [
-          {
-            "id": "state_revenue_officer",
-            "name": "State Revenue Officer, Tax Officer, and other departmental exams",
-            "description": "Various state departmental examinations",
-            "subjects": ["general_studies", "departmental_knowledge", "state_specific_rules", "administration"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "defence_paramilitary",
-    "name": "Defence & Paramilitary Forces",
-    "subgroups": [
-      {
-        "id": "indian_armed_forces",
-        "name": "Indian Armed Forces",
-        "exams": [
-          {
-            "id": "afcat",
-            "name": "AFCAT (Air Force Common Admission Test)",
-            "description": "Selection for officers in Indian Air Force",
-            "subjects": ["general_awareness", "verbal_ability", "numerical_ability", "reasoning", "military_aptitude"]
-          },
-          {
-            "id": "nda_na",
-            "name": "NDA & NA (National Defence Academy & Naval Academy)",
-            "description": "Selection for entry into Defence academies",
-            "subjects": ["mathematics", "general_ability", "ssb_interview"]
-          },
-          {
-            "id": "cds",
-            "name": "CDS (Combined Defence Services)",
-            "description": "Selection for officers in Army, Navy, and Air Force",
-            "subjects": ["english", "general_knowledge", "elementary_mathematics"]
-          }
-        ]
-      },
-      {
-        "id": "paramilitary_police_forces",
-        "name": "Paramilitary & Police Forces",
-        "exams": [
-          {
-            "id": "capf_ac",
-            "name": "CAPF (Assistant Commandant)",
-            "description": "Selection for Assistant Commandant in CAPFs",
-            "subjects": ["general_studies", "general_ability", "intelligence", "professional_skills"]
-          },
-          {
-            "id": "icg",
-            "name": "Indian Coast Guard – Assistant Commandant & Navik (GD/DB)",
-            "description": "Selection for various posts in Indian Coast Guard",
-            "subjects": ["general_awareness", "mathematics", "english", "reasoning", "aptitude"]
-          },
-          {
-            "id": "ssc_cpo",
-            "name": "SSC CPO (Sub-Inspector in Delhi Police, CAPFs, CISF, etc.)",
-            "description": "Selection for Sub-Inspector posts",
-            "subjects": ["general_intelligence", "general_knowledge", "quantitative_aptitude", "english"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "teaching_education",
-    "name": "Teaching & Education",
-    "subgroups": [
-      {
-        "id": "school_level_teaching",
-        "name": "School-Level Teaching Exams",
-        "exams": [
-          {
-            "id": "ctet",
-            "name": "CTET (Central Teacher Eligibility Test)",
-            "description": "Eligibility test for teacher recruitment in central government schools",
-            "subjects": ["child_development", "pedagogy", "language_skills", "subject_knowledge"]
-          },
-          {
-            "id": "state_tet",
-            "name": "UPTET, HTET, MPTET, etc. (State Teacher Eligibility Tests)",
-            "description": "Eligibility tests for teacher recruitment in state government schools",
-            "subjects": ["child_development", "pedagogy", "language_skills", "subject_knowledge"]
-          },
-          {
-            "id": "kvs_nvs",
-            "name": "KVS (Kendriya Vidyalaya Sangathan) & NVS (Navodaya Vidyalaya Samiti)",
-            "description": "Selection for teachers in KVS and NVS schools",
-            "subjects": ["teaching_methodology", "subject_knowledge", "general_awareness", "reasoning"]
-          },
-          {
-            "id": "dsssb",
-            "name": "DSSSB (Delhi Subordinate Services Selection Board)",
-            "description": "Selection for teaching posts in Delhi government schools",
-            "subjects": ["general_awareness", "reasoning", "subject_knowledge", "teaching_aptitude"]
-          }
-        ]
-      },
-      {
-        "id": "college_university_level",
-        "name": "College & University-Level Exams",
-        "exams": [
-          {
-            "id": "ugc_net",
-            "name": "UGC NET (National Eligibility Test for Assistant Professor & JRF)",
-            "description": "Selection for Assistant Professor and Junior Research Fellowship",
-            "subjects": ["teaching_aptitude", "research_methodology", "subject_specific_knowledge"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "judicial_services",
-    "name": "Judicial Services",
-    "subgroups": [
-      {
-        "id": "lower_judiciary",
-        "name": "Lower Judiciary Exams",
-        "exams": [
-          {
-            "id": "pcs_j",
-            "name": "PCS J (Provincial Civil Services – Judicial)",
-            "description": "Selection for judicial officers at district level",
-            "subjects": ["law", "judgement_writing", "legal_knowledge", "reasoning"]
-          }
-        ]
-      },
-      {
-        "id": "higher_judiciary",
-        "name": "Higher Judiciary Exams",
-        "exams": [
-          {
-            "id": "district_judge",
-            "name": "District Judge Entry-Level Exams",
-            "description": "Selection for district judge positions",
-            "subjects": ["civil_law", "criminal_law", "constitutional_law", "legal_experience"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "psu_exams",
-    "name": "PSU (Public Sector Undertaking) Exams",
-    "subgroups": [
-      {
-        "id": "engineering_psu",
-        "name": "Engineering-Based PSU Exams",
-        "exams": [
-          {
-            "id": "gate_psu",
-            "name": "GATE (For PSU recruitment in IOCL, ONGC, BHEL, etc.)",
-            "description": "Selection for technical positions in PSUs through GATE scores",
-            "subjects": ["engineering_subjects", "aptitude", "technical_knowledge"]
-          },
-          {
-            "id": "energy_psu",
-            "name": "NTPC, HPCL, BPCL, CIL recruitment exams",
-            "description": "Direct recruitment in energy and mining sector PSUs",
-            "subjects": ["technical_knowledge", "general_awareness", "aptitude", "reasoning"]
-          }
-        ]
-      },
-      {
-        "id": "non_engineering_psu",
-        "name": "Non-Engineering PSU Exams",
-        "exams": [
-          {
-            "id": "fssai",
-            "name": "FSSAI (Food Safety and Standards Authority of India)",
-            "description": "Recruitment for various positions in FSSAI",
-            "subjects": ["food_safety", "general_awareness", "aptitude", "domain_knowledge"]
-          },
-          {
-            "id": "scientific_orgs",
-            "name": "DRDO, ISRO, BARC Scientist Recruitment",
-            "description": "Selection for scientist positions in research organizations",
-            "subjects": ["scientific_knowledge", "research_aptitude", "technical_skills"]
-          },
-          {
-            "id": "epfo",
-            "name": "EPFO (Employees' Provident Fund Organization) Exams",
-            "description": "Recruitment for various positions in EPFO",
-            "subjects": ["general_awareness", "quantitative_aptitude", "reasoning", "english"]
-          },
-          {
-            "id": "ib_exams",
-            "name": "IB (Intelligence Bureau) ACIO & Security Assistant",
-            "description": "Recruitment for intelligence and security positions",
-            "subjects": ["general_awareness", "reasoning", "quantitative_aptitude", "english"]
-          },
-          {
-            "id": "esic",
-            "name": "ESIC (Employees' State Insurance Corporation) Exams",
-            "description": "Recruitment for various positions in ESIC",
-            "subjects": ["general_awareness", "reasoning", "quantitative_aptitude", "english"]
-          }
-        ]
-      }
-    ]
-  }
-]
+              ]
+            },
+            {
+              "id": "ctet_paper2",
+              "name": "CTET Paper - II",
+              "description": "Eligibility test for teacher recruitment in central government schools",
+              "subjects": [
+                {
+                  "id": "child_development_02",
+                  "name": "बाल विकास और शिक्षाशास्त्र\nChild Development and Pedagogy",
+                  "description": "Section 1: Child Development (15 Marks)\nSection 2: Inclusive Education (5 Marks)\nSection 3: Learning and Pedagogy (10 Marks)",
+                  "chapters" : [
+                  "बाल विकास की अवधारणा\nConcept of Child Development",
+                  "विकास और उसका संबंध अधिगम से\nDevelopment and its Relationship with Learning",
+                  "बाल अवस्था और किशोर अवस्था की विशेषताएँ\nCharacteristics of Childhood and Adolescence",
+                  "सीखने की प्रक्रिया\nProcess of Learning",
+                  "सीखने के सिद्धांत\nTheories of Learning (Piaget, Vygotsky, Kohlberg etc.)",
+                  "बहु-बुद्धि सिद्धांत\nTheory of Multiple Intelligences (Gardner)",
+                  "व्यक्तिगत भिन्नता\nIndividual Differences",
+                  "अधिगम कठिनाइयाँ और समावेशी शिक्षा\nLearning Difficulties and Inclusive Education",
+                  "विशेष आवश्यकताओं वाले बच्चों की समझ\nUnderstanding Children with Special Needs",
+                  "बालक के सामाजिक, भावनात्मक और नैतिक विकास\nSocial, Emotional and Moral Development of Child",
+                  "प्रेरणा और अधिगम\nMotivation and Learning",
+                  "शिक्षण-अधिगम की प्रक्रियाएँ\nTeaching-Learning Process",
+                  "शिक्षक और शिक्षण विधियाँ\nRole of Teacher and Methods of Teaching",
+                  "कक्षा प्रबंधन और अनुशासन\nClassroom Management and Discipline",
+                  "मूल्यांकन की अवधारणा और प्रकार\nConcept and Types of Assessment",
+                  "समय-समय पर मूल्यांकन (CCE)\nContinuous and Comprehensive Evaluation (CCE)",
+                  "शिक्षण सहायक सामग्री और तकनीकें\nTeaching Aids and Techniques"
+                ]
+                },
+                {
+                "id": "language_hindi_02",
+                "name": "हिंदी भाषा",
+                  "description": "यह विषय भाषा के अधिगम, शिक्षण विधियों और छात्रों की भाषा क्षमता को बढ़ाने पर केंद्रित है।\nEnglish: This subject focuses on language acquisition, teaching methods, and improving students’ Hindi language skills.",
+                "chapters": [
+                  "भाषा की समझ\nComprehension of Language",
+                  "गद्यांश और पद्यांश का बोध\nUnderstanding of Prose and Poetry",
+                  "भाषा कौशल – श्रवण, वाचन, लेखन\nLanguage Skills – Listening, Reading, Writing",
+                  "भाषा शिक्षण के सिद्धांत\nPrinciples of Language Teaching",
+                  "बच्चों द्वारा भाषा अर्जन की प्रक्रिया\nLanguage Acquisition by Children",
+                  "भाषा शिक्षण की चुनौतियाँ\nChallenges of Language Teaching",
+                  "शिक्षण विधियाँ\nTeaching Methods",
+                  "भाषा में त्रुटियाँ और सुधार\nErrors and Remediation in Language",
+                  "मूल्यांकन और परीक्षण\nAssessment and Evaluation",
+                  "पाठ्यपुस्तक और पूरक पाठ्य सामग्री\nTextbooks and Supplementary Materials",
+                  "बहुभाषी परिवेश में भाषा शिक्षण\nLanguage Teaching in Multilingual Contexts"
+                ]
+                },
+                {
+                "id": "language_sanskrit_02",
+                "name": "Language\nSanskrit",
+                "description": "यह संस्कृत भाषा की समझ, व्याकरण, पठन-पाठन और शिक्षण विधियों पर केंद्रित होता है।\nThis focuses on Sanskrit comprehension, grammar, reading, and language teaching techniques.",
+                "chapters": [
+                  "गद्यांश\nProse Comprehension",
+                  "पद्यांश\nPoetry Comprehension",
+                  "व्याकरणिक ज्ञान\nGrammar Knowledge",
+                  "शब्दशक्ति एवं वाक्यशक्ति\nWord and Sentence Power",
+                  "भाषा अर्जन की प्रक्रिया\nLanguage Acquisition Process",
+                  "संस्कृत शिक्षण की विधियाँ\nMethods of Teaching Sanskrit",
+                  "त्रुटियाँ एवं सुधार\nError Detection and Correction",
+                  "शिक्षण-सहायक सामग्री\nTeaching Aids",
+                  "मूल्यांकन एवं मूल्यांकन के प्रकार\nEvaluation and Types",
+                  "बहुभाषिक परिवेश में संस्कृत शिक्षण\nSanskrit in Multilingual Context"
+                ]
+                },
+                {
+                  "id": "language_english_02",
+                  "name": "Language - English",
+                  "description": "It is based on learning English, grammar, comprehension, and methods of teaching the language",
+                  "chapters": [
+                  "Reading Comprehension – Prose and Poetry",
+                  "Principles of Language Teaching",
+                  "Role of Grammar in Learning a Language",
+                  "Challenges of Teaching English in Indian Context",
+                  "Learning and Acquisition",
+                  "Language Skills – LSRW (Listening, Speaking, Reading, Writing)",
+                  "Teaching-Learning Materials (TLM) and Resources",
+                  "Remedial Teaching and Error Analysis",
+                  "Language Items and Grammar",
+                  "Assessment and Evaluation in English"
+                ]
+                },
+              {
+              "id": "mathematics_02",
+              "name": "गणित\nMathematics",
+              "description": "यह विषय संख्याओं, ज्यामिति, गणनाओं और बच्चों को गणित समझाने की रणनीतियों पर आधारित है।\nThis subject includes numbers, geometry, calculations, and strategies to teach math effectively to children",
+              "chapters": [
+                  "संख्याएँ\nNumbers",
+                  "गणनाएँ\nOperations on Numbers",
+                  "भिन्न और दशमलव\nFractions and Decimals",
+                  "ज्यामिति\nGeometry",
+                  "मापन\nMeasurement",
+                  "आकृतियाँ और स्थानिक समझ\nShapes and Spatial Understanding",
+                  "डाटा हैंडलिंग\nData Handling",
+                  "समस्या समाधान\nProblem Solving",
+                  "गणित शिक्षण के सिद्धांत\nPedagogical Issues in Mathematics",
+                  "गणितीय सोच और रणनीतियाँ\nMathematical Reasoning",
+                  "त्रुटियाँ और सुधार\nCommon Errors and Remediation",
+                  "गणित शिक्षण सामग्री और संसाधन\nTLMs and Resources in Math Teaching"
+                  ]
+                },
+                {
+                  "id": "science_02",
+                  "name": "विज्ञान\nScience",
+                  "description": "यह भौतिक, जैविक और रासायनिक अवधारणाओं के साथ विज्ञान की शिक्षण विधियों पर केंद्रित है।\nIt covers physical, biological, and chemical concepts along with pedagogical aspects of teaching science",
+                  "chapters": [
+
+                    "पौधे\nPlants",
+                    "जानवर\nAnimals",
+                    "मानव शरीर और स्वास्थ्य\nHuman Body and Health",
+                    "खाद्य और पोषण\nFood and Nutrition",
+                    "पदार्थ और उसके गुण\nMaterials and their Properties",
+                    "बल, गति और ऊर्जा\nForce, Motion, Energy",
+                    "प्रकाश और ध्वनि\nLight and Sound",
+                    "पृथ्वी और ब्रह्मांड\nEarth and Universe",
+                    "विज्ञान की अवधारणाएँ\nUnderstanding Scientific Concepts",
+                    "प्रयोग और अवलोकन\nExperimentation and Observation",
+                    "विज्ञान शिक्षण की विधियाँ\nPedagogical Issues in Science",
+                    "TLMs और मूल्यांकन\nTeaching Aids and Evaluation in Science"
+                  ]
+                },
+            {
+            "id": "social_studies_02",
+            "name": "सामाजिक अध्ययन / सामाजिक विज्ञान\nSocial Studies / Social Science",
+            "description": "यह इतिहास, भूगोल, राजनीति, अर्थशास्त्र और समाजशास्त्र के साथ-साथ शिक्षण तकनीकों पर आधारित है।\nThis includes history, geography, civics, economics, and sociology, along with methods of teaching social studies.",
+            "chapters": [
+                  "भारतीय इतिहास\nIndian History",
+                  "भारत का भूगोल\nIndian Geography",
+                  "भारतीय राजव्यवस्था और संविधान\nIndian Polity and Constitution",
+                  "अर्थव्यवस्था की मूल बातें\nBasics of Economics",
+                  "सामाजिक और सांस्कृतिक जीवन\nSocial and Cultural Life",
+                  "वर्तमान सामाजिक मुद्दे\nContemporary Social Issues",
+                  "सामाजिक विज्ञान की अवधारणाएँ\nPedagogical Issues in Social Science",
+                  "सामाजिक अध्ययन के स्रोत और संसाधन\nResources and Tools for Teaching",
+                  "नक्शे, चित्र और ग्राफ का उपयोग\nUse of Maps, Charts and Graphs",
+                  "मूल्यांकन के तरीके\nEvaluation Techniques",
+                  "शिक्षण विधियाँ\nTeaching Methods in Social Science"
+                ]
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "id": "college_university_level",
+          "name": "College & University-Level Exams",
+          "exams": [
+            {
+              "id": "ugc_net",
+              "name": "UGC NET (National Eligibility Test for Assistant Professor & JRF)",
+              "description": "Selection for Assistant Professor and Junior Research Fellowship",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judicial_services",
+      "name": "Judicial Services",
+      "subgroups": [
+        {
+          "id": "lower_judiciary",
+          "name": "Lower Judiciary Exams",
+          "exams": [
+            {
+              "id": "pcs_j",
+              "name": "PCS J (Provincial Civil Services – Judicial)",
+              "description": "Selection for judicial officers at district level",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "higher_judiciary",
+          "name": "Higher Judiciary Exams",
+          "exams": [
+            {
+              "id": "district_judge",
+              "name": "District Judge Entry-Level Exams",
+              "description": "Selection for district judge positions",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psu_exams",
+      "name": "PSU (Public Sector Undertaking) Exams",
+      "subgroups": [
+        {
+          "id": "engineering_psu",
+          "name": "Engineering-Based PSU Exams",
+          "exams": [
+            {
+              "id": "gate_psu",
+              "name": "GATE (For PSU recruitment in IOCL, ONGC, BHEL, etc.)",
+              "description": "Selection for technical positions in PSUs through GATE scores",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "energy_psu",
+              "name": "NTPC, HPCL, BPCL, CIL recruitment exams",
+              "description": "Direct recruitment in energy and mining sector PSUs",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "non_engineering_psu",
+          "name": "Non-Engineering PSU Exams",
+          "exams": [
+            {
+              "id": "fssai",
+              "name": "FSSAI (Food Safety and Standards Authority of India)",
+              "description": "Recruitment for various positions in FSSAI",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "scientific_orgs",
+              "name": "DRDO, ISRO, BARC Scientist Recruitment",
+              "description": "Selection for scientist positions in research organizations",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "epfo",
+              "name": "EPFO (Employees' Provident Fund Organization) Exams",
+              "description": "Recruitment for various positions in EPFO",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ib_exams",
+              "name": "IB (Intelligence Bureau) ACIO & Security Assistant",
+              "description": "Recruitment for intelligence and security positions",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "esic",
+              "name": "ESIC (Employees' State Insurance Corporation) Exams",
+              "description": "Recruitment for various positions in ESIC",
+              "subjects": [
+                {
+                  "id": "child_development",
+                  "name": "child_development",
+                  "description": "Child Development Program",
+                  "chapters": [
+                    "वृद्धि और विकास (Growth and Development)",
+                    "विकास (Development)",
+                    "विकास की अवस्थाएँ (Stages of Development)",
+                    "विकास के सिद्धांत (Principles of Development)",
+                    "विकास की दिशा के सिद्धांत (Principles of Direction of Development)",
+                    "व्यक्तिगत भिन्नता (Individual Differences)",
+                    "व्यक्तिगत भिन्नताओं के आधार (Basis of Individual Differences)",
+                    "प्रेरणा (Motivation)",
+                    "अब्राहम मास्लो की आवश्यकताओं का पदानुक्रम सिद्धांत (Maslow's Hierarchy of Needs)",
+                    "बुद्धिलब्धि (IQ - Intelligence Quotient) का सिद्धांत",
+                    "सृजनात्मकता (Creativity) और बुद्धिमत्ता (Intelligence)",
+                    "प्रतिभाशाली बच्चे (Gifted Children)",
+                    "भावनात्मक बुद्धिमत्ता (Emotional Intelligence)",
+                    "संज्ञान (Cognition) और भावना (Emotion)",
+                    "गार्डनर का बहु-बुद्धि सिद्धांत (Theory of Multiple Intelligence)",
+                    "स्टर्नबर्ग की त्रिआयामी बुद्धि सिद्धांत (Triarchic Theory of Intelligence)",
+                    "पियाजे का संज्ञानात्मक विकास सिद्धांत (Piaget's Cognitive Development Theory)",
+                    "मानसिक, भावनात्मक, सामाजिक तत्व (MESE - Mental, Emotional, Social Elements)",
+                    "समतुलन की प्रक्रिया (Process of Equilibration)",
+                    "कोलबर्ग का नैतिक विकास सिद्धांत (Kohlberg's Theory of Moral Development)",
+                    "नैतिक विकास (Moral Development)",
+                    "समावेशी शिक्षा (Inclusive Education)",
+                    "विकलांगता के प्रकार (Types of Disability)",
+                    "सीखने की अक्षमताएँ (Types of Learning Disabilities)",
+                    "शिक्षा का अधिकार अधिनियम 2009 (RTE Act 2009)",
+                    "समाजीकरण (Socialization)",
+                    "बाल केंद्रित शिक्षा (Child-Centered Education)",
+                    "भाषा (Language)",
+                    "लिंग (Gender)",
+                    "ब्लूम्स टैक्सोनॉमी (Bloom's Taxonomy)",
+                    "थॉर्नडाइक का ट्रायल एंड एरर (Trial and Error) सिद्धांत",
+                    "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020)",
+                    "21वीं सदी के कौशल (21st Century Skills)",
+                    "मेटाकॉग्निशन (Metacognition)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

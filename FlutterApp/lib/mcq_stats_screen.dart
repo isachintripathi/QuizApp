@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'main.dart'; // Import for UserSession and BASE_API_URL
+import 'Helper/user_session.dart';
+import 'main.dart'; // Import for UserSession and baseApiUrl
+
+const String baseApiUrl = 'http://localhost:8080/api';
 
 class MCQStatsScreen extends StatefulWidget {
   const MCQStatsScreen({super.key});
@@ -24,9 +27,9 @@ class MCQStatsScreenState extends State<MCQStatsScreen> {
   Future<void> fetchStats() async {
     try {
       final response = await http.get(
-        Uri.parse('$BASE_API_URL/mcq-stats')
+        Uri.parse('$baseApiUrl/mcq-stats')
       );
-      
+      print("Url -->  ${Uri.parse('$baseApiUrl/mcq-stats')}");
       if (response.statusCode == 200) {
         setState(() {
           stats = json.decode(response.body);
@@ -233,10 +236,10 @@ class MCQStatsScreenState extends State<MCQStatsScreen> {
               
               try {
                 final response = await http.post(
-                  Uri.parse('$BASE_API_URL/reset-mcq-tracking'),
+                  Uri.parse('$baseApiUrl/reset-mcq-tracking'),
                   body: {'userId': UserSession().userId},
                 );
-                
+                print("MCQStatsScreen Url -->  ${Uri.parse('$baseApiUrl/reset-mcq-tracking')}");
                 if (response.statusCode == 200) {
                   // Clear local tracking as well
                   UserSession().clearRecentMcqs();

@@ -1,9 +1,9 @@
 ﻿{
-    "subject": "child_development",
+    "subject": "stet_child_development",
     "questions": [
         {
             "id": "1",
-            "question": "Sample question for ",
+            "question": "Sample question for -stet_child_development",
             "options": [
                 "Option A",
                 "Option B",

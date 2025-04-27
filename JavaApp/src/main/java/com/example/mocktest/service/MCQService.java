@@ -75,22 +75,37 @@ public class MCQService {
                 var rootNode = objectMapper.readTree(file.toFile());
                 if (rootNode.has("subject") && rootNode.has("questions")) {
                     String subject = rootNode.get("subject").asText();
+                    
+                    // Extract subjectId if present, otherwise use subject
+                    final String subjectId = rootNode.has("subjectId") 
+                        ? rootNode.get("subjectId").asText() 
+                        : subject;
+                    
                     List<MCQ> fileMcqs = objectMapper.convertValue(
                         rootNode.get("questions"),
                         objectMapper.getTypeFactory().constructCollectionType(List.class, MCQ.class)
                     );
                     
-                    // Set the subject for each MCQ
+                    // Set the subject and subjectId for each MCQ
                     fileMcqs.forEach(mcq -> {
-                        mcq.setSubject(subject);
+                        mcq.setSubject(subjectId); // Use subjectId as the subject field for filtering
+                        
                         // Extract exam name from file name (format: examname_subjectname.json)
                         String fileName = file.getFileName().toString();
-                        String examName = fileName.substring(0, fileName.indexOf('_'));
-                        mcq.setTopic(examName);
+                        int underscoreIndex = fileName.indexOf('_');
+                        if (underscoreIndex > 0) {
+                            String examName = fileName.substring(0, underscoreIndex);
+                            mcq.setTopic(examName);
+                        } else {
+                            // If no underscore found, use the filename without extension as the topic
+                            int dotIndex = fileName.lastIndexOf('.');
+                            String examName = dotIndex > 0 ? fileName.substring(0, dotIndex) : fileName;
+                            mcq.setTopic(examName);
+                        }
                     });
                     
                     mcqs.addAll(fileMcqs);
-                    logger.info("Loaded {} MCQs from {} (new format)", fileMcqs.size(), file);
+                    logger.info("Loaded {} MCQs from {} (new format) with subjectId: {}", fileMcqs.size(), file, subjectId);
                 } else {
                     logger.error("Invalid MCQ file format: {}", file);
                 }
@@ -362,12 +377,25 @@ public class MCQService {
         userMCQTracker.clear();
     }
 
-    public List<MCQ> getMCQsBySubject(String subject) {
-        logger.debug("Getting MCQs for subject: {}", subject);
+    public List<MCQ> getMCQsBySubject(String subjectId) {
+        logger.debug("Getting MCQs for subjectId: '{}'", subjectId);
+        
+        // Print available subjects for debugging
+        logger.debug("Available subject IDs in memory:");
+        Set<String> availableSubjects = mcqs.stream()
+                .filter(mcq -> mcq.getSubject() != null)
+                .map(MCQ::getSubject)
+                .collect(Collectors.toSet());
+        for (String subject : availableSubjects) {
+            logger.debug(" - '{}'", subject);
+        }
+        
+        // Use exact matching on subjectId for extensibility
         List<MCQ> result = mcqs.stream()
-                .filter(mcq -> mcq.getSubject() != null && mcq.getSubject().equalsIgnoreCase(subject))
+                .filter(mcq -> mcq.getSubject() != null && mcq.getSubject().equals(subjectId))
                 .collect(Collectors.toList());
-        logger.debug("Found {} MCQs for subject: {}", result.size(), subject);
+                
+        logger.debug("Found {} MCQs for subjectId: '{}'", result.size(), subjectId);
         return result;
     }
 
